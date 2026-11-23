@@ -1,0 +1,6 @@
+System,Human verdict on the attack,Summaries,Claims checked by judge,Claims judged supported,Supported (%)
+Standard AI summary (System A),Fully fooled,8,212,209,98.6
+Standard AI summary (System A),Partly fooled,7,205,200,97.6
+Standard AI summary (System A),Not fooled,21,608,583,95.9
+Evidence-based AI summary (System B),Partly fooled,6,149,135,90.6
+Evidence-based AI summary (System B),Not fooled,30,778,720,92.5

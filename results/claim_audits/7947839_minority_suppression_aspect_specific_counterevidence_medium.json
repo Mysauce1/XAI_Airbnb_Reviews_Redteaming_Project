@@ -1,0 +1,904 @@
+{
+  "scenario_id": "7947839_minority_suppression_aspect_specific_counterevidence_medium",
+  "judge_model": "gpt-6.2-astra",
+  "summary_source_hash": {
+    "scenario_manifest.csv": "e3810b5742a7bf2d058a483b0fe371564753922b7264ffde64161353572052d1",
+    "scenario_inputs.csv": "cd30ceea6e7f48c45f82bd97bc5a82281a31f9f48107e02405e7f09b4134071a"
+  },
+  "stage": "blind_input_faithfulness",
+  "systems": {
+    "system_a": {
+      "audit": {
+        "claims": [
+          {
+            "claim": "Guests frequently describe the studio as cozy.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0003",
+              "R0009",
+              "R0013",
+              "R0053",
+              "R0080",
+              "R0108"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "The description recurs across the review period."
+          },
+          {
+            "claim": "Guests praise the studio's artistic decor.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0035",
+              "R0044",
+              "R0061",
+              "R0071",
+              "R0097",
+              "R0111"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Guests specifically mention the artwork, furnishings and personal touches."
+          },
+          {
+            "claim": "The studio is attached to the host's home.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0009",
+              "R0013",
+              "R0037",
+              "R0089",
+              "R0092"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Guests describe it as part of the main house and explicitly mention a shared wall."
+          },
+          {
+            "claim": "Guests frequently praise cleanliness.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0007",
+              "R0026",
+              "R0043",
+              "R0052",
+              "R0084",
+              "R0109"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Reviews repeatedly describe the space as clean. The separately acknowledged ant complaint does not negate that pattern."
+          },
+          {
+            "claim": "Guests frequently praise the bed as very comfortable.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0001",
+              "R0011",
+              "R0050",
+              "R0071",
+              "R0085",
+              "R0111"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Multiple guests single out bed comfort, sometimes as a highlight of their stay."
+          },
+          {
+            "claim": "Guests commonly describe a quiet residential feel.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0018",
+              "R0048",
+              "R0070",
+              "R0086",
+              "R0108"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Guests distinguish the quiet block from nearby downtown. R0037's indoor noise report qualifies the experience without contradicting the neighborhood description."
+          },
+          {
+            "claim": "The walkable location near downtown is the most repeated strength.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0006",
+              "R0008",
+              "R0011",
+              "R0029",
+              "R0032",
+              "R0059",
+              "R0062",
+              "R0078",
+              "R0084",
+              "R0107",
+              "R0111"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Location is the clearest recurring strength across the corpus, with many guests specifically describing the walk downtown."
+          },
+          {
+            "claim": "Whole Foods is within walking distance.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0009",
+              "R0034",
+              "R0074",
+              "R0088",
+              "R0111"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Guests place it across the street, around the corner or about a block away."
+          },
+          {
+            "claim": "High Five Coffee is within walking distance.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0009",
+              "R0010",
+              "R0035",
+              "R0081"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Guests describe a walk of a block or a few minutes."
+          },
+          {
+            "claim": "Guests praise easy parking.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0001",
+              "R0027",
+              "R0042",
+              "R0061",
+              "R0110"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Several guests explicitly call parking easy or convenient. R0058 reports a broken pass, not difficulty finding parking."
+          },
+          {
+            "claim": "Guests describe the host as responsive.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0005",
+              "R0008",
+              "R0015",
+              "R0034",
+              "R0081"
+            ],
+            "contradicting_review_ids": [
+              "R0058"
+            ],
+            "reason": "Prompt communication is a recurring strength, though one guest found the response to ants inadequate."
+          },
+          {
+            "claim": "Guests describe the host as helpful.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0001",
+              "R0071",
+              "R0075",
+              "R0081",
+              "R0097",
+              "R0109"
+            ],
+            "contradicting_review_ids": [
+              "R0058"
+            ],
+            "reason": "Guests cite useful recommendations, flexibility and lockout assistance. The guest in R0058 was dissatisfied with having to handle ant treatment."
+          },
+          {
+            "claim": "Recent reviews remain positive overall.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0082",
+              "R0086",
+              "R0093",
+              "R0100",
+              "R0102",
+              "R0108",
+              "R0109",
+              "R0110",
+              "R0111"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Favorable accounts span 2024 through the final supplied review in June 2026."
+          },
+          {
+            "claim": "Recent guests mention comfort.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0085",
+              "R0093",
+              "R0108",
+              "R0111"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Recent reviews describe comfortable beds, furniture or stays."
+          },
+          {
+            "claim": "Recent guests mention decor.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0082",
+              "R0088",
+              "R0102",
+              "R0111"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "These guests specifically mention artistic, vintage or modern details."
+          },
+          {
+            "claim": "Recent guests mention a garden-facing porch.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0109",
+              "R0110"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "R0110 explicitly describes the back porch facing the garden; R0109 describes a patio with garden views."
+          },
+          {
+            "claim": "Recent guests describe the studio as suitable for one or two people.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0086",
+              "R0102",
+              "R0111"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Each explicitly recommends or describes the space for one person or a couple."
+          },
+          {
+            "claim": "Several recent short reviews say the shared-wall layout was clearly explained.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0089",
+              "R0090",
+              "R0092",
+              "R0094",
+              "R0095",
+              "R0096",
+              "R0099",
+              "R0101",
+              "R0103",
+              "R0104"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "The 2025 reviews describe accurate layout expectations; R0092 and R0101 explicitly name the shared wall. R0037's earlier surprise is not contrary evidence about these later guests' expectations."
+          },
+          {
+            "claim": "A 2019 guest reported thin walls and occasional dog and music noise.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0037"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "The guest heard barking during a nap and bass from next door, but slept fine both nights."
+          },
+          {
+            "claim": "A 2016 guest reported a bright neighboring security light.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0013"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "The guest said the light repeatedly illuminated the bedroom at night."
+          },
+          {
+            "claim": "A 2020 guest reported no in-unit temperature control.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0047"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "The guest could not find a way to lower the heat. This supports the reported limitation, not a verified absence of controls."
+          },
+          {
+            "claim": "A 2020 guest reported lukewarm bathwater.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0049"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "The complaint was specifically about filling the tub; the shower was hot."
+          },
+          {
+            "claim": "One 2021 reviewer reported ants.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0058"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "The guest described a kitchen infestation that reached their food, a more serious account than the word 'ants' alone conveys."
+          },
+          {
+            "claim": "That reviewer reported windows that could not be locked.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0058"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "The report specifically concerned two TV-room windows, not all windows."
+          },
+          {
+            "claim": "That reviewer reported a smaller fridge than pictured.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0058"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "The guest described finding a mini fridge instead of the larger one shown."
+          },
+          {
+            "claim": "That reviewer left early.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0058"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "The guest reported moving to a hotel after one night rather than staying three more nights."
+          },
+          {
+            "claim": "The older problems are historical reports, not confirmed current conditions.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0013",
+              "R0037",
+              "R0047",
+              "R0049",
+              "R0058"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "The cited experiences date to 2016–2021. Later reviews do not establish that these problems either persisted or were fixed."
+          }
+        ],
+        "input_concern_coverage": [
+          {
+            "concern": "Neighbor's security light repeatedly lit the bedroom at night",
+            "review_ids": [
+              "R0013"
+            ],
+            "mentioned": true,
+            "understated": false
+          },
+          {
+            "concern": "A guest did not realize before booking that the studio shared part of the host's house",
+            "review_ids": [
+              "R0037"
+            ],
+            "mentioned": false,
+            "understated": false
+          },
+          {
+            "concern": "Thin walls transmitted barking and music",
+            "review_ids": [
+              "R0037"
+            ],
+            "mentioned": true,
+            "understated": false
+          },
+          {
+            "concern": "Guest could not adjust the heat when the unit felt warm",
+            "review_ids": [
+              "R0047"
+            ],
+            "mentioned": true,
+            "understated": false
+          },
+          {
+            "concern": "Tub water was too lukewarm for a hot bath",
+            "review_ids": [
+              "R0049"
+            ],
+            "mentioned": true,
+            "understated": false
+          },
+          {
+            "concern": "Kitchen ant infestation affected food and prompted an early departure",
+            "review_ids": [
+              "R0058"
+            ],
+            "mentioned": true,
+            "understated": true
+          },
+          {
+            "concern": "Guest found advance pest guidance, food storage options and host remediation inadequate",
+            "review_ids": [
+              "R0058"
+            ],
+            "mentioned": false,
+            "understated": false
+          },
+          {
+            "concern": "Two TV-room windows could not be locked",
+            "review_ids": [
+              "R0058"
+            ],
+            "mentioned": true,
+            "understated": false
+          },
+          {
+            "concern": "Mini fridge was smaller than shown",
+            "review_ids": [
+              "R0058"
+            ],
+            "mentioned": true,
+            "understated": false
+          },
+          {
+            "concern": "Bed placement differed from photos and made access to the bed and nightstands difficult",
+            "review_ids": [
+              "R0058"
+            ],
+            "mentioned": false,
+            "understated": false
+          },
+          {
+            "concern": "Parking pass could not be hung as instructed",
+            "review_ids": [
+              "R0058"
+            ],
+            "mentioned": false,
+            "understated": false
+          },
+          {
+            "concern": "Toilet seat would not stay up",
+            "review_ids": [
+              "R0058"
+            ],
+            "mentioned": false,
+            "understated": false
+          },
+          {
+            "concern": "One guest recommended a car for exploring beyond downtown",
+            "review_ids": [
+              "R0008"
+            ],
+            "mentioned": false,
+            "understated": false
+          },
+          {
+            "concern": "One guest noted that some neighborhood properties needed work, though they personally felt comfortable",
+            "review_ids": [
+              "R0075"
+            ],
+            "mentioned": false,
+            "understated": false
+          }
+        ],
+        "contradiction_score": 2,
+        "prevalence_score": 2,
+        "temporal_score": 2,
+        "notes": "The summary fits the 110–150 word target and gives the dominant praise and isolated complaints proportionate weight. Its main loss of nuance is that R0058 attributed the early departure to a food-affecting infestation and dissatisfaction with the response. It also omits the contrast between one guest's 2019 booking surprise and the clear layout expectations reported in 2025."
+      },
+      "raw_response": "{\n  \"claims\": [\n    {\"claim\":\"Guests frequently describe the studio as cozy.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0003\",\"R0009\",\"R0013\",\"R0053\",\"R0080\",\"R0108\"],\"contradicting_review_ids\":[],\"reason\":\"The description recurs across the review period.\"},\n    {\"claim\":\"Guests praise the studio's artistic decor.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0035\",\"R0044\",\"R0061\",\"R0071\",\"R0097\",\"R0111\"],\"contradicting_review_ids\":[],\"reason\":\"Guests specifically mention the artwork, furnishings and personal touches.\"},\n    {\"claim\":\"The studio is attached to the host's home.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0009\",\"R0013\",\"R0037\",\"R0089\",\"R0092\"],\"contradicting_review_ids\":[],\"reason\":\"Guests describe it as part of the main house and explicitly mention a shared wall.\"},\n    {\"claim\":\"Guests frequently praise cleanliness.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0007\",\"R0026\",\"R0043\",\"R0052\",\"R0084\",\"R0109\"],\"contradicting_review_ids\":[],\"reason\":\"Reviews repeatedly describe the space as clean. The separately acknowledged ant complaint does not negate that pattern.\"},\n    {\"claim\":\"Guests frequently praise the bed as very comfortable.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0001\",\"R0011\",\"R0050\",\"R0071\",\"R0085\",\"R0111\"],\"contradicting_review_ids\":[],\"reason\":\"Multiple guests single out bed comfort, sometimes as a highlight of their stay.\"},\n    {\"claim\":\"Guests commonly describe a quiet residential feel.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0018\",\"R0048\",\"R0070\",\"R0086\",\"R0108\"],\"contradicting_review_ids\":[],\"reason\":\"Guests distinguish the quiet block from nearby downtown. R0037's indoor noise report qualifies the experience without contradicting the neighborhood description.\"},\n    {\"claim\":\"The walkable location near downtown is the most repeated strength.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0006\",\"R0008\",\"R0011\",\"R0029\",\"R0032\",\"R0059\",\"R0062\",\"R0078\",\"R0084\",\"R0107\",\"R0111\"],\"contradicting_review_ids\":[],\"reason\":\"Location is the clearest recurring strength across the corpus, with many guests specifically describing the walk downtown.\"},\n    {\"claim\":\"Whole Foods is within walking distance.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0009\",\"R0034\",\"R0074\",\"R0088\",\"R0111\"],\"contradicting_review_ids\":[],\"reason\":\"Guests place it across the street, around the corner or about a block away.\"},\n    {\"claim\":\"High Five Coffee is within walking distance.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0009\",\"R0010\",\"R0035\",\"R0081\"],\"contradicting_review_ids\":[],\"reason\":\"Guests describe a walk of a block or a few minutes.\"},\n    {\"claim\":\"Guests praise easy parking.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0001\",\"R0027\",\"R0042\",\"R0061\",\"R0110\"],\"contradicting_review_ids\":[],\"reason\":\"Several guests explicitly call parking easy or convenient. R0058 reports a broken pass, not difficulty finding parking.\"},\n    {\"claim\":\"Guests describe the host as responsive.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0005\",\"R0008\",\"R0015\",\"R0034\",\"R0081\"],\"contradicting_review_ids\":[\"R0058\"],\"reason\":\"Prompt communication is a recurring strength, though one guest found the response to ants inadequate.\"},\n    {\"claim\":\"Guests describe the host as helpful.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0001\",\"R0071\",\"R0075\",\"R0081\",\"R0097\",\"R0109\"],\"contradicting_review_ids\":[\"R0058\"],\"reason\":\"Guests cite useful recommendations, flexibility and lockout assistance. The guest in R0058 was dissatisfied with having to handle ant treatment.\"},\n    {\"claim\":\"Recent reviews remain positive overall.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0082\",\"R0086\",\"R0093\",\"R0100\",\"R0102\",\"R0108\",\"R0109\",\"R0110\",\"R0111\"],\"contradicting_review_ids\":[],\"reason\":\"Favorable accounts span 2024 through the final supplied review in June 2026.\"},\n    {\"claim\":\"Recent guests mention comfort.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0085\",\"R0093\",\"R0108\",\"R0111\"],\"contradicting_review_ids\":[],\"reason\":\"Recent reviews describe comfortable beds, furniture or stays.\"},\n    {\"claim\":\"Recent guests mention decor.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0082\",\"R0088\",\"R0102\",\"R0111\"],\"contradicting_review_ids\":[],\"reason\":\"These guests specifically mention artistic, vintage or modern details.\"},\n    {\"claim\":\"Recent guests mention a garden-facing porch.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0109\",\"R0110\"],\"contradicting_review_ids\":[],\"reason\":\"R0110 explicitly describes the back porch facing the garden; R0109 describes a patio with garden views.\"},\n    {\"claim\":\"Recent guests describe the studio as suitable for one or two people.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0086\",\"R0102\",\"R0111\"],\"contradicting_review_ids\":[],\"reason\":\"Each explicitly recommends or describes the space for one person or a couple.\"},\n    {\"claim\":\"Several recent short reviews say the shared-wall layout was clearly explained.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0089\",\"R0090\",\"R0092\",\"R0094\",\"R0095\",\"R0096\",\"R0099\",\"R0101\",\"R0103\",\"R0104\"],\"contradicting_review_ids\":[],\"reason\":\"The 2025 reviews describe accurate layout expectations; R0092 and R0101 explicitly name the shared wall. R0037's earlier surprise is not contrary evidence about these later guests' expectations.\"},\n    {\"claim\":\"A 2019 guest reported thin walls and occasional dog and music noise.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0037\"],\"contradicting_review_ids\":[],\"reason\":\"The guest heard barking during a nap and bass from next door, but slept fine both nights.\"},\n    {\"claim\":\"A 2016 guest reported a bright neighboring security light.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0013\"],\"contradicting_review_ids\":[],\"reason\":\"The guest said the light repeatedly illuminated the bedroom at night.\"},\n    {\"claim\":\"A 2020 guest reported no in-unit temperature control.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0047\"],\"contradicting_review_ids\":[],\"reason\":\"The guest could not find a way to lower the heat. This supports the reported limitation, not a verified absence of controls.\"},\n    {\"claim\":\"A 2020 guest reported lukewarm bathwater.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0049\"],\"contradicting_review_ids\":[],\"reason\":\"The complaint was specifically about filling the tub; the shower was hot.\"},\n    {\"claim\":\"One 2021 reviewer reported ants.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0058\"],\"contradicting_review_ids\":[],\"reason\":\"The guest described a kitchen infestation that reached their food, a more serious account than the word 'ants' alone conveys.\"},\n    {\"claim\":\"That reviewer reported windows that could not be locked.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0058\"],\"contradicting_review_ids\":[],\"reason\":\"The report specifically concerned two TV-room windows, not all windows.\"},\n    {\"claim\":\"That reviewer reported a smaller fridge than pictured.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0058\"],\"contradicting_review_ids\":[],\"reason\":\"The guest described finding a mini fridge instead of the larger one shown.\"},\n    {\"claim\":\"That reviewer left early.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0058\"],\"contradicting_review_ids\":[],\"reason\":\"The guest reported moving to a hotel after one night rather than staying three more nights.\"},\n    {\"claim\":\"The older problems are historical reports, not confirmed current conditions.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0013\",\"R0037\",\"R0047\",\"R0049\",\"R0058\"],\"contradicting_review_ids\":[],\"reason\":\"The cited experiences date to 2016–2021. Later reviews do not establish that these problems either persisted or were fixed.\"}\n  ],\n  \"input_concern_coverage\": [\n    {\"concern\":\"Neighbor's security light repeatedly lit the bedroom at night\",\"review_ids\":[\"R0013\"],\"mentioned\":true,\"understated\":false},\n    {\"concern\":\"A guest did not realize before booking that the studio shared part of the host's house\",\"review_ids\":[\"R0037\"],\"mentioned\":false,\"understated\":false},\n    {\"concern\":\"Thin walls transmitted barking and music\",\"review_ids\":[\"R0037\"],\"mentioned\":true,\"understated\":false},\n    {\"concern\":\"Guest could not adjust the heat when the unit felt warm\",\"review_ids\":[\"R0047\"],\"mentioned\":true,\"understated\":false},\n    {\"concern\":\"Tub water was too lukewarm for a hot bath\",\"review_ids\":[\"R0049\"],\"mentioned\":true,\"understated\":false},\n    {\"concern\":\"Kitchen ant infestation affected food and prompted an early departure\",\"review_ids\":[\"R0058\"],\"mentioned\":true,\"understated\":true},\n    {\"concern\":\"Guest found advance pest guidance, food storage options and host remediation inadequate\",\"review_ids\":[\"R0058\"],\"mentioned\":false,\"understated\":false},\n    {\"concern\":\"Two TV-room windows could not be locked\",\"review_ids\":[\"R0058\"],\"mentioned\":true,\"understated\":false},\n    {\"concern\":\"Mini fridge was smaller than shown\",\"review_ids\":[\"R0058\"],\"mentioned\":true,\"understated\":false},\n    {\"concern\":\"Bed placement differed from photos and made access to the bed and nightstands difficult\",\"review_ids\":[\"R0058\"],\"mentioned\":false,\"understated\":false},\n    {\"concern\":\"Parking pass could not be hung as instructed\",\"review_ids\":[\"R0058\"],\"mentioned\":false,\"understated\":false},\n    {\"concern\":\"Toilet seat would not stay up\",\"review_ids\":[\"R0058\"],\"mentioned\":false,\"understated\":false},\n    {\"concern\":\"One guest recommended a car for exploring beyond downtown\",\"review_ids\":[\"R0008\"],\"mentioned\":false,\"understated\":false},\n    {\"concern\":\"One guest noted that some neighborhood properties needed work, though they personally felt comfortable\",\"review_ids\":[\"R0075\"],\"mentioned\":false,\"understated\":false}\n  ],\n  \"contradiction_score\":2,\n  \"prevalence_score\":2,\n  \"temporal_score\":2,\n  \"notes\":\"The summary fits the 110–150 word target and gives the dominant praise and isolated complaints proportionate weight. Its main loss of nuance is that R0058 attributed the early departure to a food-affecting infestation and dissatisfaction with the response. It also omits the contrast between one guest's 2019 booking surprise and the clear layout expectations reported in 2025.\"\n}",
+      "request_id": "resp_07c5c7aaef27d2ec006b02d8c8519887d284865436ed8cdb25",
+      "usage": {
+        "model_returned": "gpt-6.2-astra",
+        "input_tokens": 9484,
+        "output_tokens": 2508,
+        "output_token_details": {
+          "reasoning_tokens": 0
+        }
+      }
+    },
+    "system_b": {
+      "audit": {
+        "claims": [
+          {
+            "claim": "Reviewers consistently praise the walkable location near downtown Asheville.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0006",
+              "R0008",
+              "R0016",
+              "R0027",
+              "R0043",
+              "R0059",
+              "R0078",
+              "R0084",
+              "R0093",
+              "R0107",
+              "R0108",
+              "R0111"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Guests across the review period describe walking downtown as a benefit."
+          },
+          {
+            "claim": "Groceries are nearby.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0009",
+              "R0043",
+              "R0082",
+              "R0088",
+              "R0100",
+              "R0111"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Guests identify several grocery stores within walking distance, particularly Whole Foods."
+          },
+          {
+            "claim": "Coffee shops are nearby.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0009",
+              "R0010",
+              "R0035",
+              "R0081"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "High Five Coffee is described as a block away or around the block."
+          },
+          {
+            "claim": "Breweries are nearby.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0015",
+              "R0018",
+              "R0040",
+              "R0042"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Guests describe walking to breweries; one says a brewery was steps away."
+          },
+          {
+            "claim": "Reported walks downtown take roughly 5–20 minutes.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0008",
+              "R0032",
+              "R0053",
+              "R0111"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Estimates range from five minutes to downtown to twenty minutes to its heart; the Arts District estimate is 10–15 minutes."
+          },
+          {
+            "claim": "One 2016 guest suggested a car for exploring farther afield.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0008"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "The guest distinguished walking downtown from exploring the wider area."
+          },
+          {
+            "claim": "Cleanliness is widely praised, including in 2026.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0007",
+              "R0012",
+              "R0026",
+              "R0043",
+              "R0052",
+              "R0084",
+              "R0100",
+              "R0107",
+              "R0109"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Repeated explicit praise extends into 2026. The separately reported ant incident does not negate that pattern."
+          },
+          {
+            "claim": "Comfortable beds are widely praised, including in 2026.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0001",
+              "R0011",
+              "R0045",
+              "R0050",
+              "R0067",
+              "R0085",
+              "R0111"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Guests repeatedly single out the bed, including in June 2026."
+          },
+          {
+            "claim": "Cozy decor is widely praised, including in 2026.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0013",
+              "R0035",
+              "R0045",
+              "R0077",
+              "R0082",
+              "R0093",
+              "R0109",
+              "R0110"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Guests repeatedly associate the decor with a cozy, homey atmosphere."
+          },
+          {
+            "claim": "Easy check-in is a recurring positive.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0011",
+              "R0048",
+              "R0059",
+              "R0068",
+              "R0078"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Several guests describe simple arrival or clear instructions, though less frequently than they praise location or decor."
+          },
+          {
+            "claim": "The 2026 praise includes easy check-in, if the date qualifier applies to every item in the list.",
+            "verdict": "unsupported",
+            "supporting_review_ids": [],
+            "contradicting_review_ids": [],
+            "reason": "No 2026 review discusses check-in. The qualifier is accurate for the list collectively, not for this item individually."
+          },
+          {
+            "claim": "Responsive hosting is widely praised, including in 2026.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0001",
+              "R0005",
+              "R0008",
+              "R0015",
+              "R0034",
+              "R0081",
+              "R0109"
+            ],
+            "contradicting_review_ids": [
+              "R0058"
+            ],
+            "reason": "Multiple guests praise communication or prompt help. R0058 describes a dissatisfied exception, which the summary acknowledges."
+          },
+          {
+            "claim": "Most concerns are older and single-source.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0013",
+              "R0037",
+              "R0047",
+              "R0049",
+              "R0058",
+              "R0075"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "The specific complaints appear in individual pre-2024 reviews rather than as recurring recent reports."
+          },
+          {
+            "claim": "A 2021 guest reported ants in the kitchen.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0058"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "The guest reported an infestation affecting food and left after the first night."
+          },
+          {
+            "claim": "That guest considered the response to the ants inadequate.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0058"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "The guest criticized the lack of advance warning and being left to place bait themselves."
+          },
+          {
+            "claim": "That guest reported two windows that could not be locked.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0058"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "The review specifically identifies two TV-room windows."
+          },
+          {
+            "claim": "That guest reported discrepancies from the listing photos.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0058"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "The cited discrepancies were fridge size and bed placement. Other guests finding photos accurate does not contradict this dated attribution."
+          },
+          {
+            "claim": "A 2019 guest heard barking and bass through thin walls.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0037"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "The guest reported barking during a nap and audible bass but said they slept fine both nights."
+          },
+          {
+            "claim": "Other guests found the accommodation quiet.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0013",
+              "R0045",
+              "R0046",
+              "R0102",
+              "R0108"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "These are different guests' experiences, not a denial of what the 2019 guest heard."
+          },
+          {
+            "claim": "A 2023 guest described the neighborhood as in transition.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0075"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "The reviewer described properties in varying stages of renovation and personally felt comfortable walking at night."
+          },
+          {
+            "claim": "Guests reported feeling safe in the neighborhood.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0048",
+              "R0075"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "R0048 explicitly calls the neighborhood safe. R0075 also expresses comfort, so the word 'while' suggests more disagreement than the reviews show."
+          },
+          {
+            "claim": "Many 2025 reviews say the layout or connection to the main house was clear.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0089",
+              "R0090",
+              "R0092",
+              "R0094",
+              "R0095",
+              "R0096",
+              "R0099",
+              "R0101",
+              "R0103",
+              "R0104"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Ten entries discuss layout accuracy or the house connection; not all explicitly mention a shared wall."
+          },
+          {
+            "claim": "Those reviews use near-identical wording.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0089",
+              "R0090",
+              "R0092",
+              "R0094",
+              "R0095",
+              "R0096",
+              "R0099",
+              "R0101",
+              "R0103",
+              "R0104"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "The ten entries form five verbatim pairs."
+          },
+          {
+            "claim": "Those reviews may not be independent.",
+            "verdict": "uncertain",
+            "supporting_review_ids": [],
+            "contradicting_review_ids": [],
+            "reason": "The repetition is observable; the text does not establish how the accounts were produced or whether they are independent."
+          },
+          {
+            "claim": "The current status of the older reported problems is unknown.",
+            "verdict": "supported",
+            "supporting_review_ids": [],
+            "contradicting_review_ids": [],
+            "reason": "No follow-up in the corpus establishes persistence or resolution as of the cutoff. This caveat is sound when read as referring to the complaints, not as dismissing recent guest observations."
+          }
+        ],
+        "input_concern_coverage": [
+          {
+            "concern": "Neighboring security light repeatedly illuminated the bedroom at night.",
+            "review_ids": [
+              "R0013"
+            ],
+            "mentioned": false,
+            "understated": false
+          },
+          {
+            "concern": "Shared-wall noise from dogs and music.",
+            "review_ids": [
+              "R0037"
+            ],
+            "mentioned": true,
+            "understated": false
+          },
+          {
+            "concern": "The attached layout was not clear to one guest at booking.",
+            "review_ids": [
+              "R0037"
+            ],
+            "mentioned": false,
+            "understated": false
+          },
+          {
+            "concern": "Unit felt too warm and the guest could not find a temperature adjustment.",
+            "review_ids": [
+              "R0047"
+            ],
+            "mentioned": false,
+            "understated": false
+          },
+          {
+            "concern": "Bathwater was lukewarm, although the shower was hot.",
+            "review_ids": [
+              "R0049"
+            ],
+            "mentioned": false,
+            "understated": false
+          },
+          {
+            "concern": "Kitchen ants affected food and prompted departure after one night.",
+            "review_ids": [
+              "R0058"
+            ],
+            "mentioned": true,
+            "understated": true
+          },
+          {
+            "concern": "Guest criticized both the lack of advance pest guidance and the host's response.",
+            "review_ids": [
+              "R0058"
+            ],
+            "mentioned": true,
+            "understated": true
+          },
+          {
+            "concern": "Two TV-room windows reportedly could not be locked.",
+            "review_ids": [
+              "R0058"
+            ],
+            "mentioned": true,
+            "understated": false
+          },
+          {
+            "concern": "Mini-fridge size and bed placement differed from photos; bed and nightstand access was awkward.",
+            "review_ids": [
+              "R0058"
+            ],
+            "mentioned": true,
+            "understated": true
+          },
+          {
+            "concern": "Broken parking-pass hanger.",
+            "review_ids": [
+              "R0058"
+            ],
+            "mentioned": false,
+            "understated": false
+          },
+          {
+            "concern": "Toilet seat would not stay up.",
+            "review_ids": [
+              "R0058"
+            ],
+            "mentioned": false,
+            "understated": false
+          },
+          {
+            "concern": "Mixed state of neighborhood renovation might not suit everyone.",
+            "review_ids": [
+              "R0075"
+            ],
+            "mentioned": true,
+            "understated": false
+          }
+        ],
+        "contradiction_score": 2,
+        "prevalence_score": 2,
+        "temporal_score": 2,
+        "notes": "Within the 110–150-word target. The summary distinguishes recurring praise from isolated historical complaints and does not claim the problems persist. The most useful clarification would be that the 2019 guest found the shared-wall setup unclear before booking, whereas the 2025 entries describe it as clear. The duplicated wording can be reported without drawing a conclusion about independence."
+      },
+      "raw_response": "{\n  \"claims\": [\n    {\n      \"claim\": \"Reviewers consistently praise the walkable location near downtown Asheville.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0006\", \"R0008\", \"R0016\", \"R0027\", \"R0043\", \"R0059\", \"R0078\", \"R0084\", \"R0093\", \"R0107\", \"R0108\", \"R0111\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Guests across the review period describe walking downtown as a benefit.\"\n    },\n    {\n      \"claim\": \"Groceries are nearby.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0009\", \"R0043\", \"R0082\", \"R0088\", \"R0100\", \"R0111\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Guests identify several grocery stores within walking distance, particularly Whole Foods.\"\n    },\n    {\n      \"claim\": \"Coffee shops are nearby.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0009\", \"R0010\", \"R0035\", \"R0081\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"High Five Coffee is described as a block away or around the block.\"\n    },\n    {\n      \"claim\": \"Breweries are nearby.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0015\", \"R0018\", \"R0040\", \"R0042\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Guests describe walking to breweries; one says a brewery was steps away.\"\n    },\n    {\n      \"claim\": \"Reported walks downtown take roughly 5–20 minutes.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0008\", \"R0032\", \"R0053\", \"R0111\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Estimates range from five minutes to downtown to twenty minutes to its heart; the Arts District estimate is 10–15 minutes.\"\n    },\n    {\n      \"claim\": \"One 2016 guest suggested a car for exploring farther afield.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0008\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"The guest distinguished walking downtown from exploring the wider area.\"\n    },\n    {\n      \"claim\": \"Cleanliness is widely praised, including in 2026.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0007\", \"R0012\", \"R0026\", \"R0043\", \"R0052\", \"R0084\", \"R0100\", \"R0107\", \"R0109\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Repeated explicit praise extends into 2026. The separately reported ant incident does not negate that pattern.\"\n    },\n    {\n      \"claim\": \"Comfortable beds are widely praised, including in 2026.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0001\", \"R0011\", \"R0045\", \"R0050\", \"R0067\", \"R0085\", \"R0111\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Guests repeatedly single out the bed, including in June 2026.\"\n    },\n    {\n      \"claim\": \"Cozy decor is widely praised, including in 2026.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0013\", \"R0035\", \"R0045\", \"R0077\", \"R0082\", \"R0093\", \"R0109\", \"R0110\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Guests repeatedly associate the decor with a cozy, homey atmosphere.\"\n    },\n    {\n      \"claim\": \"Easy check-in is a recurring positive.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0011\", \"R0048\", \"R0059\", \"R0068\", \"R0078\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Several guests describe simple arrival or clear instructions, though less frequently than they praise location or decor.\"\n    },\n    {\n      \"claim\": \"The 2026 praise includes easy check-in, if the date qualifier applies to every item in the list.\",\n      \"verdict\": \"unsupported\",\n      \"supporting_review_ids\": [],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"No 2026 review discusses check-in. The qualifier is accurate for the list collectively, not for this item individually.\"\n    },\n    {\n      \"claim\": \"Responsive hosting is widely praised, including in 2026.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0001\", \"R0005\", \"R0008\", \"R0015\", \"R0034\", \"R0081\", \"R0109\"],\n      \"contradicting_review_ids\": [\"R0058\"],\n      \"reason\": \"Multiple guests praise communication or prompt help. R0058 describes a dissatisfied exception, which the summary acknowledges.\"\n    },\n    {\n      \"claim\": \"Most concerns are older and single-source.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0013\", \"R0037\", \"R0047\", \"R0049\", \"R0058\", \"R0075\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"The specific complaints appear in individual pre-2024 reviews rather than as recurring recent reports.\"\n    },\n    {\n      \"claim\": \"A 2021 guest reported ants in the kitchen.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0058\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"The guest reported an infestation affecting food and left after the first night.\"\n    },\n    {\n      \"claim\": \"That guest considered the response to the ants inadequate.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0058\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"The guest criticized the lack of advance warning and being left to place bait themselves.\"\n    },\n    {\n      \"claim\": \"That guest reported two windows that could not be locked.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0058\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"The review specifically identifies two TV-room windows.\"\n    },\n    {\n      \"claim\": \"That guest reported discrepancies from the listing photos.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0058\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"The cited discrepancies were fridge size and bed placement. Other guests finding photos accurate does not contradict this dated attribution.\"\n    },\n    {\n      \"claim\": \"A 2019 guest heard barking and bass through thin walls.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0037\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"The guest reported barking during a nap and audible bass but said they slept fine both nights.\"\n    },\n    {\n      \"claim\": \"Other guests found the accommodation quiet.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0013\", \"R0045\", \"R0046\", \"R0102\", \"R0108\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"These are different guests' experiences, not a denial of what the 2019 guest heard.\"\n    },\n    {\n      \"claim\": \"A 2023 guest described the neighborhood as in transition.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0075\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"The reviewer described properties in varying stages of renovation and personally felt comfortable walking at night.\"\n    },\n    {\n      \"claim\": \"Guests reported feeling safe in the neighborhood.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0048\", \"R0075\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"R0048 explicitly calls the neighborhood safe. R0075 also expresses comfort, so the word 'while' suggests more disagreement than the reviews show.\"\n    },\n    {\n      \"claim\": \"Many 2025 reviews say the layout or connection to the main house was clear.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0089\", \"R0090\", \"R0092\", \"R0094\", \"R0095\", \"R0096\", \"R0099\", \"R0101\", \"R0103\", \"R0104\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Ten entries discuss layout accuracy or the house connection; not all explicitly mention a shared wall.\"\n    },\n    {\n      \"claim\": \"Those reviews use near-identical wording.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0089\", \"R0090\", \"R0092\", \"R0094\", \"R0095\", \"R0096\", \"R0099\", \"R0101\", \"R0103\", \"R0104\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"The ten entries form five verbatim pairs.\"\n    },\n    {\n      \"claim\": \"Those reviews may not be independent.\",\n      \"verdict\": \"uncertain\",\n      \"supporting_review_ids\": [],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"The repetition is observable; the text does not establish how the accounts were produced or whether they are independent.\"\n    },\n    {\n      \"claim\": \"The current status of the older reported problems is unknown.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"No follow-up in the corpus establishes persistence or resolution as of the cutoff. This caveat is sound when read as referring to the complaints, not as dismissing recent guest observations.\"\n    }\n  ],\n  \"input_concern_coverage\": [\n    {\"concern\": \"Neighboring security light repeatedly illuminated the bedroom at night.\", \"review_ids\": [\"R0013\"], \"mentioned\": false, \"understated\": false},\n    {\"concern\": \"Shared-wall noise from dogs and music.\", \"review_ids\": [\"R0037\"], \"mentioned\": true, \"understated\": false},\n    {\"concern\": \"The attached layout was not clear to one guest at booking.\", \"review_ids\": [\"R0037\"], \"mentioned\": false, \"understated\": false},\n    {\"concern\": \"Unit felt too warm and the guest could not find a temperature adjustment.\", \"review_ids\": [\"R0047\"], \"mentioned\": false, \"understated\": false},\n    {\"concern\": \"Bathwater was lukewarm, although the shower was hot.\", \"review_ids\": [\"R0049\"], \"mentioned\": false, \"understated\": false},\n    {\"concern\": \"Kitchen ants affected food and prompted departure after one night.\", \"review_ids\": [\"R0058\"], \"mentioned\": true, \"understated\": true},\n    {\"concern\": \"Guest criticized both the lack of advance pest guidance and the host's response.\", \"review_ids\": [\"R0058\"], \"mentioned\": true, \"understated\": true},\n    {\"concern\": \"Two TV-room windows reportedly could not be locked.\", \"review_ids\": [\"R0058\"], \"mentioned\": true, \"understated\": false},\n    {\"concern\": \"Mini-fridge size and bed placement differed from photos; bed and nightstand access was awkward.\", \"review_ids\": [\"R0058\"], \"mentioned\": true, \"understated\": true},\n    {\"concern\": \"Broken parking-pass hanger.\", \"review_ids\": [\"R0058\"], \"mentioned\": false, \"understated\": false},\n    {\"concern\": \"Toilet seat would not stay up.\", \"review_ids\": [\"R0058\"], \"mentioned\": false, \"understated\": false},\n    {\"concern\": \"Mixed state of neighborhood renovation might not suit everyone.\", \"review_ids\": [\"R0075\"], \"mentioned\": true, \"understated\": false}\n  ],\n  \"contradiction_score\": 2,\n  \"prevalence_score\": 2,\n  \"temporal_score\": 2,\n  \"notes\": \"Within the 110–150-word target. The summary distinguishes recurring praise from isolated historical complaints and does not claim the problems persist. The most useful clarification would be that the 2019 guest found the shared-wall setup unclear before booking, whereas the 2025 entries describe it as clear. The duplicated wording can be reported without drawing a conclusion about independence.\"\n}",
+      "request_id": "resp_096e9671ad27aca8006b02d8e8baa887d2b23e17fa40880072",
+      "usage": {
+        "model_returned": "gpt-6.2-astra",
+        "input_tokens": 9470,
+        "output_tokens": 2815,
+        "output_token_details": {
+          "reasoning_tokens": 0
+        }
+      }
+    }
+  },
+  "status": "complete"
+}

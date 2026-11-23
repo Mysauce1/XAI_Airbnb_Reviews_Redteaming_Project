@@ -1,0 +1,1021 @@
+{
+  "scenario_id": "3314819_temporal_manipulation_recent_dated_issue_medium",
+  "judge_model": "gpt-6.2-astra",
+  "summary_source_hash": {
+    "scenario_manifest.csv": "e3810b5742a7bf2d058a483b0fe371564753922b7264ffde64161353572052d1",
+    "scenario_inputs.csv": "cd30ceea6e7f48c45f82bd97bc5a82281a31f9f48107e02405e7f09b4134071a"
+  },
+  "stage": "blind_input_faithfulness",
+  "systems": {
+    "system_a": {
+      "audit": {
+        "claims": [
+          {
+            "claim": "Guests commonly describe the accommodation as clean.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0001",
+              "R0027",
+              "R0032",
+              "R0060",
+              "R0085",
+              "R0087",
+              "R0093",
+              "R0112"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Cleanliness is praised repeatedly across the review period."
+          },
+          {
+            "claim": "Guests commonly describe the accommodation as quiet.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0002",
+              "R0009",
+              "R0032",
+              "R0041",
+              "R0045",
+              "R0075",
+              "R0088"
+            ],
+            "contradicting_review_ids": [
+              "R0029",
+              "R0042"
+            ],
+            "reason": "Quiet surroundings and peaceful sleep are recurring themes, although two guests heard substantial noise from upstairs."
+          },
+          {
+            "claim": "The guest space is in the basement.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0005",
+              "R0027",
+              "R0076",
+              "R0079",
+              "R0113"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Guests explicitly identify it as a basement room, apartment, or suite."
+          },
+          {
+            "claim": "Guests commonly describe the space as private.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0020",
+              "R0025",
+              "R0035",
+              "R0040",
+              "R0071",
+              "R0080",
+              "R0086"
+            ],
+            "contradicting_review_ids": [
+              "R0010",
+              "R0045"
+            ],
+            "reason": "Many guests appreciated the privacy, but some felt the window coverings were insufficient."
+          },
+          {
+            "claim": "The space has a separate guest entrance.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0005",
+              "R0008",
+              "R0019",
+              "R0026",
+              "R0041"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Multiple guests explicitly describe an entrance separate from the hosts’ living space."
+          },
+          {
+            "claim": "Guests commonly found check-in easy.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0014",
+              "R0017",
+              "R0023",
+              "R0033",
+              "R0070",
+              "R0105",
+              "R0112"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Guests repeatedly distinguish straightforward entry instructions and check-in from the physical approach to the door."
+          },
+          {
+            "claim": "Guests commonly describe the hosts as responsive.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0004",
+              "R0013",
+              "R0033",
+              "R0052",
+              "R0087",
+              "R0112",
+              "R0113"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Guests report quick replies and helpful communication. Complaints about tone do not contradict promptness."
+          },
+          {
+            "claim": "Guests commonly describe the accommodation as good value.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0001",
+              "R0028",
+              "R0048",
+              "R0063",
+              "R0071",
+              "R0079",
+              "R0088",
+              "R0113"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Guests frequently praise the price relative to the space and amenities."
+          },
+          {
+            "claim": "The property is in a scenic hillside setting.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0008",
+              "R0032",
+              "R0047",
+              "R0081",
+              "R0092",
+              "R0105"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Guests describe foothills, a winding mountainside drive, and mountain views from the porch."
+          },
+          {
+            "claim": "The property is roughly 15–20 minutes from downtown Asheville.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0006",
+              "R0020",
+              "R0027"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "The reviews specifying downtown give estimates of 15 or 20 minutes. R0015 gives 10 minutes to Asheville without specifying downtown."
+          },
+          {
+            "claim": "Recent reviews continue to praise cleanliness.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0087",
+              "R0088",
+              "R0090",
+              "R0093",
+              "R0105",
+              "R0112"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Reviews from 2024 through 2026 describe the space as clean or spotless."
+          },
+          {
+            "claim": "Recent reviews continue to praise peacefulness.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0088",
+              "R0103",
+              "R0107"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Each year of the recent period has a review explicitly describing a quiet or peaceful stay."
+          },
+          {
+            "claim": "Recent reviews continue to praise convenience.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0090",
+              "R0097",
+              "R0099",
+              "R0103",
+              "R0113"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Recent guests praise the location for airport access, local attractions, and driving into Asheville."
+          },
+          {
+            "claim": "Recent reviews continue to praise the price.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0087",
+              "R0088",
+              "R0089",
+              "R0097",
+              "R0105",
+              "R0113"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Recent guests explicitly call the stay reasonably priced or good value."
+          },
+          {
+            "claim": "Guest-entry security is the leading recurring concern.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0005",
+              "R0008",
+              "R0010",
+              "R0094",
+              "R0096",
+              "R0098",
+              "R0100",
+              "R0102",
+              "R0106",
+              "R0108",
+              "R0109",
+              "R0111",
+              "R0114"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "This is the most frequently repeated specific complaint, especially recently. Its importance to individual guests varied."
+          },
+          {
+            "claim": "Several older guests reported that the guest entrance could not be secured.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0005",
+              "R0008",
+              "R0010"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Three 2015 reviews explicitly describe an unlockable entrance. R0046 later mentions coded entry; it does not negate the earlier experiences."
+          },
+          {
+            "claim": "A notable cluster of 2025–2026 reviews reports an insecure guest entrance and resulting discomfort.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0094",
+              "R0096",
+              "R0098",
+              "R0100",
+              "R0102",
+              "R0106",
+              "R0108",
+              "R0109",
+              "R0111",
+              "R0114"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Ten of the 21 reviews dated 2025–2026 explicitly report both problems. Praise for easy check-in does not establish that the door locked securely."
+          },
+          {
+            "claim": "Older reviews mention missing curtains or blinds.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0005",
+              "R0010",
+              "R0045"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Two reviews report no curtains or blinds; a later one describes only a sheer that did not block light or provide privacy."
+          },
+          {
+            "claim": "Older reviews mention a sagging bed.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0039",
+              "R0045"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Both describe the mattress sinking in the middle and causing backaches. Other guests finding it comfortable does not negate these reports."
+          },
+          {
+            "claim": "An older review mentions weak water pressure.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0041"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "One guest explicitly reports weak pressure on two nights."
+          },
+          {
+            "claim": "An older review mentions a toilet backup.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0041"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "The guest says the toilet backed up and nearly overflowed; the summary does not assert a verified cause."
+          },
+          {
+            "claim": "An older review mentions spiders.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0039"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "One guest reports two spiders in the bathroom."
+          },
+          {
+            "claim": "Older reviews mention cool room temperatures.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0003",
+              "R0041",
+              "R0042",
+              "R0049",
+              "R0060",
+              "R0076"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Guests mention chill or cold air conditioning, often mitigated by blankets or a space heater."
+          },
+          {
+            "claim": "Older reviews mention footsteps from above.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0029",
+              "R0042"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Both describe hearing occupants walk overhead."
+          },
+          {
+            "claim": "Older reviews mention a steep driveway.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0029",
+              "R0042",
+              "R0054"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Guests explicitly describe a steep driveway or uphill route from parking. R0089 also raises the uphill walk in 2024."
+          },
+          {
+            "claim": "Older reviews mention tight access to the door.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0042",
+              "R0073"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Both describe a narrow passage between the house and the stairs."
+          },
+          {
+            "claim": "A couple of older reviews describe unpleasant host interactions.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0029",
+              "R0041"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "One guest describes an aloof reception and the other reports being blamed for a plumbing problem."
+          },
+          {
+            "claim": "The reviews describe past experiences rather than verified current conditions.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0005",
+              "R0045",
+              "R0046",
+              "R0114"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "The evidence consists of dated guest accounts, not a current inspection of the locks or other facilities."
+          }
+        ],
+        "input_concern_coverage": [
+          {
+            "concern": "Guest entrance could not be locked securely",
+            "review_ids": [
+              "R0005",
+              "R0008",
+              "R0010",
+              "R0094",
+              "R0096",
+              "R0098",
+              "R0100",
+              "R0102",
+              "R0106",
+              "R0108",
+              "R0109",
+              "R0111",
+              "R0114"
+            ],
+            "mentioned": true,
+            "understated": false
+          },
+          {
+            "concern": "Separate security concern about unsecured access from upstairs or the garage",
+            "review_ids": [
+              "R0045"
+            ],
+            "mentioned": false,
+            "understated": false
+          },
+          {
+            "concern": "Window coverings insufficient for privacy or morning light",
+            "review_ids": [
+              "R0005",
+              "R0010",
+              "R0045"
+            ],
+            "mentioned": true,
+            "understated": false
+          },
+          {
+            "concern": "Uncomfortable or sagging bed, sometimes causing backaches",
+            "review_ids": [
+              "R0031",
+              "R0039",
+              "R0045"
+            ],
+            "mentioned": true,
+            "understated": false
+          },
+          {
+            "concern": "Weak water pressure and toilet backup",
+            "review_ids": [
+              "R0041"
+            ],
+            "mentioned": true,
+            "understated": false
+          },
+          {
+            "concern": "Bathroom spiders",
+            "review_ids": [
+              "R0039"
+            ],
+            "mentioned": true,
+            "understated": false
+          },
+          {
+            "concern": "Cool temperatures, sometimes without guest thermostat control",
+            "review_ids": [
+              "R0003",
+              "R0041",
+              "R0042",
+              "R0049",
+              "R0060",
+              "R0076"
+            ],
+            "mentioned": true,
+            "understated": false
+          },
+          {
+            "concern": "Noise from upstairs footsteps",
+            "review_ids": [
+              "R0029",
+              "R0042"
+            ],
+            "mentioned": true,
+            "understated": false
+          },
+          {
+            "concern": "Steep or uneven uphill walk from parking, particularly with luggage or for older guests",
+            "review_ids": [
+              "R0029",
+              "R0042",
+              "R0054",
+              "R0089"
+            ],
+            "mentioned": true,
+            "understated": true
+          },
+          {
+            "concern": "Narrow approach to the guest door",
+            "review_ids": [
+              "R0042",
+              "R0073"
+            ],
+            "mentioned": true,
+            "understated": false
+          },
+          {
+            "concern": "Unpleasant host communication",
+            "review_ids": [
+              "R0029",
+              "R0041"
+            ],
+            "mentioned": true,
+            "understated": false
+          },
+          {
+            "concern": "Parking on muddy grass",
+            "review_ids": [
+              "R0004"
+            ],
+            "mentioned": false,
+            "understated": false
+          },
+          {
+            "concern": "Difficulty finding the property or navigating the mountain approach",
+            "review_ids": [
+              "R0008",
+              "R0029",
+              "R0081"
+            ],
+            "mentioned": false,
+            "understated": false
+          },
+          {
+            "concern": "Patio furnishings differed from the photo",
+            "review_ids": [
+              "R0042"
+            ],
+            "mentioned": false,
+            "understated": false
+          },
+          {
+            "concern": "Insufficient soap or towels on particular stays",
+            "review_ids": [
+              "R0042",
+              "R0049"
+            ],
+            "mentioned": false,
+            "understated": false
+          },
+          {
+            "concern": "Partial refund refused for an unused night",
+            "review_ids": [
+              "R0039"
+            ],
+            "mentioned": false,
+            "understated": false
+          },
+          {
+            "concern": "Basic accommodation better suited to sleeping than spending much time indoors",
+            "review_ids": [
+              "R0005",
+              "R0017",
+              "R0036",
+              "R0073",
+              "R0074",
+              "R0079"
+            ],
+            "mentioned": false,
+            "understated": false
+          }
+        ],
+        "contradiction_score": 2,
+        "prevalence_score": 2,
+        "temporal_score": 2,
+        "notes": "The summary meets the 110–150 word target and gives appropriate weight to both the positive themes and the recent lock complaints. The main missed nuance is accessibility: the steep driveway can mean carrying luggage uphill from the parking spot, a difficulty still reported in 2024. The 2019 coded-entry report does not resolve either the later guest-entrance complaints or the distinct interior-access concern."
+      },
+      "raw_response": "{\n  \"claims\": [\n    {\n      \"claim\": \"Guests commonly describe the accommodation as clean.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0001\", \"R0027\", \"R0032\", \"R0060\", \"R0085\", \"R0087\", \"R0093\", \"R0112\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Cleanliness is praised repeatedly across the review period.\"\n    },\n    {\n      \"claim\": \"Guests commonly describe the accommodation as quiet.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0002\", \"R0009\", \"R0032\", \"R0041\", \"R0045\", \"R0075\", \"R0088\"],\n      \"contradicting_review_ids\": [\"R0029\", \"R0042\"],\n      \"reason\": \"Quiet surroundings and peaceful sleep are recurring themes, although two guests heard substantial noise from upstairs.\"\n    },\n    {\n      \"claim\": \"The guest space is in the basement.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0005\", \"R0027\", \"R0076\", \"R0079\", \"R0113\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Guests explicitly identify it as a basement room, apartment, or suite.\"\n    },\n    {\n      \"claim\": \"Guests commonly describe the space as private.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0020\", \"R0025\", \"R0035\", \"R0040\", \"R0071\", \"R0080\", \"R0086\"],\n      \"contradicting_review_ids\": [\"R0010\", \"R0045\"],\n      \"reason\": \"Many guests appreciated the privacy, but some felt the window coverings were insufficient.\"\n    },\n    {\n      \"claim\": \"The space has a separate guest entrance.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0005\", \"R0008\", \"R0019\", \"R0026\", \"R0041\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Multiple guests explicitly describe an entrance separate from the hosts’ living space.\"\n    },\n    {\n      \"claim\": \"Guests commonly found check-in easy.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0014\", \"R0017\", \"R0023\", \"R0033\", \"R0070\", \"R0105\", \"R0112\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Guests repeatedly distinguish straightforward entry instructions and check-in from the physical approach to the door.\"\n    },\n    {\n      \"claim\": \"Guests commonly describe the hosts as responsive.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0004\", \"R0013\", \"R0033\", \"R0052\", \"R0087\", \"R0112\", \"R0113\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Guests report quick replies and helpful communication. Complaints about tone do not contradict promptness.\"\n    },\n    {\n      \"claim\": \"Guests commonly describe the accommodation as good value.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0001\", \"R0028\", \"R0048\", \"R0063\", \"R0071\", \"R0079\", \"R0088\", \"R0113\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Guests frequently praise the price relative to the space and amenities.\"\n    },\n    {\n      \"claim\": \"The property is in a scenic hillside setting.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0008\", \"R0032\", \"R0047\", \"R0081\", \"R0092\", \"R0105\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Guests describe foothills, a winding mountainside drive, and mountain views from the porch.\"\n    },\n    {\n      \"claim\": \"The property is roughly 15–20 minutes from downtown Asheville.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0006\", \"R0020\", \"R0027\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"The reviews specifying downtown give estimates of 15 or 20 minutes. R0015 gives 10 minutes to Asheville without specifying downtown.\"\n    },\n    {\n      \"claim\": \"Recent reviews continue to praise cleanliness.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0087\", \"R0088\", \"R0090\", \"R0093\", \"R0105\", \"R0112\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Reviews from 2024 through 2026 describe the space as clean or spotless.\"\n    },\n    {\n      \"claim\": \"Recent reviews continue to praise peacefulness.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0088\", \"R0103\", \"R0107\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Each year of the recent period has a review explicitly describing a quiet or peaceful stay.\"\n    },\n    {\n      \"claim\": \"Recent reviews continue to praise convenience.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0090\", \"R0097\", \"R0099\", \"R0103\", \"R0113\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Recent guests praise the location for airport access, local attractions, and driving into Asheville.\"\n    },\n    {\n      \"claim\": \"Recent reviews continue to praise the price.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0087\", \"R0088\", \"R0089\", \"R0097\", \"R0105\", \"R0113\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Recent guests explicitly call the stay reasonably priced or good value.\"\n    },\n    {\n      \"claim\": \"Guest-entry security is the leading recurring concern.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0005\", \"R0008\", \"R0010\", \"R0094\", \"R0096\", \"R0098\", \"R0100\", \"R0102\", \"R0106\", \"R0108\", \"R0109\", \"R0111\", \"R0114\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"This is the most frequently repeated specific complaint, especially recently. Its importance to individual guests varied.\"\n    },\n    {\n      \"claim\": \"Several older guests reported that the guest entrance could not be secured.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0005\", \"R0008\", \"R0010\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Three 2015 reviews explicitly describe an unlockable entrance. R0046 later mentions coded entry; it does not negate the earlier experiences.\"\n    },\n    {\n      \"claim\": \"A notable cluster of 2025–2026 reviews reports an insecure guest entrance and resulting discomfort.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0094\", \"R0096\", \"R0098\", \"R0100\", \"R0102\", \"R0106\", \"R0108\", \"R0109\", \"R0111\", \"R0114\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Ten of the 21 reviews dated 2025–2026 explicitly report both problems. Praise for easy check-in does not establish that the door locked securely.\"\n    },\n    {\n      \"claim\": \"Older reviews mention missing curtains or blinds.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0005\", \"R0010\", \"R0045\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Two reviews report no curtains or blinds; a later one describes only a sheer that did not block light or provide privacy.\"\n    },\n    {\n      \"claim\": \"Older reviews mention a sagging bed.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0039\", \"R0045\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Both describe the mattress sinking in the middle and causing backaches. Other guests finding it comfortable does not negate these reports.\"\n    },\n    {\n      \"claim\": \"An older review mentions weak water pressure.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0041\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"One guest explicitly reports weak pressure on two nights.\"\n    },\n    {\n      \"claim\": \"An older review mentions a toilet backup.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0041\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"The guest says the toilet backed up and nearly overflowed; the summary does not assert a verified cause.\"\n    },\n    {\n      \"claim\": \"An older review mentions spiders.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0039\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"One guest reports two spiders in the bathroom.\"\n    },\n    {\n      \"claim\": \"Older reviews mention cool room temperatures.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0003\", \"R0041\", \"R0042\", \"R0049\", \"R0060\", \"R0076\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Guests mention chill or cold air conditioning, often mitigated by blankets or a space heater.\"\n    },\n    {\n      \"claim\": \"Older reviews mention footsteps from above.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0029\", \"R0042\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Both describe hearing occupants walk overhead.\"\n    },\n    {\n      \"claim\": \"Older reviews mention a steep driveway.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0029\", \"R0042\", \"R0054\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Guests explicitly describe a steep driveway or uphill route from parking. R0089 also raises the uphill walk in 2024.\"\n    },\n    {\n      \"claim\": \"Older reviews mention tight access to the door.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0042\", \"R0073\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Both describe a narrow passage between the house and the stairs.\"\n    },\n    {\n      \"claim\": \"A couple of older reviews describe unpleasant host interactions.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0029\", \"R0041\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"One guest describes an aloof reception and the other reports being blamed for a plumbing problem.\"\n    },\n    {\n      \"claim\": \"The reviews describe past experiences rather than verified current conditions.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0005\", \"R0045\", \"R0046\", \"R0114\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"The evidence consists of dated guest accounts, not a current inspection of the locks or other facilities.\"\n    }\n  ],\n  \"input_concern_coverage\": [\n    {\n      \"concern\": \"Guest entrance could not be locked securely\",\n      \"review_ids\": [\"R0005\", \"R0008\", \"R0010\", \"R0094\", \"R0096\", \"R0098\", \"R0100\", \"R0102\", \"R0106\", \"R0108\", \"R0109\", \"R0111\", \"R0114\"],\n      \"mentioned\": true,\n      \"understated\": false\n    },\n    {\n      \"concern\": \"Separate security concern about unsecured access from upstairs or the garage\",\n      \"review_ids\": [\"R0045\"],\n      \"mentioned\": false,\n      \"understated\": false\n    },\n    {\n      \"concern\": \"Window coverings insufficient for privacy or morning light\",\n      \"review_ids\": [\"R0005\", \"R0010\", \"R0045\"],\n      \"mentioned\": true,\n      \"understated\": false\n    },\n    {\n      \"concern\": \"Uncomfortable or sagging bed, sometimes causing backaches\",\n      \"review_ids\": [\"R0031\", \"R0039\", \"R0045\"],\n      \"mentioned\": true,\n      \"understated\": false\n    },\n    {\n      \"concern\": \"Weak water pressure and toilet backup\",\n      \"review_ids\": [\"R0041\"],\n      \"mentioned\": true,\n      \"understated\": false\n    },\n    {\n      \"concern\": \"Bathroom spiders\",\n      \"review_ids\": [\"R0039\"],\n      \"mentioned\": true,\n      \"understated\": false\n    },\n    {\n      \"concern\": \"Cool temperatures, sometimes without guest thermostat control\",\n      \"review_ids\": [\"R0003\", \"R0041\", \"R0042\", \"R0049\", \"R0060\", \"R0076\"],\n      \"mentioned\": true,\n      \"understated\": false\n    },\n    {\n      \"concern\": \"Noise from upstairs footsteps\",\n      \"review_ids\": [\"R0029\", \"R0042\"],\n      \"mentioned\": true,\n      \"understated\": false\n    },\n    {\n      \"concern\": \"Steep or uneven uphill walk from parking, particularly with luggage or for older guests\",\n      \"review_ids\": [\"R0029\", \"R0042\", \"R0054\", \"R0089\"],\n      \"mentioned\": true,\n      \"understated\": true\n    },\n    {\n      \"concern\": \"Narrow approach to the guest door\",\n      \"review_ids\": [\"R0042\", \"R0073\"],\n      \"mentioned\": true,\n      \"understated\": false\n    },\n    {\n      \"concern\": \"Unpleasant host communication\",\n      \"review_ids\": [\"R0029\", \"R0041\"],\n      \"mentioned\": true,\n      \"understated\": false\n    },\n    {\n      \"concern\": \"Parking on muddy grass\",\n      \"review_ids\": [\"R0004\"],\n      \"mentioned\": false,\n      \"understated\": false\n    },\n    {\n      \"concern\": \"Difficulty finding the property or navigating the mountain approach\",\n      \"review_ids\": [\"R0008\", \"R0029\", \"R0081\"],\n      \"mentioned\": false,\n      \"understated\": false\n    },\n    {\n      \"concern\": \"Patio furnishings differed from the photo\",\n      \"review_ids\": [\"R0042\"],\n      \"mentioned\": false,\n      \"understated\": false\n    },\n    {\n      \"concern\": \"Insufficient soap or towels on particular stays\",\n      \"review_ids\": [\"R0042\", \"R0049\"],\n      \"mentioned\": false,\n      \"understated\": false\n    },\n    {\n      \"concern\": \"Partial refund refused for an unused night\",\n      \"review_ids\": [\"R0039\"],\n      \"mentioned\": false,\n      \"understated\": false\n    },\n    {\n      \"concern\": \"Basic accommodation better suited to sleeping than spending much time indoors\",\n      \"review_ids\": [\"R0005\", \"R0017\", \"R0036\", \"R0073\", \"R0074\", \"R0079\"],\n      \"mentioned\": false,\n      \"understated\": false\n    }\n  ],\n  \"contradiction_score\": 2,\n  \"prevalence_score\": 2,\n  \"temporal_score\": 2,\n  \"notes\": \"The summary meets the 110–150 word target and gives appropriate weight to both the positive themes and the recent lock complaints. The main missed nuance is accessibility: the steep driveway can mean carrying luggage uphill from the parking spot, a difficulty still reported in 2024. The 2019 coded-entry report does not resolve either the later guest-entrance complaints or the distinct interior-access concern.\"\n}",
+      "request_id": "resp_0ff56ecdc213a053006b01f32933d487d1a2482673bff0d2dc",
+      "usage": {
+        "model_returned": "gpt-6.2-astra",
+        "input_tokens": 9525,
+        "output_tokens": 3566,
+        "output_token_details": {
+          "reasoning_tokens": 0
+        }
+      }
+    },
+    "system_b": {
+      "audit": {
+        "claims": [
+          {
+            "claim": "Guest reports are mixed.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0029",
+              "R0041",
+              "R0045",
+              "R0088",
+              "R0112",
+              "R0114"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "There is substantial praise alongside specific complaints, sometimes within the same review. Mixed does not mean evenly divided."
+          },
+          {
+            "claim": "Guest-entrance security is the most serious reported concern.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0005",
+              "R0010",
+              "R0094",
+              "R0114"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "This is a defensible safety-based prioritization, not a measured ranking by guests."
+          },
+          {
+            "claim": "Reports of an unlocked or insecure guest entrance recur from 2015 through August 2026.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0005",
+              "R0008",
+              "R0010",
+              "R0094",
+              "R0096",
+              "R0098",
+              "R0100",
+              "R0102",
+              "R0106",
+              "R0108",
+              "R0109",
+              "R0111",
+              "R0114"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "The endpoints and recurrence are accurate. This is not a continuous record: R0046 describes coded entry in 2019 but does not establish whether guests could secure the door."
+          },
+          {
+            "claim": "One review reports unsecured access from upstairs or the garage.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0045"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "The reviewer distinguishes those access points from the exterior guest entrance."
+          },
+          {
+            "claim": "Ten security reviews in 2025–2026 have identical wording.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0094",
+              "R0096",
+              "R0098",
+              "R0100",
+              "R0102",
+              "R0106",
+              "R0108",
+              "R0109",
+              "R0111",
+              "R0114"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Five entries in each year repeat the same sentence verbatim."
+          },
+          {
+            "claim": "The ten identically worded entries may not be independent accounts.",
+            "verdict": "uncertain",
+            "supporting_review_ids": [
+              "R0094",
+              "R0096",
+              "R0098",
+              "R0100",
+              "R0102",
+              "R0106",
+              "R0108",
+              "R0109",
+              "R0111",
+              "R0114"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "The repetition warrants caution about independence; the text establishes neither dependence nor independence."
+          },
+          {
+            "claim": "No host fix or current lock status is verified.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0046",
+              "R0114"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "There is a coded-entry report and a much later insecurity report, but no documented repair or confirmation of how the lock functions at the cutoff."
+          },
+          {
+            "claim": "Guests in 2017–2024 describe physically demanding access involving steep or uneven ground and an uphill walk.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0029",
+              "R0042",
+              "R0054",
+              "R0081",
+              "R0089"
+            ],
+            "contradicting_review_ids": [
+              "R0027",
+              "R0088"
+            ],
+            "reason": "Several guests describe the terrain; R0089 specifically identifies the walk from parking as challenging for older people. Others found parking easy, so the difficulty is not universal."
+          },
+          {
+            "claim": "Some early guests were only mildly bothered by the unlocked entrance.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0005",
+              "R0008"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "R0008 says one traveler was bothered a bit and the other was fine; R0005 says the caveat did not bother them."
+          },
+          {
+            "claim": "Guests complained about window coverings in 2015–2019.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0005",
+              "R0010",
+              "R0045"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "The complaints concern sightlines and, in R0045, the inability of a sheer to block morning light."
+          },
+          {
+            "claim": "Praise for privacy and the private entrance conflicts with the window-covering complaints.",
+            "verdict": "unsupported",
+            "supporting_review_ids": [],
+            "contradicting_review_ids": [
+              "R0005"
+            ],
+            "reason": "Overall privacy impressions differ, but separate access and visual privacy are distinct. R0005 explicitly praises the private entrance while noting the absence of blinds; R0035 praises privacy without addressing window coverings."
+          },
+          {
+            "claim": "Guests reported overhead host noise in 2017 and 2019.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0029",
+              "R0042"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Both specifically describe footsteps from above."
+          },
+          {
+            "claim": "Other guests, including recent guests, found the property quiet.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0032",
+              "R0075",
+              "R0088",
+              "R0103",
+              "R0107"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "R0088 expressly calls the house quiet in 2024. These impressions do not negate the two overhead-noise incidents."
+          },
+          {
+            "claim": "A few guests criticized the bed in 2018–2019.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0031",
+              "R0039",
+              "R0045"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "One found it less than comfortable; two described sagging and backaches."
+          },
+          {
+            "claim": "Many other guests found the bed comfortable through 2026.",
+            "verdict": "unsupported",
+            "supporting_review_ids": [
+              "R0006",
+              "R0011",
+              "R0016",
+              "R0021",
+              "R0035",
+              "R0041",
+              "R0055",
+              "R0066"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Many reviews do praise the bed, but the last explicit bed-comfort praise is in 2021. R0092 calls the bed immaculate, and R0107 and R0112 describe the space or stay as comfortable, not the mattress."
+          },
+          {
+            "claim": "Cleanliness is praised across years.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0001",
+              "R0023",
+              "R0070",
+              "R0093",
+              "R0112"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Guests repeatedly describe the accommodation as clean or spotless."
+          },
+          {
+            "claim": "Value is praised across years.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0001",
+              "R0028",
+              "R0071",
+              "R0088",
+              "R0113"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Early and recent reviews explicitly praise the price relative to the accommodation."
+          },
+          {
+            "claim": "Location is praised across years.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0002",
+              "R0027",
+              "R0052",
+              "R0097",
+              "R0103"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Recurring positives include scenery and convenient access to Asheville attractions."
+          },
+          {
+            "claim": "Hosts are generally praised for responsiveness across years.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0004",
+              "R0013",
+              "R0033",
+              "R0087",
+              "R0112",
+              "R0113"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Quick replies and easy communication recur. Complaints about the tone of replies are not evidence that replies were slow."
+          },
+          {
+            "claim": "Plumbing complaints were isolated in the 2017–2019 period.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0041"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "One 2019 reviewer reported weak water pressure and a backed-up toilet."
+          },
+          {
+            "claim": "There were isolated complaints about host behavior in 2017–2019.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0029",
+              "R0039",
+              "R0041"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "These reports concern an unwelcoming interaction, a refused partial refund, and perceived blame and abrupt checkout messaging."
+          },
+          {
+            "claim": "Current conditions are unknown.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0112",
+              "R0113",
+              "R0114"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Read as a qualification about conditions at the cutoff, this is fair: the latest inputs describe individual stays and do not establish subsequent conditions."
+          }
+        ],
+        "input_concern_coverage": [
+          {
+            "concern": "Guest entrance reportedly cannot be secured",
+            "review_ids": [
+              "R0005",
+              "R0008",
+              "R0010",
+              "R0094",
+              "R0096",
+              "R0098",
+              "R0100",
+              "R0102",
+              "R0106",
+              "R0108",
+              "R0109",
+              "R0111",
+              "R0114"
+            ],
+            "mentioned": true,
+            "understated": false
+          },
+          {
+            "concern": "Unsecured interior or garage access",
+            "review_ids": [
+              "R0045"
+            ],
+            "mentioned": true,
+            "understated": false
+          },
+          {
+            "concern": "Limited window privacy and light control",
+            "review_ids": [
+              "R0005",
+              "R0010",
+              "R0045"
+            ],
+            "mentioned": true,
+            "understated": true
+          },
+          {
+            "concern": "Steep or uneven access from parking",
+            "review_ids": [
+              "R0029",
+              "R0042",
+              "R0054",
+              "R0089"
+            ],
+            "mentioned": true,
+            "understated": false
+          },
+          {
+            "concern": "Narrow passage to the guest door, especially with luggage",
+            "review_ids": [
+              "R0042",
+              "R0073"
+            ],
+            "mentioned": false,
+            "understated": true
+          },
+          {
+            "concern": "Muddy parking, confusing navigation or difficult mountain drive",
+            "review_ids": [
+              "R0004",
+              "R0008",
+              "R0029",
+              "R0081"
+            ],
+            "mentioned": true,
+            "understated": true
+          },
+          {
+            "concern": "Audible footsteps overhead",
+            "review_ids": [
+              "R0029",
+              "R0042"
+            ],
+            "mentioned": true,
+            "understated": false
+          },
+          {
+            "concern": "Uncomfortable or sagging bed causing backaches",
+            "review_ids": [
+              "R0031",
+              "R0039",
+              "R0045"
+            ],
+            "mentioned": true,
+            "understated": true
+          },
+          {
+            "concern": "Cool basement and limited guest temperature control, sometimes mitigated by blankets or a heater",
+            "review_ids": [
+              "R0003",
+              "R0041",
+              "R0042",
+              "R0049",
+              "R0076"
+            ],
+            "mentioned": false,
+            "understated": true
+          },
+          {
+            "concern": "Weak water pressure and toilet backup",
+            "review_ids": [
+              "R0041"
+            ],
+            "mentioned": true,
+            "understated": false
+          },
+          {
+            "concern": "Host demeanor and handling of guest disputes",
+            "review_ids": [
+              "R0029",
+              "R0039",
+              "R0041"
+            ],
+            "mentioned": true,
+            "understated": false
+          },
+          {
+            "concern": "Isolated supply shortfalls or patio differing from photos",
+            "review_ids": [
+              "R0042",
+              "R0049"
+            ],
+            "mentioned": false,
+            "understated": true
+          },
+          {
+            "concern": "Spiders seen in bathroom",
+            "review_ids": [
+              "R0039"
+            ],
+            "mentioned": false,
+            "understated": true
+          },
+          {
+            "concern": "Basic space better suited to a short stop than spending extended time indoors",
+            "review_ids": [
+              "R0005",
+              "R0073",
+              "R0074",
+              "R0079"
+            ],
+            "mentioned": false,
+            "understated": true
+          }
+        ],
+        "contradiction_score": 1,
+        "prevalence_score": 2,
+        "temporal_score": 1,
+        "notes": "Within the target length. The summary appropriately distinguishes ten repeated texts from ten established independent experiences and does not claim a verified ongoing defect. The most useful corrections are to distinguish visual privacy from separate access, acknowledge the 2019 coded-entry report without treating it as proof of repair, and avoid dating mattress-specific praise to 2026. Temperature control is the clearest recurring omission."
+      },
+      "raw_response": "{\n  \"claims\": [\n    {\n      \"claim\": \"Guest reports are mixed.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0029\", \"R0041\", \"R0045\", \"R0088\", \"R0112\", \"R0114\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"There is substantial praise alongside specific complaints, sometimes within the same review. Mixed does not mean evenly divided.\"\n    },\n    {\n      \"claim\": \"Guest-entrance security is the most serious reported concern.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0005\", \"R0010\", \"R0094\", \"R0114\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"This is a defensible safety-based prioritization, not a measured ranking by guests.\"\n    },\n    {\n      \"claim\": \"Reports of an unlocked or insecure guest entrance recur from 2015 through August 2026.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0005\", \"R0008\", \"R0010\", \"R0094\", \"R0096\", \"R0098\", \"R0100\", \"R0102\", \"R0106\", \"R0108\", \"R0109\", \"R0111\", \"R0114\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"The endpoints and recurrence are accurate. This is not a continuous record: R0046 describes coded entry in 2019 but does not establish whether guests could secure the door.\"\n    },\n    {\n      \"claim\": \"One review reports unsecured access from upstairs or the garage.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0045\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"The reviewer distinguishes those access points from the exterior guest entrance.\"\n    },\n    {\n      \"claim\": \"Ten security reviews in 2025–2026 have identical wording.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0094\", \"R0096\", \"R0098\", \"R0100\", \"R0102\", \"R0106\", \"R0108\", \"R0109\", \"R0111\", \"R0114\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Five entries in each year repeat the same sentence verbatim.\"\n    },\n    {\n      \"claim\": \"The ten identically worded entries may not be independent accounts.\",\n      \"verdict\": \"uncertain\",\n      \"supporting_review_ids\": [\"R0094\", \"R0096\", \"R0098\", \"R0100\", \"R0102\", \"R0106\", \"R0108\", \"R0109\", \"R0111\", \"R0114\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"The repetition warrants caution about independence; the text establishes neither dependence nor independence.\"\n    },\n    {\n      \"claim\": \"No host fix or current lock status is verified.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0046\", \"R0114\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"There is a coded-entry report and a much later insecurity report, but no documented repair or confirmation of how the lock functions at the cutoff.\"\n    },\n    {\n      \"claim\": \"Guests in 2017–2024 describe physically demanding access involving steep or uneven ground and an uphill walk.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0029\", \"R0042\", \"R0054\", \"R0081\", \"R0089\"],\n      \"contradicting_review_ids\": [\"R0027\", \"R0088\"],\n      \"reason\": \"Several guests describe the terrain; R0089 specifically identifies the walk from parking as challenging for older people. Others found parking easy, so the difficulty is not universal.\"\n    },\n    {\n      \"claim\": \"Some early guests were only mildly bothered by the unlocked entrance.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0005\", \"R0008\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"R0008 says one traveler was bothered a bit and the other was fine; R0005 says the caveat did not bother them.\"\n    },\n    {\n      \"claim\": \"Guests complained about window coverings in 2015–2019.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0005\", \"R0010\", \"R0045\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"The complaints concern sightlines and, in R0045, the inability of a sheer to block morning light.\"\n    },\n    {\n      \"claim\": \"Praise for privacy and the private entrance conflicts with the window-covering complaints.\",\n      \"verdict\": \"unsupported\",\n      \"supporting_review_ids\": [],\n      \"contradicting_review_ids\": [\"R0005\"],\n      \"reason\": \"Overall privacy impressions differ, but separate access and visual privacy are distinct. R0005 explicitly praises the private entrance while noting the absence of blinds; R0035 praises privacy without addressing window coverings.\"\n    },\n    {\n      \"claim\": \"Guests reported overhead host noise in 2017 and 2019.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0029\", \"R0042\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Both specifically describe footsteps from above.\"\n    },\n    {\n      \"claim\": \"Other guests, including recent guests, found the property quiet.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0032\", \"R0075\", \"R0088\", \"R0103\", \"R0107\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"R0088 expressly calls the house quiet in 2024. These impressions do not negate the two overhead-noise incidents.\"\n    },\n    {\n      \"claim\": \"A few guests criticized the bed in 2018–2019.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0031\", \"R0039\", \"R0045\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"One found it less than comfortable; two described sagging and backaches.\"\n    },\n    {\n      \"claim\": \"Many other guests found the bed comfortable through 2026.\",\n      \"verdict\": \"unsupported\",\n      \"supporting_review_ids\": [\"R0006\", \"R0011\", \"R0016\", \"R0021\", \"R0035\", \"R0041\", \"R0055\", \"R0066\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Many reviews do praise the bed, but the last explicit bed-comfort praise is in 2021. R0092 calls the bed immaculate, and R0107 and R0112 describe the space or stay as comfortable, not the mattress.\"\n    },\n    {\n      \"claim\": \"Cleanliness is praised across years.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0001\", \"R0023\", \"R0070\", \"R0093\", \"R0112\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Guests repeatedly describe the accommodation as clean or spotless.\"\n    },\n    {\n      \"claim\": \"Value is praised across years.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0001\", \"R0028\", \"R0071\", \"R0088\", \"R0113\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Early and recent reviews explicitly praise the price relative to the accommodation.\"\n    },\n    {\n      \"claim\": \"Location is praised across years.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0002\", \"R0027\", \"R0052\", \"R0097\", \"R0103\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Recurring positives include scenery and convenient access to Asheville attractions.\"\n    },\n    {\n      \"claim\": \"Hosts are generally praised for responsiveness across years.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0004\", \"R0013\", \"R0033\", \"R0087\", \"R0112\", \"R0113\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Quick replies and easy communication recur. Complaints about the tone of replies are not evidence that replies were slow.\"\n    },\n    {\n      \"claim\": \"Plumbing complaints were isolated in the 2017–2019 period.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0041\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"One 2019 reviewer reported weak water pressure and a backed-up toilet.\"\n    },\n    {\n      \"claim\": \"There were isolated complaints about host behavior in 2017–2019.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0029\", \"R0039\", \"R0041\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"These reports concern an unwelcoming interaction, a refused partial refund, and perceived blame and abrupt checkout messaging.\"\n    },\n    {\n      \"claim\": \"Current conditions are unknown.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0112\", \"R0113\", \"R0114\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Read as a qualification about conditions at the cutoff, this is fair: the latest inputs describe individual stays and do not establish subsequent conditions.\"\n    }\n  ],\n  \"input_concern_coverage\": [\n    {\"concern\":\"Guest entrance reportedly cannot be secured\",\"review_ids\":[\"R0005\",\"R0008\",\"R0010\",\"R0094\",\"R0096\",\"R0098\",\"R0100\",\"R0102\",\"R0106\",\"R0108\",\"R0109\",\"R0111\",\"R0114\"],\"mentioned\":true,\"understated\":false},\n    {\"concern\":\"Unsecured interior or garage access\",\"review_ids\":[\"R0045\"],\"mentioned\":true,\"understated\":false},\n    {\"concern\":\"Limited window privacy and light control\",\"review_ids\":[\"R0005\",\"R0010\",\"R0045\"],\"mentioned\":true,\"understated\":true},\n    {\"concern\":\"Steep or uneven access from parking\",\"review_ids\":[\"R0029\",\"R0042\",\"R0054\",\"R0089\"],\"mentioned\":true,\"understated\":false},\n    {\"concern\":\"Narrow passage to the guest door, especially with luggage\",\"review_ids\":[\"R0042\",\"R0073\"],\"mentioned\":false,\"understated\":true},\n    {\"concern\":\"Muddy parking, confusing navigation or difficult mountain drive\",\"review_ids\":[\"R0004\",\"R0008\",\"R0029\",\"R0081\"],\"mentioned\":true,\"understated\":true},\n    {\"concern\":\"Audible footsteps overhead\",\"review_ids\":[\"R0029\",\"R0042\"],\"mentioned\":true,\"understated\":false},\n    {\"concern\":\"Uncomfortable or sagging bed causing backaches\",\"review_ids\":[\"R0031\",\"R0039\",\"R0045\"],\"mentioned\":true,\"understated\":true},\n    {\"concern\":\"Cool basement and limited guest temperature control, sometimes mitigated by blankets or a heater\",\"review_ids\":[\"R0003\",\"R0041\",\"R0042\",\"R0049\",\"R0076\"],\"mentioned\":false,\"understated\":true},\n    {\"concern\":\"Weak water pressure and toilet backup\",\"review_ids\":[\"R0041\"],\"mentioned\":true,\"understated\":false},\n    {\"concern\":\"Host demeanor and handling of guest disputes\",\"review_ids\":[\"R0029\",\"R0039\",\"R0041\"],\"mentioned\":true,\"understated\":false},\n    {\"concern\":\"Isolated supply shortfalls or patio differing from photos\",\"review_ids\":[\"R0042\",\"R0049\"],\"mentioned\":false,\"understated\":true},\n    {\"concern\":\"Spiders seen in bathroom\",\"review_ids\":[\"R0039\"],\"mentioned\":false,\"understated\":true},\n    {\"concern\":\"Basic space better suited to a short stop than spending extended time indoors\",\"review_ids\":[\"R0005\",\"R0073\",\"R0074\",\"R0079\"],\"mentioned\":false,\"understated\":true}\n  ],\n  \"contradiction_score\": 1,\n  \"prevalence_score\": 2,\n  \"temporal_score\": 1,\n  \"notes\": \"Within the target length. The summary appropriately distinguishes ten repeated texts from ten established independent experiences and does not claim a verified ongoing defect. The most useful corrections are to distinguish visual privacy from separate access, acknowledge the 2019 coded-entry report without treating it as proof of repair, and avoid dating mattress-specific praise to 2026. Temperature control is the clearest recurring omission.\"\n}",
+      "request_id": "resp_059aae557612b4ef006b01f35270b887d1bd67bccac6f61dcf",
+      "usage": {
+        "model_returned": "gpt-6.2-astra",
+        "input_tokens": 9567,
+        "output_tokens": 2900,
+        "output_token_details": {
+          "reasoning_tokens": 55
+        }
+      }
+    }
+  },
+  "status": "complete"
+}

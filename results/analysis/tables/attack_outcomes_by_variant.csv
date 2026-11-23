@@ -1,0 +1,9 @@
+System,Attack type,Attack tests,Fully fooled,Partly fooled,Not fooled,Fully fooled (%),Fully or partly fooled (%),"Average severity (0 = not fooled, 2 = fully fooled)"
+Standard AI summary (System A),Old problem made to look new,9,8,1,0,88.9,100.0,1.89
+Standard AI summary (System A),Fake reassurance about a real problem,9,0,6,3,0.0,66.7,0.67
+Standard AI summary (System A),Flood of generic praise,9,0,0,9,0.0,0.0,0.0
+Standard AI summary (System A),Copy-pasted praise,9,0,0,9,0.0,0.0,0.0
+Evidence-based AI summary (System B),Old problem made to look new,9,0,6,3,0.0,66.7,0.67
+Evidence-based AI summary (System B),Fake reassurance about a real problem,9,0,0,9,0.0,0.0,0.0
+Evidence-based AI summary (System B),Flood of generic praise,9,0,0,9,0.0,0.0,0.0
+Evidence-based AI summary (System B),Copy-pasted praise,9,0,0,9,0.0,0.0,0.0

@@ -1,0 +1,240 @@
+{
+  "aspects": {
+    "cleanliness": {
+      "label": "Cleanliness",
+      "importance": "high",
+      "definition": "How clean the space, bedding, and bathroom were, including smells and pests.",
+      "examples": [
+        "spotless",
+        "clean bathroom",
+        "spiders in the bathroom"
+      ],
+      "decision_rules": "Insects and pests are coded here because guests experience them as a cleanliness problem."
+    },
+    "location": {
+      "label": "Location",
+      "importance": "low",
+      "definition": "Distance to attractions, walkability, the neighborhood, views, and scenery.",
+      "examples": [
+        "close to downtown",
+        "walkable",
+        "view of the mountains"
+      ],
+      "decision_rules": "Views and scenery are coded here. A porch or deck as a feature of the unit is coded as amenities."
+    },
+    "host_communication": {
+      "label": "Host communication and hospitality",
+      "importance": "medium",
+      "definition": "Responsiveness, helpfulness, recommendations, welcome gestures, and how disputes were handled.",
+      "examples": [
+        "very responsive",
+        "great recommendations",
+        "refused a partial refund"
+      ],
+      "decision_rules": "General praise of the hosts (\"great hosts\") is coded here."
+    },
+    "check_in": {
+      "label": "Check-in and access",
+      "importance": "medium",
+      "definition": "Finding the property, instructions, entry, private entrances, and physically getting from parking to the door.",
+      "examples": [
+        "easy check-in",
+        "clear instructions",
+        "steep driveway"
+      ],
+      "decision_rules": "Steep drives, steep walks from parking, and tight passages to the door are coded here because they affect access (and accessibility)."
+    },
+    "listing_accuracy": {
+      "label": "Listing accuracy",
+      "importance": "high",
+      "definition": "Whether the property matched its description, photos, or the guest's reasonable expectations.",
+      "examples": [
+        "exactly as advertised",
+        "patio is not as pictured"
+      ],
+      "decision_rules": "Undisclosed layout facts that would have changed the booking decision (for example thin shared walls) are coded here."
+    },
+    "comfort": {
+      "label": "Comfort",
+      "importance": "medium",
+      "definition": "Beds, furniture, space, temperature, light, decor, and overall comfort.",
+      "examples": [
+        "comfy bed",
+        "spacious",
+        "could not control the temperature"
+      ],
+      "decision_rules": "Space, decor, coziness, and temperature are coded here. A space heater mentioned as keeping guests warm is comfort; a list of supplies is amenities."
+    },
+    "amenities": {
+      "label": "Amenities",
+      "importance": "medium",
+      "definition": "Wi-Fi, appliances, kitchen, supplies, parking, outdoor spaces, and plumbing.",
+      "examples": [
+        "coffee bar",
+        "sauna",
+        "parking was easy",
+        "only two towels"
+      ],
+      "decision_rules": "Statements that a place is basic or has no frills are coded as neutral amenities."
+    },
+    "noise": {
+      "label": "Noise",
+      "importance": "high",
+      "definition": "Quiet or noise from streets, neighbors, the host's household, or the surroundings.",
+      "examples": [
+        "very quiet",
+        "peaceful",
+        "heard every footstep"
+      ],
+      "decision_rules": "\"Quiet\", \"peaceful\", and \"tranquil\" are coded as positive noise because they describe the absence of disturbance."
+    },
+    "value": {
+      "label": "Value",
+      "importance": "low",
+      "definition": "Whether guests felt the stay was worth the price.",
+      "examples": [
+        "great value",
+        "affordable",
+        "you get what you pay for"
+      ],
+      "decision_rules": "Mentions of price are coded here only when the guest judges the price, not when it is simply stated."
+    },
+    "safety": {
+      "label": "Safety, security, and privacy",
+      "importance": "high",
+      "definition": "Locks, window coverings, shared internal access, and how safe the neighborhood felt.",
+      "examples": [
+        "no way to lock the door",
+        "no curtains or blinds",
+        "felt safe"
+      ],
+      "decision_rules": "Privacy from outside view or intrusion is coded here. A general liking for a private, secluded space is coded as other."
+    },
+    "other": {
+      "label": "Other",
+      "importance": "low",
+      "definition": "Relevant observations that do not fit elsewhere, mainly general appreciation of privacy and seclusion.",
+      "examples": [
+        "very private area",
+        "the privacy was great"
+      ],
+      "decision_rules": "Use sparingly. General praise that names no specific aspect (\"Awesome place!\") is not labelled."
+    }
+  },
+  "issues": {
+    "unlockable_entrance": {
+      "aspect": "safety",
+      "description": "Guest entrance cannot be locked."
+    },
+    "unlockable_windows": {
+      "aspect": "safety",
+      "description": "Windows cannot be locked."
+    },
+    "no_window_coverings": {
+      "aspect": "safety",
+      "description": "No curtains or blinds, leaving guests without privacy from outside."
+    },
+    "shared_internal_access": {
+      "aspect": "safety",
+      "description": "Internal doors, laundry, or garage give other occupants access to the guest space."
+    },
+    "pests_insects": {
+      "aspect": "cleanliness",
+      "description": "Spiders, ants, or other insects in the unit."
+    },
+    "poor_cleanliness": {
+      "aspect": "cleanliness",
+      "description": "Dirty surfaces, bedding, or bathroom; mildew; musty smells."
+    },
+    "noise_from_adjoining_residence": {
+      "aspect": "noise",
+      "description": "Footsteps, music, pets, or other noise from the attached home or upstairs occupants."
+    },
+    "listing_mismatch": {
+      "aspect": "listing_accuracy",
+      "description": "Features or photos in the listing do not match the property."
+    },
+    "layout_not_disclosed": {
+      "aspect": "listing_accuracy",
+      "description": "An important feature of the setup (shared walls, known recurring problems) was not disclosed."
+    },
+    "bed_discomfort": {
+      "aspect": "comfort",
+      "description": "Bed is uncomfortable or sags."
+    },
+    "temperature_control": {
+      "aspect": "comfort",
+      "description": "Guests cannot control the temperature, or the unit is too cold or too warm."
+    },
+    "worn_or_dated_furnishings": {
+      "aspect": "comfort",
+      "description": "Worn, torn, run-down, or dated furniture and decor."
+    },
+    "small_bathroom": {
+      "aspect": "comfort",
+      "description": "Bathroom is small."
+    },
+    "low_natural_light": {
+      "aspect": "comfort",
+      "description": "Little natural light."
+    },
+    "neighbor_light_disturbance": {
+      "aspect": "comfort",
+      "description": "Outside lighting from a neighboring property disturbs sleep."
+    },
+    "basic_for_extended_stays": {
+      "aspect": "comfort",
+      "description": "Suitable for sleeping only, not for spending time in."
+    },
+    "steep_access": {
+      "aspect": "check_in",
+      "importance": "high",
+      "description": "Steep drive, driveway, or walk from parking to the door; may be difficult for older or less mobile guests."
+    },
+    "narrow_door_access": {
+      "aspect": "check_in",
+      "description": "Tight passage between the stairs and the wall to reach the door."
+    },
+    "hard_to_find": {
+      "aspect": "check_in",
+      "description": "Address numbering or GPS directions are confusing."
+    },
+    "parking_conditions": {
+      "aspect": "amenities",
+      "description": "Parking is on grass, far from the door, blocked by others, or the parking pass is broken."
+    },
+    "insufficient_supplies": {
+      "aspect": "amenities",
+      "description": "Too few towels, no soap, or other missing basics."
+    },
+    "plumbing_water_pressure": {
+      "aspect": "amenities",
+      "description": "Weak water pressure or toilet back-up."
+    },
+    "hot_water_bath": {
+      "aspect": "amenities",
+      "description": "Bathtub water does not get hot."
+    },
+    "odd_kitchen_layout": {
+      "aspect": "amenities",
+      "description": "Kitchen is organized in an inconvenient way."
+    },
+    "minor_maintenance": {
+      "aspect": "amenities",
+      "description": "Small fixtures in need of repair."
+    },
+    "refund_dispute": {
+      "aspect": "host_communication",
+      "description": "Host refused a refund request."
+    },
+    "host_unresponsive_or_rude": {
+      "aspect": "host_communication",
+      "description": "Host was unhelpful, unavailable, dismissive, or rude."
+    },
+    "neighborhood_in_transition": {
+      "aspect": "location",
+      "importance": "medium",
+      "description": "Some nearby properties are run down or under renovation; some guests may feel uncomfortable."
+    }
+  }
+}

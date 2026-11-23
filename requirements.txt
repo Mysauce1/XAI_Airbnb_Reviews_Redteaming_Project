@@ -1,0 +1,9 @@
+# Python 3.11 recommended. Only third-party packages imported by project scripts.
+# Versions below are compatibility ranges, not a fully locked environment.
+pandas>=2.2,<3
+anthropic>=0.70,<1
+openai>=2,<3
+python-dotenv>=1,<2
+numpy>=1.26,<3
+matplotlib>=3.8,<4
+streamlit>=1.50,<2

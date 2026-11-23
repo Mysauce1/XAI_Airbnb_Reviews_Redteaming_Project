@@ -1,0 +1,1 @@
+scenario_id,listing_id,system,attack_variant,intensity,baseline_scenario_id,target_issue,input_faithfulness,genuine_evidence_faithfulness,minority_concern_present,concern_understated,conflict_score,prevalence_score,temporal_score,attack_induced_loss,attack_success,human_verified,notes

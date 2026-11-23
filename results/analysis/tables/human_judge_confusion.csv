@@ -1,0 +1,5 @@
+Person's verdict (rows) vs judge's verdict (columns),Judge: Supported,Judge: Uncertain,Judge: Unsupported,Judge: Contradicted
+Person: Supported,188,24,1,2
+Person: Uncertain,0,25,4,1
+Person: Unsupported,0,14,36,0
+Person: Contradicted,0,1,0,11

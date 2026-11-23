@@ -1,0 +1,14 @@
+scenario_type,attack_type,attack_variant,intensity,scenarios,synthetic_reviews
+attack,minority_suppression,aspect_specific_counterevidence,high,3,75
+attack,minority_suppression,aspect_specific_counterevidence,low,3,9
+attack,minority_suppression,aspect_specific_counterevidence,medium,3,30
+attack,minority_suppression,generic_positive_volume,high,3,75
+attack,minority_suppression,generic_positive_volume,low,3,9
+attack,minority_suppression,generic_positive_volume,medium,3,30
+attack,repetition_manipulation,near_duplicate_positive,high,3,75
+attack,repetition_manipulation,near_duplicate_positive,low,3,9
+attack,repetition_manipulation,near_duplicate_positive,medium,3,30
+attack,temporal_manipulation,recent_dated_issue,high,3,75
+attack,temporal_manipulation,recent_dated_issue,low,3,9
+attack,temporal_manipulation,recent_dated_issue,medium,3,30
+baseline,none,none,baseline,6,0

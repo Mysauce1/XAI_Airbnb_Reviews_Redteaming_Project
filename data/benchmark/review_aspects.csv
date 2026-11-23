@@ -1,0 +1,909 @@
+listing_id,review_id,review_set,date,review_year,period,aspect,sentiment,issues,evidence
+660702,71178185,challenge,2016-04-24,2016,historical,cleanliness,negative,pests_insects; poor_cleanliness,"This place is filthy, disgusting, and unsuitable for vacation. | The bed was so gross I put my shirt over the pillow to put my head down. | The bathroom looked like it hadn't been cleaned in a decade. | The shower was filthy with mildew on everything. | There were dead bugs on the towels, live bugs on the walls, spiders in and around the bed."
+660702,71178185,challenge,2016-04-24,2016,historical,listing_accuracy,negative,listing_mismatch,The photos are misleading.
+660702,71178185,challenge,2016-04-24,2016,historical,comfort,negative,worn_or_dated_furnishings,There is a torn leather couch with a sheet over it.
+660702,84279964,challenge,2016-07-06,2016,historical,cleanliness,negative,poor_cleanliness,Dark and musty. The couch smells like mildew and seemed possibly wet?
+660702,84279964,challenge,2016-07-06,2016,historical,location,negative,,"It's about a mile from downtown, and not bike friendly at all."
+660702,84279964,challenge,2016-07-06,2016,historical,host_communication,negative,host_unresponsive_or_rude,"Brady wasn't a good host. | He also said he'd be out of reach for the weekend, and if I needed something to call his friend instead."
+660702,84279964,challenge,2016-07-06,2016,historical,comfort,negative,bed_discomfort; temperature_control; worn_or_dated_furnishings,Run down and really dark/dingy. | The bed was the worst. | There isn't a way to control the heat/cold.
+660702,84279964,challenge,2016-07-06,2016,historical,amenities,negative,parking_conditions,"The upstairs people's friend parked in the driveway, meaning we had to ask them to move."
+660702,84279964,challenge,2016-07-06,2016,historical,value,negative,,"But for $150 a night, we could have found a cheap hotel within a short walk of downtown."
+660702,84279964,challenge,2016-07-06,2016,historical,safety,negative,shared_internal_access,Meaning you could go into the above house and back from this place. That's not safe at all.
+660702,245509147,challenge,2018-03-22,2018,historical,location,positive,,The main selling point to this home is the location. | We were within walking distance from many places and the area was really beautiful.
+660702,245509147,challenge,2018-03-22,2018,historical,listing_accuracy,negative,listing_mismatch,it is not as private as described
+660702,245509147,challenge,2018-03-22,2018,historical,comfort,positive,,it is a comfortable place to stay
+660702,245509147,challenge,2018-03-22,2018,historical,amenities,neutral,,this place isn't exactly like a hotel so don't expect extra hotel style amenities
+660702,245509147,challenge,2018-03-22,2018,historical,safety,negative,shared_internal_access,"there is a shared laundry room that an upstairs tenant has access to, which CAN be locked but was not when we arrived"
+660702,344060517,challenge,2018-11-02,2018,historical,location,positive,,Brady's place is in a great location
+660702,344060517,challenge,2018-11-02,2018,historical,comfort,mixed,worn_or_dated_furnishings,It's kind of outdated | Bed is comfortable
+660702,344060517,challenge,2018-11-02,2018,historical,amenities,neutral,,there's no TV which is specified in the listing
+660702,344060517,challenge,2018-11-02,2018,historical,noise,negative,noise_from_adjoining_residence,I wish I had a television to drown out the noise of the people who lived upstairs. | The floors are very thin and I heard every footstep until past midnight.
+660702,344060517,challenge,2018-11-02,2018,historical,value,mixed,,cheaply priced but you get what you pay for
+660702,63601695,representative,2016-02-24,2016,historical,host_communication,positive,,Opened the studio up for us last minute.
+660702,65097420,representative,2016-03-10,2016,historical,location,positive,,A $5 uber ride downtown made all the breweries easily accessible.
+660702,65097420,representative,2016-03-10,2016,historical,host_communication,positive,,"He gave us our privacy, but was also available if we had any questions."
+660702,68587249,representative,2016-04-05,2016,historical,host_communication,positive,,Brady was very responsive to communications which was appreciated.
+660702,68587249,representative,2016-04-05,2016,historical,listing_accuracy,positive,,The place was as expected
+660702,68587249,representative,2016-04-05,2016,historical,amenities,positive,,"nothing glamorous but did have useful amenities that we needed including washer/dryer, a kitchen, and a parking space"
+660702,69764160,representative,2016-04-13,2016,historical,cleanliness,positive,,"The apartment was very quiet, clean and comfortable."
+660702,69764160,representative,2016-04-13,2016,historical,location,positive,,Great location! | Super close to downtown Asheville and all it has to offer.
+660702,69764160,representative,2016-04-13,2016,historical,comfort,positive,,"The apartment was very quiet, clean and comfortable."
+660702,69764160,representative,2016-04-13,2016,historical,noise,positive,,"The apartment was very quiet, clean and comfortable."
+660702,80837993,representative,2016-06-20,2016,historical,cleanliness,positive,,The studio was very clean
+660702,80837993,representative,2016-06-20,2016,historical,location,positive,,very close to downtown
+660702,80837993,representative,2016-06-20,2016,historical,host_communication,positive,,Brady had kept everything ready for us.
+660702,80837993,representative,2016-06-20,2016,historical,noise,positive,,The neighborhood was quiet
+660702,80837993,representative,2016-06-20,2016,historical,safety,positive,,it looked very safe
+660702,89891264,representative,2016-07-30,2016,historical,location,positive,,Fine place right outside of asheville.
+660702,106495205,representative,2016-10-06,2016,historical,cleanliness,positive,,The place was very clean and spacious.
+660702,106495205,representative,2016-10-06,2016,historical,location,positive,,The neighborhood is super cute and is close to downtown.
+660702,106495205,representative,2016-10-06,2016,historical,comfort,positive,,The place was very clean and spacious.
+660702,123936489,representative,2016-12-31,2016,historical,listing_accuracy,positive,,Exactly as advertised
+660702,123936489,representative,2016-12-31,2016,historical,value,positive,,great value
+660702,161782897,representative,2017-06-18,2017,historical,cleanliness,positive,,very clean
+660702,161782897,representative,2017-06-18,2017,historical,location,positive,,It was only a 4-5 dollar uber ride to downtown
+660702,161782897,representative,2017-06-18,2017,historical,check_in,positive,,checking in was extremely easy
+660702,161782897,representative,2017-06-18,2017,historical,listing_accuracy,positive,,The space was just as advertised
+660702,173070034,representative,2017-07-22,2017,historical,host_communication,positive,,Brady will also do a good job communicating with you if you have any questions or if something comes up
+660702,173070034,representative,2017-07-22,2017,historical,comfort,positive,,The flat is very cozy
+660702,173070034,representative,2017-07-22,2017,historical,value,positive,,"The price is very reasonable for what is provided, and honestly probably the best deal you can find"
+660702,180161575,representative,2017-08-09,2017,historical,cleanliness,positive,,It was very clean
+660702,180161575,representative,2017-08-09,2017,historical,location,positive,,very close to downtown which it was very convenient
+660702,180161575,representative,2017-08-09,2017,historical,amenities,positive,,wifi was fast
+660702,183564642,representative,2017-08-17,2017,historical,location,positive,,Easy to get to from the highway and close to downtown.
+660702,183564642,representative,2017-08-17,2017,historical,check_in,positive,,It was nice to have our own access and parking.
+660702,183564642,representative,2017-08-17,2017,historical,amenities,positive,,It was nice to have our own access and parking.
+660702,200212315,representative,2017-10-04,2017,historical,cleanliness,positive,,Quiet and clean.
+660702,200212315,representative,2017-10-04,2017,historical,location,positive,,Great location.
+660702,200212315,representative,2017-10-04,2017,historical,noise,positive,,Quiet and clean.
+660702,209149023,representative,2017-11-04,2017,historical,location,positive,,Brady's place was in a good location. | Very close to a grocery store and restaurants.
+660702,209149023,representative,2017-11-04,2017,historical,comfort,negative,worn_or_dated_furnishings,"The place itself has a very ""fraternity"" feel. | The furniture is worn."
+660702,209149023,representative,2017-11-04,2017,historical,amenities,negative,odd_kitchen_layout,The kitchen is organized very oddly.
+660702,209149023,representative,2017-11-04,2017,historical,noise,positive,,We could not hear him upstairs.
+660702,209551936,representative,2017-11-05,2017,historical,location,positive,,Great location
+660702,209551936,representative,2017-11-05,2017,historical,check_in,positive,,easy check in in & out
+660702,209551936,representative,2017-11-05,2017,historical,other,positive,,private space
+660702,222767489,representative,2017-12-30,2017,historical,location,positive,,Great location and price.
+660702,222767489,representative,2017-12-30,2017,historical,comfort,positive,,Much bigger than a traditional studio apartment. | The bed is very comfortable.
+660702,222767489,representative,2017-12-30,2017,historical,value,positive,,Great location and price.
+660702,227588184,representative,2018-01-15,2018,historical,location,positive,,a great location
+660702,227588184,representative,2018-01-15,2018,historical,comfort,positive,,Very comfortable
+660702,236115265,representative,2018-02-18,2018,historical,location,positive,,Great place in a great location close to downtown.
+660702,236515655,representative,2018-02-19,2018,historical,comfort,positive,,comfortable bed!
+660702,236515655,representative,2018-02-19,2018,historical,amenities,positive,,Great water pressure
+660702,240638001,representative,2018-03-05,2018,historical,location,positive,,Great location!
+660702,240638001,representative,2018-03-05,2018,historical,amenities,neutral,,nothing fancy but gets the job done
+660702,240638001,representative,2018-03-05,2018,historical,value,positive,,This place is perfect for anyone looking for a budget rental
+660702,279085872,representative,2018-06-19,2018,historical,location,positive,,incredibly conveniently located to downtown
+660702,279085872,representative,2018-06-19,2018,historical,amenities,neutral,,Nice if fairly spartan space
+660702,280584059,representative,2018-06-23,2018,historical,location,positive,,"Brady's place is in a prime location, minutes from downtown Asheville"
+660702,280584059,representative,2018-06-23,2018,historical,host_communication,positive,,is an accommodating host!
+660702,294153911,representative,2018-07-21,2018,historical,location,positive,,Ideal location- only a $7 Uber to downtown.
+660702,294153911,representative,2018-07-21,2018,historical,comfort,positive,,Apartment was big
+660702,294153911,representative,2018-07-21,2018,historical,amenities,positive,,"had some nice little ""extras"" like shampoo and conditioner"
+660702,294153911,representative,2018-07-21,2018,historical,noise,positive,,could not hear any noise from upstairs tenants
+660702,294153911,representative,2018-07-21,2018,historical,other,positive,,Very private
+660702,304000207,representative,2018-08-08,2018,historical,location,positive,,It was a quick Uber to downtown.
+660702,332539363,representative,2018-10-05,2018,historical,location,positive,,Great location.
+660702,332539363,representative,2018-10-05,2018,historical,host_communication,positive,,Great hospitality.
+660702,358486715,representative,2018-12-14,2018,historical,cleanliness,positive,,Clean place.
+660702,358486715,representative,2018-12-14,2018,historical,location,positive,,Super close to downtown.
+660702,358486715,representative,2018-12-14,2018,historical,check_in,positive,,Easy check-in!
+660702,409379364,representative,2019-02-07,2019,historical,location,positive,,Great location.
+660702,409379364,representative,2019-02-07,2019,historical,check_in,positive,,Easy to find
+660702,409379364,representative,2019-02-07,2019,historical,comfort,positive,,Relaxing and rustic.
+660702,409379364,representative,2019-02-07,2019,historical,amenities,positive,,private parking !
+660702,411206881,representative,2019-02-11,2019,historical,location,positive,,"Great location, not far from downtown, with amenities nearby as well."
+660702,411206881,representative,2019-02-11,2019,historical,host_communication,positive,,the host was accessible and even saved the day by providing me with some toothpaste that I had forgotten to bring!
+660702,411206881,representative,2019-02-11,2019,historical,listing_accuracy,positive,,The listing is accurate
+660702,411206881,representative,2019-02-11,2019,historical,amenities,positive,,"the coffee / tea / hot cocoa bar - it's adorable! | shampoo, conditioner, and soap already provided!"
+660702,411206881,representative,2019-02-11,2019,historical,other,positive,,The apartment was private
+660702,446470514,representative,2019-05-01,2019,historical,location,positive,,Brady's place is great for exploring Asheville. | Easy drive  or Uber into Downtown.
+660702,452048286,representative,2019-05-12,2019,historical,location,positive,,Great location
+660702,452048286,representative,2019-05-12,2019,historical,comfort,positive,,comfortable bed.
+660702,452048286,representative,2019-05-12,2019,historical,amenities,positive,,Coffee bar was great too!
+660702,452600470,representative,2019-05-13,2019,historical,cleanliness,positive,,The place was clean
+660702,452600470,representative,2019-05-13,2019,historical,location,positive,,This location is great for going just about anywhere in Asheville. | There are several things within walking distance.
+660702,452600470,representative,2019-05-13,2019,historical,host_communication,positive,,the host was easy to deal with
+660702,452600470,representative,2019-05-13,2019,historical,amenities,positive,,had very easy parking | There were snacks and beers for purchase in the fridge and a coffee set up.
+660702,456821568,representative,2019-05-22,2019,historical,host_communication,positive,,Very friendly owner!
+660702,456821568,representative,2019-05-22,2019,historical,comfort,positive,,Comfortable bed
+660702,456821568,representative,2019-05-22,2019,historical,amenities,positive,,Nice amenities & toiletry items available!
+660702,458072817,representative,2019-05-25,2019,historical,cleanliness,positive,,the place was sparkling clean
+660702,458072817,representative,2019-05-25,2019,historical,comfort,positive,,The bed was extremely comfortable
+660702,458072817,representative,2019-05-25,2019,historical,amenities,positive,,the kitchen had a free coffee bar along with a stocked fridge with beer/ wine for your own purchase if desired | they provide a separate AC unit for the basement along with multiple fans | I recommended this to anyone who doesn't need cable/tv
+660702,461490825,representative,2019-05-31,2019,historical,location,positive,,conveniently located near great restaurants in North Asheville
+660702,461490825,representative,2019-05-31,2019,historical,host_communication,positive,,Brady was very responsive to real-time requests.
+660702,461490825,representative,2019-05-31,2019,historical,noise,positive,,very quiet and private
+660702,461490825,representative,2019-05-31,2019,historical,value,positive,,Good budget option
+660702,461490825,representative,2019-05-31,2019,historical,other,positive,,very quiet and private
+660702,482468843,representative,2019-07-06,2019,historical,location,positive,,"Great location, super easy to find and close to EVERYTHING!"
+660702,482468843,representative,2019-07-06,2019,historical,check_in,positive,,super easy to find
+660702,482468843,representative,2019-07-06,2019,historical,amenities,positive,,it had everything we needed for a long weekend in Asheville
+660702,486464767,representative,2019-07-12,2019,historical,location,positive,,Fantastically located
+660702,486464767,representative,2019-07-12,2019,historical,comfort,positive,,chic apartment
+660702,486464767,representative,2019-07-12,2019,historical,amenities,positive,,The amenities and coziness were a delight!
+660702,503161392,representative,2019-08-05,2019,historical,location,positive,,Great location.
+660702,503161392,representative,2019-08-05,2019,historical,host_communication,positive,,Communication was spot on.
+660702,503161392,representative,2019-08-05,2019,historical,amenities,positive,,The amenities were just right for our needs.
+660702,507523272,representative,2019-08-11,2019,historical,host_communication,positive,,Great host
+660702,518920838,representative,2019-08-27,2019,historical,amenities,positive,,loved the extra touches like craft beers and snacks for a small cost!
+660702,536825190,representative,2019-09-27,2019,historical,check_in,positive,,easy to find
+660702,536825190,representative,2019-09-27,2019,historical,noise,positive,,nice and private and quiet
+660702,536825190,representative,2019-09-27,2019,historical,other,positive,,nice and private and quiet
+660702,539045638,representative,2019-09-30,2019,historical,cleanliness,positive,,Super clean
+660702,539045638,representative,2019-09-30,2019,historical,location,positive,,Super convenient location to downtown.
+660702,539045638,representative,2019-09-30,2019,historical,check_in,positive,,easy access
+660702,539045638,representative,2019-09-30,2019,historical,amenities,positive,,parking on premises
+660702,573915520,representative,2019-12-07,2019,historical,amenities,positive,,Great snack bar and beer selection.
+660702,581350410,representative,2019-12-24,2019,historical,cleanliness,positive,,The apartment is very clean
+660702,581350410,representative,2019-12-24,2019,historical,location,positive,,It is easy to get to locations in Asheville from there.
+660702,581350410,representative,2019-12-24,2019,historical,host_communication,positive,,Brady was easy to communicate with
+660702,581350410,representative,2019-12-24,2019,historical,check_in,positive,,check in was very simple
+660702,581350410,representative,2019-12-24,2019,historical,comfort,mixed,low_natural_light; small_bathroom,the bathroom is quite small | the place is spacious enough | has very little natural light as it is a walkout basement apartment
+660702,581350410,representative,2019-12-24,2019,historical,amenities,positive,,has some nice touches like an assortment of coffees and extra condiments in the fridge | The shower is very nice
+660702,584833405,representative,2019-12-30,2019,historical,cleanliness,positive,,The space was tidy and accommodating
+660702,584833405,representative,2019-12-30,2019,historical,location,positive,,Brady's space and location are absolutely phenomenal. | you cannot beat the location to downtown and the area
+660702,587754966,representative,2020-01-03,2020,historical,location,positive,,in amazing location. Convenient to everything in Asheville.
+660702,587754966,representative,2020-01-03,2020,historical,comfort,positive,,Large and spacious basement apartment
+660702,587754966,representative,2020-01-03,2020,historical,value,positive,,Very afford
+660702,587754966,representative,2020-01-03,2020,historical,other,positive,,"and private, exactly the getaway we needed"
+660702,590112642,representative,2020-01-07,2020,historical,cleanliness,positive,,"The space was clean, comfortable, and organized"
+660702,590112642,representative,2020-01-07,2020,historical,location,positive,,Great location too.
+660702,590112642,representative,2020-01-07,2020,historical,host_communication,positive,,I was impressed with how quickly he responded and accepted our request | He even had the space ready for us several hours before check-in time.
+660702,590112642,representative,2020-01-07,2020,historical,comfort,positive,,the bed was the absolute most comfortable bed I've ever slept in!
+660702,590112642,representative,2020-01-07,2020,historical,value,positive,,very satisfying for the low price!
+660702,593617955,representative,2020-01-16,2020,historical,check_in,positive,,easy self check-in
+660702,593617955,representative,2020-01-16,2020,historical,listing_accuracy,positive,,Space was as described
+660702,593617955,representative,2020-01-16,2020,historical,comfort,positive,,cozy
+660702,593617955,representative,2020-01-16,2020,historical,amenities,positive,,Great free coffee bar. | Snacks and local beers at cost on the honor system was a nice convenience.
+660702,596684580,representative,2020-01-23,2020,historical,cleanliness,positive,,"Big, clean apartment"
+660702,596684580,representative,2020-01-23,2020,historical,location,positive,,Great deal and location!
+660702,596684580,representative,2020-01-23,2020,historical,comfort,positive,,"Big, clean apartment"
+660702,596684580,representative,2020-01-23,2020,historical,value,positive,,Great deal and location!
+660702,596684580,representative,2020-01-23,2020,historical,other,positive,,with lots of privacy
+660702,610549879,representative,2020-02-24,2020,historical,location,positive,,"This was a great location, super close to downtown."
+660702,610549879,representative,2020-02-24,2020,historical,amenities,positive,,The complimentary coffee bar and honor system beer bar were nice touches.
+660702,647739815,representative,2020-08-07,2020,historical,location,positive,,Close to downtown
+660702,647739815,representative,2020-08-07,2020,historical,other,positive,,it was very private
+660702,662429135,representative,2020-09-09,2020,historical,location,positive,,in a really fantastic location | There are many restaurants in walking distance and downtown is around 10 minutes away.
+660702,662429135,representative,2020-09-09,2020,historical,comfort,positive,,Spacious place
+660702,662429135,representative,2020-09-09,2020,historical,amenities,positive,,There are 2 rooms and a pretty big kitchen.
+660702,712330642,representative,2020-11-29,2020,historical,location,positive,,Close to several restaurants.
+660702,712330642,representative,2020-11-29,2020,historical,comfort,positive,,Lots of extra touches that make it feel very homely.
+660702,714546811,representative,2020-12-10,2020,historical,location,positive,,Great location and amenities for the price.
+660702,714546811,representative,2020-12-10,2020,historical,host_communication,positive,,truly shows in his hospitality and professionalism
+660702,714546811,representative,2020-12-10,2020,historical,amenities,positive,,Great location and amenities for the price.
+660702,714546811,representative,2020-12-10,2020,historical,value,positive,,Great location and amenities for the price.
+660702,737550340,representative,2021-03-08,2021,historical,location,positive,,great location!
+660702,737550340,representative,2021-03-08,2021,historical,amenities,positive,,lovely amenities
+660702,756690248,representative,2021-05-09,2021,historical,location,positive,,Great location only a short walk away from yummy food and ice cream!
+660702,756690248,representative,2021-05-09,2021,historical,check_in,positive,,We liked the private entrance
+660702,756690248,representative,2021-05-09,2021,historical,noise,positive,,quiet neighborhood
+660702,759021435,representative,2021-05-16,2021,historical,cleanliness,positive,,The place was super clean and cozy.
+660702,759021435,representative,2021-05-16,2021,historical,location,positive,,if you like being close to downtown
+660702,759021435,representative,2021-05-16,2021,historical,host_communication,positive,,Brady was very helpful and friendly
+660702,759021435,representative,2021-05-16,2021,historical,comfort,positive,,The place was super clean and cozy.
+660702,767880442,representative,2021-06-07,2021,historical,location,positive,,The location is wonderful
+660702,767880442,representative,2021-06-07,2021,historical,check_in,positive,,check in/out was easy!
+660702,767880442,representative,2021-06-07,2021,historical,comfort,positive,,Brady has thought about all details that make for a comfortable stay
+660702,767880442,representative,2021-06-07,2021,historical,amenities,positive,,including toiletries and convenient snacks/drinks you can leave cash for
+660702,449949787446875468,representative,2021-09-12,2021,historical,location,positive,,The location is fantastic
+660702,449949787446875468,representative,2021-09-12,2021,historical,host_communication,positive,,Brady and Cassie really go out of their way to make their guests comfortable
+660702,476735162856296468,representative,2021-10-19,2021,historical,location,positive,,close to everything
+660702,476735162856296468,representative,2021-10-19,2021,historical,comfort,positive,,Super cozy
+660702,476735162856296468,representative,2021-10-19,2021,historical,value,positive,,"For the price, you can't beat it."
+660702,477509682936430040,representative,2021-10-20,2021,historical,location,positive,,A great location.
+660702,477509682936430040,representative,2021-10-20,2021,historical,comfort,positive,,It is affordable and comfortable.
+660702,477509682936430040,representative,2021-10-20,2021,historical,value,positive,,It is affordable and comfortable.
+660702,490563423240867951,representative,2021-11-07,2021,historical,check_in,positive,,Driveway is flat and right by the door to enter the apartment.
+660702,490563423240867951,representative,2021-11-07,2021,historical,comfort,positive,,I love the extra touches that can be found in every room that make you feel like you are staying with friends!
+660702,490563423240867951,representative,2021-11-07,2021,historical,amenities,positive,,Everything you might need is there
+660702,520278678040713880,representative,2021-12-18,2021,historical,location,positive,,super convenient location
+660702,520278678040713880,representative,2021-12-18,2021,historical,host_communication,positive,,Brady was an awesome host. He made sure we were comfortable and happy.
+660702,568862716745557170,representative,2022-02-23,2022,historical,host_communication,positive,,"The communication, check in process, and amenities was so smooth and simple."
+660702,568862716745557170,representative,2022-02-23,2022,historical,check_in,positive,,"The communication, check in process, and amenities was so smooth and simple."
+660702,568862716745557170,representative,2022-02-23,2022,historical,amenities,positive,,"The communication, check in process, and amenities was so smooth and simple."
+660702,621730690548865895,representative,2022-05-07,2022,historical,location,positive,,"Excellent location, easily accessible"
+660702,621730690548865895,representative,2022-05-07,2022,historical,check_in,positive,,Brady made the check in so easy!
+660702,621730690548865895,representative,2022-05-07,2022,historical,comfort,positive,,comfortable lodgings
+660702,632546871388786019,representative,2022-05-22,2022,historical,location,positive,,close to downtown Asheville
+660702,632546871388786019,representative,2022-05-22,2022,historical,listing_accuracy,positive,,Everything was a described!
+660702,632546871388786019,representative,2022-05-22,2022,historical,comfort,positive,,Restful stay
+660702,635447394109549448,representative,2022-05-26,2022,historical,host_communication,positive,,They went above and beyond to accommodate me
+660702,642677062342604897,representative,2022-06-05,2022,historical,location,positive,,Great location to downtown and a short Uber ride to everything in addition to places close enough to walk.
+660702,642677062342604897,representative,2022-06-05,2022,historical,check_in,positive,,the separate entrance and driveway were perfect!
+660702,642677062342604897,representative,2022-06-05,2022,historical,comfort,positive,,Bed was comfortable
+660702,642677062342604897,representative,2022-06-05,2022,historical,amenities,positive,,the water pressure was strong
+660702,642677062342604897,representative,2022-06-05,2022,historical,safety,positive,,The area felt safe
+660702,719591085499831682,representative,2022-09-19,2022,historical,cleanliness,positive,,The apartment was very clean
+660702,719591085499831682,representative,2022-09-19,2022,historical,location,positive,,It's in a great location with good food and entertainment in walking distance. | It's also within a very short drive of the River Arts district
+660702,719591085499831682,representative,2022-09-19,2022,historical,amenities,positive,,had everything you need and probably all you'd want
+660702,731920109617444530,representative,2022-10-06,2022,historical,location,positive,,close to all the things
+660702,731920109617444530,representative,2022-10-06,2022,historical,comfort,positive,,cozy
+660702,731920109617444530,representative,2022-10-06,2022,historical,noise,positive,,quiet
+660702,744229760924473513,representative,2022-10-23,2022,historical,cleanliness,positive,,and tidy!
+660702,744229760924473513,representative,2022-10-23,2022,historical,location,positive,,Brady's stay was extremely convenient in terms of location!
+660702,744229760924473513,representative,2022-10-23,2022,historical,listing_accuracy,positive,,The space was quiet as it states in the overview
+660702,744229760924473513,representative,2022-10-23,2022,historical,amenities,positive,,"They had board games, a Roku tv and a stocked fridge at low cost for our convenience!"
+660702,744229760924473513,representative,2022-10-23,2022,historical,noise,positive,,The space was quiet as it states in the overview
+660702,779741636278142885,representative,2022-12-11,2022,historical,cleanliness,positive,,The apartment is clean
+660702,779741636278142885,representative,2022-12-11,2022,historical,host_communication,positive,,Brady was very communicative and one of the most accommodating hosts I have experienced.
+660702,779741636278142885,representative,2022-12-11,2022,historical,check_in,positive,,He was very flexible for both our check-in and check-out.
+660702,779741636278142885,representative,2022-12-11,2022,historical,comfort,mixed,worn_or_dated_furnishings,nothing fancy and slightly dated | Both the queen bed and set-up queen air mattress were very comfortable.
+660702,785494743966641848,representative,2022-12-19,2022,historical,amenities,positive,,So nice to find beers to purchase in the fridge
+660702,785494743966641848,representative,2022-12-19,2022,historical,value,positive,,Worth the stay
+660702,805792872372299356,representative,2023-01-16,2023,historical,cleanliness,positive,,This basement apartment is clean
+660702,805792872372299356,representative,2023-01-16,2023,historical,location,positive,,"It's a 10 minute drive to downtown or west Asheville, conveniently located"
+660702,805792872372299356,representative,2023-01-16,2023,historical,host_communication,positive,,Brady provides a useful town guide in a binder
+660702,805792872372299356,representative,2023-01-16,2023,historical,comfort,positive,,comfortable
+660702,805792872372299356,representative,2023-01-16,2023,historical,amenities,positive,,has everything you could need | The water pressure in the shower is fantastic
+660702,805792872372299356,representative,2023-01-16,2023,historical,safety,positive,,in a safe area
+660702,825427469272859334,representative,2023-02-12,2023,historical,location,positive,,so easy to get down town too
+660702,825427469272859334,representative,2023-02-12,2023,historical,comfort,positive,,It was a great cozy place
+660702,848612642043160299,representative,2023-03-16,2023,historical,location,positive,,Great place and location.
+660702,848612642043160299,representative,2023-03-16,2023,historical,comfort,positive,,Very comfortable place and warm as well
+660702,906537874201442500,representative,2023-06-04,2023,historical,location,positive,,the neighborhood was so cute!
+660702,906537874201442500,representative,2023-06-04,2023,historical,check_in,positive,,check in and out was easy
+660702,906537874201442500,representative,2023-06-04,2023,historical,amenities,positive,,Brady's place had everything we needed
+660702,928242752806795369,representative,2023-07-04,2023,historical,location,positive,,PERFECT location!
+660702,928242752806795369,representative,2023-07-04,2023,historical,host_communication,positive,,You can tell the hosts care about sharing their space and put a lot of thought into the details.
+660702,928242752806795369,representative,2023-07-04,2023,historical,comfort,positive,,"Cozy spot to stay, huge kitchen! | All areas are large and feel like home."
+660702,928242752806795369,representative,2023-07-04,2023,historical,safety,positive,,I felt safe and comfortable as a solo female traveler.
+660702,1000759546260281917,representative,2023-10-12,2023,historical,host_communication,positive,,"a guide book with good local recommendations from restaurants, breweries, and hikes"
+660702,1000759546260281917,representative,2023-10-12,2023,historical,amenities,positive,,Currently appears to be working on  several upgrades to make it even nicer. | Fully stocked kitchen including drinks for purchase
+660702,1021074250586874100,representative,2023-11-09,2023,historical,location,positive,,such ease of walkability in the area
+660702,1021074250586874100,representative,2023-11-09,2023,historical,host_communication,positive,,Brady was a great host!
+660702,1021074250586874100,representative,2023-11-09,2023,historical,amenities,positive,,and a sauna!
+660702,1021074250586874100,representative,2023-11-09,2023,historical,value,positive,,Can't beat the price
+660702,1041379637838761670,representative,2023-12-07,2023,historical,cleanliness,positive,,Very clean
+660702,1041379637838761670,representative,2023-12-07,2023,historical,location,positive,,perfect location
+660702,1041379637838761670,representative,2023-12-07,2023,historical,host_communication,positive,,Great communication
+660702,1041379637838761670,representative,2023-12-07,2023,historical,check_in,positive,,easy getting to the location and getting into the apartment
+660702,1053757009977809101,representative,2023-12-24,2023,historical,cleanliness,positive,,The apartment was neat as a pin
+660702,1053757009977809101,representative,2023-12-24,2023,historical,location,positive,,yet so close we could walk to about anything we needed or wanted to do
+660702,1053757009977809101,representative,2023-12-24,2023,historical,comfort,positive,,The bed was extremely comfortable with above standard linens.
+660702,1053757009977809101,representative,2023-12-24,2023,historical,amenities,positive,,The Sauna is a definite added benefit that I enjoyed each evening. | like a sound machine that let me fall asleep fast and stay asleep
+660702,1053757009977809101,representative,2023-12-24,2023,historical,noise,positive,,quiet
+660702,1058097789248791768,representative,2023-12-30,2023,historical,location,positive,,convenient and walkable to several restaurants | Easy drive to downtown for more eats and shopping.
+660702,1063875642785188307,representative,2024-01-07,2024,recent,cleanliness,positive,,clean apartment
+660702,1063875642785188307,representative,2024-01-07,2024,recent,location,positive,,"Nearby restaurant, the Green Sage, was excellent."
+660702,1063875642785188307,representative,2024-01-07,2024,recent,comfort,positive,,Spacious | great mattress
+660702,1063875642785188307,representative,2024-01-07,2024,recent,amenities,positive,,with full kitchen | sauna and shower water pressure
+660702,1141391561536839752,representative,2024-04-23,2024,recent,location,positive,,You won't find a better location
+660702,1141391561536839752,representative,2024-04-23,2024,recent,comfort,positive,,"The king bed, pillows and comforter were so comfortable."
+660702,1141391561536839752,representative,2024-04-23,2024,recent,amenities,positive,,Kitchen had EVERYTHING you could ever need.
+660702,1160940454530401043,representative,2024-05-20,2024,recent,location,positive,,Walking distance to food/shopping. | Easy drive to Blue ridge parkway.
+660702,1160940454530401043,representative,2024-05-20,2024,recent,comfort,positive,,Comfortable bed and linens.
+660702,1160940454530401043,representative,2024-05-20,2024,recent,amenities,positive,,Loved the sauna and coffee bar in the am.
+660702,1213897301042642852,representative,2024-08-01,2024,recent,location,positive,,"Great location, near some good restaurants, close to downtown, but not in downtown."
+660702,1213897301042642852,representative,2024-08-01,2024,recent,check_in,positive,,this one has parking steps away from your private entrance
+660702,1213897301042642852,representative,2024-08-01,2024,recent,comfort,positive,,The bedroom is very comfy and I liked the decor.
+660702,1213897301042642852,representative,2024-08-01,2024,recent,amenities,positive,,newly renovated with a full sized eat in kitchen | The hosts have an honor bar with local craft beer
+660702,1383419847261354819,representative,2025-03-23,2025,recent,listing_accuracy,positive,,Everything was great and as listed.
+660702,1416787032187158055,representative,2025-05-08,2025,recent,comfort,positive,,bed was really comfortable
+660702,1416787032187158055,representative,2025-05-08,2025,recent,amenities,positive,,It's nice to have a full kitchen! | And olive oil and spices.
+660702,1416787032187158055,representative,2025-05-08,2025,recent,noise,mixed,noise_from_adjoining_residence,Some folks talked about footsteps upstairs. | with our noise machine it seemed mild
+660702,1429776734916154599,representative,2025-05-26,2025,recent,location,positive,,Great location and close to everything Asheville has to offer.
+660702,1429776734916154599,representative,2025-05-26,2025,recent,amenities,positive,,especially the sauna!
+660702,1498636310248788348,representative,2025-08-29,2025,recent,host_communication,positive,,Brady was an excellent host! Checked in on me while I was there.
+660702,1498636310248788348,representative,2025-08-29,2025,recent,amenities,positive,,I loved the place especially the sauna!
+660702,1542877759569551786,representative,2025-10-29,2025,recent,comfort,positive,,Everything you need for comfort!!
+660702,1545042851881416716,representative,2025-11-01,2025,recent,location,positive,,The location is great
+660702,1545042851881416716,representative,2025-11-01,2025,recent,host_communication,positive,,he was very responsive and friendly
+660702,1545042851881416716,representative,2025-11-01,2025,recent,comfort,positive,,the apartment spacious
+660702,1557369805341447595,representative,2025-11-18,2025,recent,cleanliness,positive,,It was clean
+660702,1557369805341447595,representative,2025-11-18,2025,recent,location,positive,,It was close to so many places.
+660702,1557369805341447595,representative,2025-11-18,2025,recent,comfort,positive,,bigger than we were expecting
+660702,1557369805341447595,representative,2025-11-18,2025,recent,noise,positive,,It was also very quiet which I loved!
+660702,1677660020455543650,representative,2026-05-03,2026,recent,cleanliness,positive,,spotless place
+660702,1677660020455543650,representative,2026-05-03,2026,recent,check_in,positive,,Thank you for the clear instructions
+660702,1714555955963876619,representative,2026-06-23,2026,recent,location,positive,,quick to a lot of places
+660702,1714555955963876619,representative,2026-06-23,2026,recent,check_in,positive,,Easy to find
+660702,1714555955963876619,representative,2026-06-23,2026,recent,amenities,positive,,Not much to do at the actual airbnb which is okay because there are so many things to do around. | The sauna gets very hot which was great.
+660702,1714555955963876619,representative,2026-06-23,2026,recent,noise,negative,noise_from_adjoining_residence,You can hear the footsteps from upstairs but it's only from 7am-9pm.
+660702,1714555955963876619,representative,2026-06-23,2026,recent,value,positive,,Worth the money for a nice kitchen and sauna!
+660702,1762318073740537982,representative,2026-08-28,2026,recent,comfort,positive,,Very relaxing stay
+660702,1762318073740537982,representative,2026-08-28,2026,recent,amenities,positive,,great ammentities!
+660702,1768102196823026278,representative,2026-09-05,2026,recent,cleanliness,positive,,"Clean space, well organized and decorated."
+660702,1768102196823026278,representative,2026-09-05,2026,recent,location,positive,,Located centrally near everything
+660702,1768102196823026278,representative,2026-09-05,2026,recent,check_in,positive,,"It was easy to locate, get in and get out."
+660702,1768102196823026278,representative,2026-09-05,2026,recent,noise,positive,,yet very peaceful and private
+660702,1768102196823026278,representative,2026-09-05,2026,recent,other,positive,,yet very peaceful and private
+3314819,218731498,challenge,2017-12-14,2017,historical,host_communication,negative,host_unresponsive_or_rude,the host made us feel like an inconvenience the moment we arrived | The host lives upstairs and was there the moment we checked in with an aloof demeanor.
+3314819,218731498,challenge,2017-12-14,2017,historical,check_in,negative,hard_to_find; steep_access,The GPS takes you in circles in the Mountains which is not their fault | upon arriving we find tenant parking is quite a bit down the way on a steep hill
+3314819,218731498,challenge,2017-12-14,2017,historical,noise,negative,noise_from_adjoining_residence,come 530AM the host begins to stomp excessively and as loud as she can through the top of the house and continues to do so until we leave
+3314819,218731498,challenge,2017-12-14,2017,historical,value,positive,,The place was a nice value for the money
+3314819,485288844,challenge,2019-07-10,2019,historical,host_communication,negative,host_unresponsive_or_rude,"He said it was my fault, that I had somehow clogged the plumbing (I hadn't) | messaging me that I was late leaving and I should ""vacate immediately"""
+3314819,485288844,challenge,2019-07-10,2019,historical,check_in,positive,,the room had a separate entryway
+3314819,485288844,challenge,2019-07-10,2019,historical,comfort,positive,temperature_control,"was large and spacious | The bed was comfortable. | They do keep the room quite cool overnight, in the 60s in the summer."
+3314819,485288844,challenge,2019-07-10,2019,historical,amenities,negative,plumbing_water_pressure,the water pressure is very weak | the toilet backed-up to within an inch of overflowing
+3314819,485288844,challenge,2019-07-10,2019,historical,noise,positive,,"The surroundings, deep in the woods, were quiet."
+3314819,520477600,challenge,2019-08-30,2019,historical,cleanliness,positive,,It was clean
+3314819,520477600,challenge,2019-08-30,2019,historical,check_in,negative,narrow_door_access; steep_access,"carefully step as I lugged my belongings (took a few trips) up the semi-steep, rocky, wavy, unfinished driveway | squeezing through the space between the staircase and the house to get to the door"
+3314819,520477600,challenge,2019-08-30,2019,historical,listing_accuracy,negative,listing_mismatch,The patio is not as pictured
+3314819,520477600,challenge,2019-08-30,2019,historical,comfort,negative,temperature_control,it took 3 blankets to stay warm | I had no control over the temperature
+3314819,520477600,challenge,2019-08-30,2019,historical,amenities,mixed,insufficient_supplies,"I was offered clean towels, a fridge, and a coffee maker | there wasn't any soap in the bathroom (shower or sink)"
+3314819,520477600,challenge,2019-08-30,2019,historical,noise,negative,noise_from_adjoining_residence,I could hear every foot step as the hosts moved about their home above my head
+3314819,557287846,challenge,2019-10-31,2019,historical,comfort,mixed,bed_discomfort,"I was very disappointed with the bed. | It sags both right to left, and head to foot, with the lowest part being in the center. | I woke up with a backache long before daylight. | The large open room"
+3314819,557287846,challenge,2019-10-31,2019,historical,amenities,positive,,great Internet
+3314819,557287846,challenge,2019-10-31,2019,historical,noise,positive,,very quiet and peaceful location are pluses
+3314819,557287846,challenge,2019-10-31,2019,historical,safety,negative,no_window_coverings; shared_internal_access,the window only has a sheer.  No blinds or curtain to block morning light or add privacy. | there is not a way to lock the door to the upstairs guests or the garage | the overhead garage door was left open for long periods while we were there
+3314819,18375363,representative,2014-08-25,2014,historical,cleanliness,positive,,Accommodations were clean
+3314819,18375363,representative,2014-08-25,2014,historical,check_in,positive,,Road directions were customized for my use and were perfect
+3314819,18375363,representative,2014-08-25,2014,historical,comfort,positive,,The air mattress was surprisingly comfortable
+3314819,18375363,representative,2014-08-25,2014,historical,noise,positive,,quiet--just what I wanted for a good night's sleep
+3314819,18375363,representative,2014-08-25,2014,historical,value,positive,,An excellent deal for the price!
+3314819,23660022,representative,2014-12-07,2014,historical,location,positive,,The location was great. | Very pretty neighborhood
+3314819,23660022,representative,2014-12-07,2014,historical,host_communication,positive,,recommended by our hosts | great communication with our hosts
+3314819,23660022,representative,2014-12-07,2014,historical,comfort,positive,,Very spacious and comfortable.
+3314819,23660022,representative,2014-12-07,2014,historical,noise,positive,,The basement was nice and quiet.
+3314819,24491266,representative,2014-12-29,2014,historical,cleanliness,positive,,clean with fresh linens
+3314819,24491266,representative,2014-12-29,2014,historical,listing_accuracy,positive,,was just as we expected
+3314819,24491266,representative,2014-12-29,2014,historical,comfort,mixed,temperature_control,It was a little cooler since we went in December | they thankfully provided us with a space heater that definitely kept the place toasty and warm
+3314819,24491266,representative,2014-12-29,2014,historical,value,positive,,a clean and economical option
+3314819,25514004,representative,2015-01-18,2015,historical,host_communication,positive,,Communication was quick and easy.
+3314819,25514004,representative,2015-01-18,2015,historical,comfort,positive,,It was a cozy and affordable stay!
+3314819,25514004,representative,2015-01-18,2015,historical,amenities,negative,parking_conditions,Wish we didn't have to park the car on muddy grass though.
+3314819,25514004,representative,2015-01-18,2015,historical,value,positive,,It was a cozy and affordable stay!
+3314819,28324038,representative,2015-03-22,2015,historical,location,positive,,with proximity to Asheville and the Biltmore estate
+3314819,28324038,representative,2015-03-22,2015,historical,host_communication,neutral,,"We never saw the hosts, but this was not a problem at all."
+3314819,28324038,representative,2015-03-22,2015,historical,check_in,positive,,"The private entrance is great, and convenient."
+3314819,28324038,representative,2015-03-22,2015,historical,listing_accuracy,positive,,The listing is accurate | exactly as advertised
+3314819,28324038,representative,2015-03-22,2015,historical,amenities,neutral,,"it is a finished, but basic basement apartment"
+3314819,28324038,representative,2015-03-22,2015,historical,value,positive,,a functional place to crash for a great deal
+3314819,28324038,representative,2015-03-22,2015,historical,safety,mixed,no_window_coverings; unlockable_entrance,"there is not a way to lock the door, as it is left unlocked by the owners | It's in a seemingly very safe neighborhood though. | there are no curtains or blinds"
+3314819,29029684,representative,2015-04-02,2015,historical,location,positive,,beautiful view from the porch
+3314819,29029684,representative,2015-04-02,2015,historical,host_communication,positive,,Very professional and considerate hosts
+3314819,29029684,representative,2015-04-02,2015,historical,comfort,positive,,Comfy bed
+3314819,29029684,representative,2015-04-02,2015,historical,noise,positive,,Located in a quiet neighborhood
+3314819,32270433,representative,2015-05-16,2015,historical,host_communication,positive,,welcoming
+3314819,32270433,representative,2015-05-16,2015,historical,comfort,positive,,Very cozy
+3314819,32270433,representative,2015-05-16,2015,historical,noise,positive,,quiet!
+3314819,41810381,representative,2015-08-09,2015,historical,location,positive,,it was easy to get back on I-40 to continue our trip | it is in a beautiful location in the foothills outside of Asheville
+3314819,41810381,representative,2015-08-09,2015,historical,check_in,mixed,hard_to_find,Liked having a private entrance | We found the house numbering a bit confusing
+3314819,41810381,representative,2015-08-09,2015,historical,noise,positive,,was quiet and restful
+3314819,41810381,representative,2015-08-09,2015,historical,safety,negative,unlockable_entrance,"That it was not lockable, did bother my wife a bit"
+3314819,43663905,representative,2015-08-21,2015,historical,location,positive,,"It was very convenient to the Cove. | The traffic on the main road to the room was heavy, but seemed to move right along."
+3314819,43663905,representative,2015-08-21,2015,historical,listing_accuracy,positive,,The listing was just as it was portrayed
+3314819,43663905,representative,2015-08-21,2015,historical,noise,positive,,It was a very secluded area and very quiet.
+3314819,49116914,representative,2015-10-01,2015,historical,check_in,positive,,Good instructions upon arrival.
+3314819,49116914,representative,2015-10-01,2015,historical,amenities,positive,,The room had most everything we needed.
+3314819,49116914,representative,2015-10-01,2015,historical,safety,negative,no_window_coverings; unlockable_entrance,"By not having any curtains or blinds on the windows, we felt there was not enough privacy provided from the outside. | by having an unlocked entrance with no way to secure it, we didn't sense the full safety"
+3314819,51491645,representative,2015-10-20,2015,historical,location,positive,,This location is fabulous! | The view from the porch is gorgeous
+3314819,51491645,representative,2015-10-20,2015,historical,host_communication,positive,,She made sure I had everything I needed.
+3314819,51491645,representative,2015-10-20,2015,historical,listing_accuracy,positive,,The room was exactly like how it was described in the listing
+3314819,51491645,representative,2015-10-20,2015,historical,comfort,positive,,The bed was comfy
+3314819,51491645,representative,2015-10-20,2015,historical,amenities,positive,,I was nervous about the parking situation when I read the description but it was really easy to understand when I was there.
+3314819,51491645,representative,2015-10-20,2015,historical,noise,positive,,The road is very quiet
+3314819,54626939,representative,2015-11-22,2015,historical,other,positive,,Very private tucked away in the mountains.
+3314819,65873499,representative,2016-03-17,2016,historical,host_communication,positive,,they responded to our text if we ever had any questions
+3314819,71017423,representative,2016-04-22,2016,historical,check_in,positive,,"Entry was simple and well laid out, giving private access without having to bother the family."
+3314819,71017423,representative,2016-04-22,2016,historical,comfort,positive,,the cozy room
+3314819,85826450,representative,2016-07-13,2016,historical,location,positive,,Room was private in a beautiful home and area. | well worth the drive about 10 mins away from Asheville
+3314819,85826450,representative,2016-07-13,2016,historical,host_communication,positive,,Allison and Peter were more accommodating on short notice.
+3314819,85826450,representative,2016-07-13,2016,historical,check_in,neutral,,GPS certainly assisted with finding the address
+3314819,96631057,representative,2016-08-23,2016,historical,cleanliness,positive,,Room was clean and really nice.
+3314819,96631057,representative,2016-08-23,2016,historical,comfort,positive,,The bed was super comfortable.
+3314819,99662904,representative,2016-09-05,2016,historical,host_communication,positive,,Allison and Peter were great hosts.
+3314819,99662904,representative,2016-09-05,2016,historical,check_in,positive,,check in and out was incredibly easy
+3314819,99662904,representative,2016-09-05,2016,historical,amenities,neutral,,"Their basement was nothing lavish, but it provided the essentials"
+3314819,99662904,representative,2016-09-05,2016,historical,value,positive,,at a fairly reasonable price
+3314819,101282299,representative,2016-09-12,2016,historical,location,positive,,the view was great
+3314819,101282299,representative,2016-09-12,2016,historical,comfort,positive,,Comfortable place to stay
+3314819,104792532,representative,2016-09-28,2016,historical,host_communication,positive,,they were kind enough to accommodate a last minute reservation
+3314819,104792532,representative,2016-09-28,2016,historical,check_in,positive,,Private entrance
+3314819,104792532,representative,2016-09-28,2016,historical,amenities,positive,,provided extra touches like toothpaste and coffee!
+3314819,104792532,representative,2016-09-28,2016,historical,noise,positive,,tranquility
+3314819,122146692,representative,2016-12-21,2016,historical,location,positive,,about 20 minutes from downtown Asheville
+3314819,122146692,representative,2016-12-21,2016,historical,check_in,positive,,check in/out were super easy
+3314819,122146692,representative,2016-12-21,2016,historical,amenities,positive,,"had everything we could need (bathroom, minifridge, coffee for the morning)"
+3314819,122146692,representative,2016-12-21,2016,historical,value,positive,,inexpensive
+3314819,127711132,representative,2017-01-20,2017,historical,host_communication,positive,,Awesome hosts
+3314819,127711132,representative,2017-01-20,2017,historical,comfort,positive,,comfortable bed!
+3314819,154022647,representative,2017-05-22,2017,historical,location,positive,,great location for those who love mountains!
+3314819,154022647,representative,2017-05-22,2017,historical,comfort,positive,,Really comfortable stay
+3314819,154666820,representative,2017-05-25,2017,historical,cleanliness,positive,,Space is clean and comfortable
+3314819,154666820,representative,2017-05-25,2017,historical,check_in,positive,,the checkin process is as easy as it gets
+3314819,154666820,representative,2017-05-25,2017,historical,comfort,positive,,Space is clean and comfortable
+3314819,173103403,representative,2017-07-22,2017,historical,location,positive,,We loved the view and the environment.
+3314819,173103403,representative,2017-07-22,2017,historical,comfort,positive,,The room was comfortable and homey. | slept peacefully
+3314819,186453760,representative,2017-08-24,2017,historical,cleanliness,positive,,"The place was clean, private & very comfortable."
+3314819,186453760,representative,2017-08-24,2017,historical,location,positive,,not too far from the hub of Asheville
+3314819,186453760,representative,2017-08-24,2017,historical,host_communication,positive,,Allison & Peter were very easy to communicate with.
+3314819,186453760,representative,2017-08-24,2017,historical,comfort,positive,,"The place was clean, private & very comfortable."
+3314819,189099608,representative,2017-08-31,2017,historical,location,positive,,"I liked that the place was remote, but also close to town."
+3314819,189099608,representative,2017-08-31,2017,historical,host_communication,positive,,she's been really welcoming
+3314819,189099608,representative,2017-08-31,2017,historical,check_in,positive,,Separate entrance made it easier to go in and out without bothering them.
+3314819,189099608,representative,2017-08-31,2017,historical,comfort,positive,,The room is really spacious and cozy.
+3314819,192062441,representative,2017-09-09,2017,historical,cleanliness,positive,,Very clean.
+3314819,192062441,representative,2017-09-09,2017,historical,location,positive,,just 15 mins South of downtown Asheville
+3314819,192062441,representative,2017-09-09,2017,historical,host_communication,positive,,Great communication with hosts.
+3314819,192062441,representative,2017-09-09,2017,historical,comfort,positive,,Spacious.
+3314819,192062441,representative,2017-09-09,2017,historical,amenities,positive,,Refrigerator included. | Parking was fine.
+3314819,192062441,representative,2017-09-09,2017,historical,other,positive,,Very private area.
+3314819,217261367,representative,2017-12-08,2017,historical,location,positive,,"Lovely neighborhood and location, too."
+3314819,217261367,representative,2017-12-08,2017,historical,host_communication,positive,,they were great about communicating throughout the stay
+3314819,217261367,representative,2017-12-08,2017,historical,value,positive,,a great value for the money
+3314819,230241870,representative,2018-01-27,2018,historical,value,positive,,well worth the money
+3314819,234396800,representative,2018-02-12,2018,historical,cleanliness,positive,,The room was clean and neat
+3314819,234396800,representative,2018-02-12,2018,historical,location,positive,,it was very convenient to many places that we wanted to visit
+3314819,234396800,representative,2018-02-12,2018,historical,host_communication,positive,,the left delicious chocolate and information on the local activities available
+3314819,234396800,representative,2018-02-12,2018,historical,listing_accuracy,positive,,It was exactly as described in the Air BnB listing.
+3314819,234396800,representative,2018-02-12,2018,historical,comfort,mixed,bed_discomfort,The bed was not the most comfortable | there were plenty of blankets and pillows and a space heater for added comfort
+3314819,234396800,representative,2018-02-12,2018,historical,noise,positive,,It's nice and quiet
+3314819,234396800,representative,2018-02-12,2018,historical,value,positive,,The stay was very cost effective
+3314819,249997619,representative,2018-04-03,2018,historical,cleanliness,positive,,Super clean
+3314819,249997619,representative,2018-04-03,2018,historical,check_in,positive,,super easy check in/out
+3314819,249997619,representative,2018-04-03,2018,historical,amenities,positive,,The porch is perfect for watching the sun set behind the mountains.
+3314819,249997619,representative,2018-04-03,2018,historical,noise,positive,,super quiet
+3314819,257027468,representative,2018-04-24,2018,historical,cleanliness,positive,,The room was so clean
+3314819,257027468,representative,2018-04-24,2018,historical,host_communication,positive,,Allison and Peter were very fast at responding
+3314819,257027468,representative,2018-04-24,2018,historical,check_in,positive,,Very easy to check in and check out.
+3314819,260366720,representative,2018-05-04,2018,historical,location,positive,,It was in a perfect location.
+3314819,260366720,representative,2018-05-04,2018,historical,host_communication,positive,,Allison and Peter are wonderful hosts.
+3314819,260366720,representative,2018-05-04,2018,historical,comfort,positive,,a perfect and comfortable place
+3314819,279058156,representative,2018-06-19,2018,historical,cleanliness,positive,,a clean room and bathroom
+3314819,279058156,representative,2018-06-19,2018,historical,host_communication,positive,,"Allison and Peter provided fresh cut flowers, books on things to do in the Asheville area"
+3314819,279058156,representative,2018-06-19,2018,historical,comfort,positive,,a comfy bed
+3314819,279058156,representative,2018-06-19,2018,historical,amenities,positive,,having our own balcony to enjoy a peaceful morning was blissful
+3314819,279058156,representative,2018-06-19,2018,historical,other,positive,,The privacy was great
+3314819,319508813,representative,2018-09-06,2018,historical,value,neutral,,Basic place for price conscience travellers.
+3314819,346670834,representative,2018-11-09,2018,historical,location,positive,,in a beautiful neighborhood
+3314819,346670834,representative,2018-11-09,2018,historical,comfort,positive,,"quiet, cozy spot"
+3314819,346670834,representative,2018-11-09,2018,historical,noise,positive,,"This quiet, cozy spot"
+3314819,440272539,representative,2019-04-20,2019,historical,cleanliness,positive,,how clean it was
+3314819,440272539,representative,2019-04-20,2019,historical,comfort,positive,,still want something comfortable and clean!
+3314819,440272539,representative,2019-04-20,2019,historical,amenities,positive,,"We appreciated the extra blankets, the magazines, the couch to sit on"
+3314819,465351789,representative,2019-06-07,2019,historical,cleanliness,negative,pests_insects,Hope you like spiders! We saw 2 in the bathroom.
+3314819,465351789,representative,2019-06-07,2019,historical,host_communication,negative,refund_dispute,They refused to give a partial refund for unused night.
+3314819,465351789,representative,2019-06-07,2019,historical,comfort,negative,bed_discomfort,Uncomfortable bed gave us backaches. | It sinks in the middle.
+3314819,483510746,representative,2019-07-07,2019,historical,cleanliness,positive,,"Private, comfortable, clean, and easy."
+3314819,483510746,representative,2019-07-07,2019,historical,location,positive,,Great location.
+3314819,483510746,representative,2019-07-07,2019,historical,comfort,positive,,"Private, comfortable, clean, and easy."
+3314819,483510746,representative,2019-07-07,2019,historical,other,positive,,"Private, comfortable, clean, and easy."
+3314819,536893752,representative,2019-09-27,2019,historical,location,positive,,Nice place to stay in south Asheville.
+3314819,563389292,representative,2019-11-12,2019,historical,location,positive,,nice neighborhood
+3314819,563389292,representative,2019-11-12,2019,historical,check_in,positive,,coded entry to a cozy downstairs apartment
+3314819,563389292,representative,2019-11-12,2019,historical,noise,positive,,plenty of peace and quite
+3314819,579028457,representative,2019-12-19,2019,historical,location,positive,,The scenic and hilly neighborhood is much better appreciated in the daytime
+3314819,579028457,representative,2019-12-19,2019,historical,comfort,positive,,Excellent space
+3314819,579028457,representative,2019-12-19,2019,historical,noise,positive,,quiet too
+3314819,580478453,representative,2019-12-22,2019,historical,cleanliness,positive,,The space was super clean
+3314819,580478453,representative,2019-12-22,2019,historical,comfort,positive,,comfortably decorated
+3314819,580478453,representative,2019-12-22,2019,historical,value,positive,,beyond reasonably priced
+3314819,583984496,representative,2019-12-29,2019,historical,comfort,positive,,"The supplied space heater was perfect for warding off the chill. | It was very spacious, open, and a lovely space."
+3314819,583984496,representative,2019-12-29,2019,historical,amenities,negative,insufficient_supplies,we were supplied only two towels
+3314819,613646592,representative,2020-03-02,2020,historical,location,positive,,Nice place in a beautiful area.
+3314819,639086175,representative,2020-07-17,2020,historical,check_in,positive,,Very easy directions
+3314819,639086175,representative,2020-07-17,2020,historical,comfort,positive,,a nice spacious room
+3314819,639086175,representative,2020-07-17,2020,historical,value,positive,,Good value.
+3314819,641165067,representative,2020-07-22,2020,historical,location,positive,,This home was located in a perfect spot for us to explore Ashville and The Biltmore Estate.
+3314819,641165067,representative,2020-07-22,2020,historical,host_communication,positive,,Allison was responsive and helpful.
+3314819,647384577,representative,2020-08-06,2020,historical,location,positive,,in an amazing area!
+3314819,647384577,representative,2020-08-06,2020,historical,comfort,positive,,Great cozy space
+3314819,647763721,representative,2020-08-07,2020,historical,check_in,neutral,steep_access,FYI-Driveway is steep
+3314819,647763721,representative,2020-08-07,2020,historical,comfort,positive,,Nicely decorated and welcoming.
+3314819,647763721,representative,2020-08-07,2020,historical,amenities,positive,,Porch is lovely
+3314819,648313216,representative,2020-08-08,2020,historical,location,positive,,We enjoyed the area
+3314819,648313216,representative,2020-08-08,2020,historical,comfort,positive,,The bed was really comfortable.
+3314819,648313216,representative,2020-08-08,2020,historical,noise,positive,,it was so peaceful
+3314819,663331020,representative,2020-09-12,2020,historical,cleanliness,positive,,Very safe and clean place to stay!!
+3314819,663331020,representative,2020-09-12,2020,historical,host_communication,positive,,Allison and Peter are super nice and very responsive.
+3314819,663331020,representative,2020-09-12,2020,historical,safety,positive,,Very safe and clean place to stay!!
+3314819,708022640,representative,2020-11-10,2020,historical,cleanliness,positive,,"A clean, warm and with all amenities in the woods."
+3314819,708022640,representative,2020-11-10,2020,historical,amenities,positive,,"A clean, warm and with all amenities in the woods."
+3314819,720424583,representative,2021-01-01,2021,historical,host_communication,positive,,Allison and Peter were gracious hosts.
+3314819,750991986,representative,2021-04-22,2021,historical,location,positive,,such an ideal location
+3314819,750991986,representative,2021-04-22,2021,historical,host_communication,positive,,Great hosts.
+3314819,756777704,representative,2021-05-09,2021,historical,cleanliness,positive,,Very clean.
+3314819,756777704,representative,2021-05-09,2021,historical,check_in,positive,,Easy to find and access.
+3314819,756777704,representative,2021-05-09,2021,historical,listing_accuracy,positive,,The place was exactly as advertised.
+3314819,756777704,representative,2021-05-09,2021,historical,comfort,positive,,Loved the little space heater for cool nights.
+3314819,756777704,representative,2021-05-09,2021,historical,amenities,positive,,Nice private porch. | Nothing super fancy | Hosts kindly stocked basic toiletries
+3314819,761658484,representative,2021-05-23,2021,historical,location,positive,,Location & price perfect!
+3314819,761658484,representative,2021-05-23,2021,historical,amenities,positive,,We loved the sitting area on the deck!
+3314819,761658484,representative,2021-05-23,2021,historical,noise,positive,,So peaceful!
+3314819,761658484,representative,2021-05-23,2021,historical,value,positive,,Location & price perfect!
+3314819,763718524,representative,2021-05-29,2021,historical,location,positive,,view is good
+3314819,763718524,representative,2021-05-29,2021,historical,comfort,positive,,The room is nice
+3314819,405040315104453449,representative,2021-07-12,2021,historical,comfort,positive,,Allison and Peter have such a warm and inviting place!
+3314819,405040315104453449,representative,2021-07-12,2021,historical,amenities,positive,,the accommodations had everything that we needed
+3314819,405040315104453449,representative,2021-07-12,2021,historical,value,positive,,the rate was extremely reasonable
+3314819,456504727113065804,representative,2021-09-21,2021,historical,comfort,positive,,It's very roomy
+3314819,456504727113065804,representative,2021-09-21,2021,historical,value,positive,,a great deal for the price
+3314819,483263033827183871,representative,2021-10-28,2021,historical,location,positive,,the location perfect
+3314819,483263033827183871,representative,2021-10-28,2021,historical,host_communication,positive,,the hosts outstanding
+3314819,483263033827183871,representative,2021-10-28,2021,historical,comfort,positive,,The space is comfortable
+3314819,483263033827183871,representative,2021-10-28,2021,historical,value,positive,,the value incredible
+3314819,486932256568871653,representative,2021-11-02,2021,historical,location,positive,,Great location with grocery and restaurants close by.
+3314819,486932256568871653,representative,2021-11-02,2021,historical,check_in,positive,,Very easy check in and out.
+3314819,486932256568871653,representative,2021-11-02,2021,historical,comfort,positive,,"Big, comfortable room. | Bed was comfortable."
+3314819,486932256568871653,representative,2021-11-02,2021,historical,amenities,positive,,Enjoyed having the mini fridge for my drinks.
+3314819,486932256568871653,representative,2021-11-02,2021,historical,value,positive,,providing an economical overnight stay
+3314819,499947594452557392,representative,2021-11-20,2021,historical,cleanliness,positive,,clean bathroom
+3314819,499947594452557392,representative,2021-11-20,2021,historical,host_communication,positive,,nice hosts
+3314819,517332956159493089,representative,2021-12-14,2021,historical,host_communication,positive,,Alison and Peter were communicative and accommodating.
+3314819,517332956159493089,representative,2021-12-14,2021,historical,value,positive,,great value for what it is!
+3314819,537676255708985794,representative,2022-01-11,2022,historical,location,positive,,in a beautiful location
+3314819,537676255708985794,representative,2022-01-11,2022,historical,host_communication,positive,,Allison and Peter were super communicative.
+3314819,537676255708985794,representative,2022-01-11,2022,historical,value,positive,,for an affordable price
+3314819,573921193652012643,representative,2022-03-02,2022,historical,cleanliness,positive,,always clean
+3314819,573921193652012643,representative,2022-03-02,2022,historical,location,positive,,always convenient
+3314819,573921193652012643,representative,2022-03-02,2022,historical,check_in,positive,,Always easy check in
+3314819,579646381219732020,representative,2022-03-10,2022,historical,location,positive,,Right next to biltmore
+3314819,579646381219732020,representative,2022-03-10,2022,historical,comfort,positive,,private spacious room
+3314819,579646381219732020,representative,2022-03-10,2022,historical,amenities,positive,,with most everything you need!
+3314819,579646381219732020,representative,2022-03-10,2022,historical,value,positive,,You absolutely cannot beat this place for the value!
+3314819,615897480733929737,representative,2022-04-29,2022,historical,comfort,positive,,it was as nice as being at home
+3314819,664417555149696642,representative,2022-07-05,2022,historical,location,positive,,Easy access to downtown without having to hop on a highway.
+3314819,664417555149696642,representative,2022-07-05,2022,historical,check_in,negative,narrow_door_access,It's also a little hard to get to the door because there is only 2ish feet between the wall and the stairs
+3314819,664417555149696642,representative,2022-07-05,2022,historical,comfort,negative,basic_for_extended_stays,I wouldn't recommend if you're looking to spend a lot of time at the AirBnb.
+3314819,664417555149696642,representative,2022-07-05,2022,historical,amenities,neutral,,Good for when you need a place to sleep and shower only.
+3314819,671743028947589135,representative,2022-07-15,2022,historical,location,positive,,Quick on and off to the highway.
+3314819,671743028947589135,representative,2022-07-15,2022,historical,amenities,neutral,,"This place is simple, and doesn't have all the bells and whistles but has everything you would need."
+3314819,687623947974924727,representative,2022-08-06,2022,historical,location,positive,,well located for us
+3314819,687623947974924727,representative,2022-08-06,2022,historical,amenities,positive,,especially the low deck hangout
+3314819,687623947974924727,representative,2022-08-06,2022,historical,noise,positive,,the place was quiet
+3314819,693480984628428419,representative,2022-08-14,2022,historical,cleanliness,positive,,The large basement room was clean
+3314819,693480984628428419,representative,2022-08-14,2022,historical,location,positive,,It's in a good location for visiting attractions
+3314819,693480984628428419,representative,2022-08-14,2022,historical,comfort,mixed,temperature_control,let us get a good night's sleep | We could not control the temperature in the room | were comfortable with an extra blanket in the cold air conditioning
+3314819,693480984628428419,representative,2022-08-14,2022,historical,value,positive,,it is a good value for the price
+3314819,802912464512404217,representative,2023-01-12,2023,historical,cleanliness,positive,,Clean an an appealing ambiance
+3314819,802912464512404217,representative,2023-01-12,2023,historical,comfort,positive,,Very spacious private | an appealing ambiance w personal photography
+3314819,802912464512404217,representative,2023-01-12,2023,historical,amenities,positive,,including private porch
+3314819,823225998759028328,representative,2023-02-09,2023,historical,comfort,positive,,Plenty of space if you need it
+3314819,823225998759028328,representative,2023-02-09,2023,historical,amenities,neutral,,"Fairly standard, no frills basement apartment."
+3314819,823225998759028328,representative,2023-02-09,2023,historical,value,positive,,Low cleaning fee. | Good bargain stay.
+3314819,826798780522745546,representative,2023-02-14,2023,historical,cleanliness,positive,,was clean and tidy
+3314819,826798780522745546,representative,2023-02-14,2023,historical,comfort,positive,,Plenty of space and privacy
+3314819,826798780522745546,representative,2023-02-14,2023,historical,value,positive,,This place is well worth the value.
+3314819,828302545215010020,representative,2023-02-16,2023,historical,check_in,neutral,steep_access,It's a steep drive winding up a mountainside
+3314819,828302545215010020,representative,2023-02-16,2023,historical,comfort,positive,,comfy and I was well-rested
+3314819,828302545215010020,representative,2023-02-16,2023,historical,noise,positive,,it was quiet
+3314819,901415277591821304,representative,2023-05-28,2023,historical,noise,positive,,"cute, private and quiet"
+3314819,901415277591821304,representative,2023-05-28,2023,historical,value,positive,,extremely great deal!
+3314819,901415277591821304,representative,2023-05-28,2023,historical,other,positive,,"cute, private and quiet"
+3314819,1042086046830278753,representative,2023-12-08,2023,historical,cleanliness,positive,,"clean, roomy and a great value."
+3314819,1042086046830278753,representative,2023-12-08,2023,historical,listing_accuracy,positive,,the place was as advertised
+3314819,1042086046830278753,representative,2023-12-08,2023,historical,comfort,positive,,"clean, roomy and a great value."
+3314819,1042086046830278753,representative,2023-12-08,2023,historical,value,positive,,"clean, roomy and a great value."
+3314819,1047189525277381303,representative,2023-12-15,2023,historical,comfort,positive,,private and comfortable
+3314819,1047189525277381303,representative,2023-12-15,2023,historical,value,positive,,"Inexpensive- but, perfect for my needs!!!"
+3314819,1047189525277381303,representative,2023-12-15,2023,historical,other,positive,,private and comfortable
+3314819,1104380592821407454,representative,2024-03-03,2024,recent,cleanliness,positive,,"clean, spacious"
+3314819,1104380592821407454,representative,2024-03-03,2024,recent,location,positive,,Location and value of the place were good
+3314819,1104380592821407454,representative,2024-03-03,2024,recent,host_communication,positive,,Allison was also very responsive in communication.
+3314819,1104380592821407454,representative,2024-03-03,2024,recent,comfort,positive,,had just what was needed for comfortable stay
+3314819,1104380592821407454,representative,2024-03-03,2024,recent,value,positive,,Location and value of the place were good
+3314819,1112361077463757043,representative,2024-03-14,2024,recent,cleanliness,positive,,and the cleanliness
+3314819,1112361077463757043,representative,2024-03-14,2024,recent,host_communication,positive,,Allison and Peter were great at communicating with me
+3314819,1112361077463757043,representative,2024-03-14,2024,recent,listing_accuracy,positive,,The apartment was exactly as described in the listing.
+3314819,1112361077463757043,representative,2024-03-14,2024,recent,amenities,positive,,"I appreciated all the provided amenities, the ease of parking"
+3314819,1112361077463757043,representative,2024-03-14,2024,recent,noise,positive,,the house itself was very quiet
+3314819,1112361077463757043,representative,2024-03-14,2024,recent,value,positive,,The value of what I paid for such an excellent place can't be beat.
+3314819,1112361077463757043,representative,2024-03-14,2024,recent,safety,positive,,The neighborhood was safe and peaceful
+3314819,1122549155022643200,representative,2024-03-28,2024,recent,host_communication,positive,,the hosts were friendly and accommodating
+3314819,1122549155022643200,representative,2024-03-28,2024,recent,check_in,negative,steep_access,The walk up the hill from parking area can be challenging for older people.
+3314819,1122549155022643200,representative,2024-03-28,2024,recent,amenities,negative,parking_conditions,It would have been nice to pull up into the driveway and drop our things off.
+3314819,1122549155022643200,representative,2024-03-28,2024,recent,value,positive,,The price was right!
+3314819,1155200842974207295,representative,2024-05-12,2024,recent,cleanliness,positive,,Very clean
+3314819,1155200842974207295,representative,2024-05-12,2024,recent,location,positive,,If flying out of Asheville this is the place to stay!!!
+3314819,1155200842974207295,representative,2024-05-12,2024,recent,check_in,positive,,easy to get in
+3314819,1162403832709363499,representative,2024-05-22,2024,recent,comfort,positive,,It felt like home | I loved the room with great books and nice pictures.
+3314819,1162403832709363499,representative,2024-05-22,2024,recent,amenities,positive,,They also have a very cute notebook for guests
+3314819,1179005246294849472,representative,2024-06-14,2024,recent,cleanliness,positive,,"the place smelled ever so lovely | the bed, couches, furnishings, etc, are immaculate"
+3314819,1179005246294849472,representative,2024-06-14,2024,recent,location,positive,,Nice country side view of mountains.
+3314819,1179005246294849472,representative,2024-06-14,2024,recent,amenities,positive,,Loved the Roku | Cute Lil Coffee/Tea warmer and available coffee.
+3314819,1187006916880617725,representative,2024-06-25,2024,recent,cleanliness,positive,,It was very clean
+3314819,1187006916880617725,representative,2024-06-25,2024,recent,location,positive,,the location was great
+3314819,1347974864933219672,representative,2025-02-02,2025,recent,host_communication,positive,,great hosts!
+3314819,1388487027324206731,representative,2025-03-30,2025,recent,location,positive,,Near to places of interest.
+3314819,1388487027324206731,representative,2025-03-30,2025,recent,value,positive,,if you need a reasonably priced place to stay
+3314819,1442190993930697353,representative,2025-06-12,2025,recent,location,positive,,Nice scenic location and convenient driving distance to most of Asheville.
+3314819,1495789507364076673,representative,2025-08-25,2025,recent,location,positive,,Nice location close to Asheville.
+3314819,1495789507364076673,representative,2025-08-25,2025,recent,check_in,positive,,Clear instructions to get in.
+3314819,1521184005272032098,representative,2025-09-29,2025,recent,location,positive,,the location worked well to visit the local attractions
+3314819,1521184005272032098,representative,2025-09-29,2025,recent,noise,positive,,Peaceful
+3314819,1551663987651145839,representative,2025-11-10,2025,recent,cleanliness,positive,,the space was clean and lovely
+3314819,1551663987651145839,representative,2025-11-10,2025,recent,location,positive,,The neighborhood was picturesque in the mountains of Asheville
+3314819,1551663987651145839,representative,2025-11-10,2025,recent,check_in,positive,,they provided easy instructions for seamless check-in
+3314819,1551663987651145839,representative,2025-11-10,2025,recent,value,positive,,it was incredibly reasonably priced
+3314819,1608112474677656171,representative,2026-01-27,2026,recent,host_communication,positive,,They helped me with anything I needed.
+3314819,1608112474677656171,representative,2026-01-27,2026,recent,listing_accuracy,positive,,They're very clear on description.
+3314819,1608112474677656171,representative,2026-01-27,2026,recent,comfort,positive,,Beautiful space very comfortable and peaceful.
+3314819,1608112474677656171,representative,2026-01-27,2026,recent,noise,positive,,very comfortable and peaceful
+3314819,1665390284424155000,representative,2026-04-16,2026,recent,amenities,positive,,Had everything I needed!
+3314819,1723373618146817467,representative,2026-07-05,2026,recent,cleanliness,positive,,The space was spotless
+3314819,1723373618146817467,representative,2026-07-05,2026,recent,host_communication,positive,,Allison and Peter were incredibly responsive
+3314819,1723373618146817467,representative,2026-07-05,2026,recent,check_in,positive,,made the check-in process seamless
+3314819,1723373618146817467,representative,2026-07-05,2026,recent,listing_accuracy,positive,,exactly as described
+3314819,1723373618146817467,representative,2026-07-05,2026,recent,comfort,positive,,"spotless, comfortable, and exactly as described"
+3314819,1731215291543240920,representative,2026-07-16,2026,recent,location,positive,,super convenient neighborhood setting
+3314819,1731215291543240920,representative,2026-07-16,2026,recent,host_communication,positive,,super responsive hosts
+3314819,1731215291543240920,representative,2026-07-16,2026,recent,check_in,positive,,easy in and out
+3314819,1731215291543240920,representative,2026-07-16,2026,recent,value,positive,,the price is incredible for the quality of accommodations
+7947839,407119619195598011,challenge,2021-07-15,2021,historical,cleanliness,negative,pests_insects,We woke up to find the kitchen infested with ants
+7947839,407119619195598011,challenge,2021-07-15,2021,historical,location,positive,,the property is adorable and in a great part of Asheville
+7947839,407119619195598011,challenge,2021-07-15,2021,historical,host_communication,negative,host_unresponsive_or_rude,we did not feel the host properly warned of or responded to the significant ant issue
+7947839,407119619195598011,challenge,2021-07-15,2021,historical,listing_accuracy,negative,layout_not_disclosed; listing_mismatch,she never disclosed any of this in either the Airbnb listing or in the check-in instructions | The fridge was substantially smaller than noted in the listing's photos | The bed is configured differently from the listing's photos
+7947839,407119619195598011,challenge,2021-07-15,2021,historical,amenities,negative,minor_maintenance; parking_conditions,The parking pass was broken and could not be hung on the rearview mirror | The toilet seat won't stay up.
+7947839,407119619195598011,challenge,2021-07-15,2021,historical,safety,negative,unlockable_windows,there are two windows in the TV room that cannot be locked at all
+7947839,50101157,representative,2015-10-09,2015,historical,host_communication,positive,,Christal was communicative from pre-booking to check out. | Gave amazing recommendations for restaurants
+7947839,50101157,representative,2015-10-09,2015,historical,comfort,positive,,one of the most comfortable bed/pillow situations imaginable
+7947839,50101157,representative,2015-10-09,2015,historical,amenities,positive,,The apartment had everything you could need | parking is plentiful and convenient
+7947839,50101157,representative,2015-10-09,2015,historical,noise,positive,,keeps a beautiful and quiet home
+7947839,54101464,representative,2015-11-16,2015,historical,location,positive,,"It is located so close to a great little coffee shop and other shopping. | Downtown is about two minutes away, and the Biltmore is about ten minutes."
+7947839,54101464,representative,2015-11-16,2015,historical,host_communication,positive,,Christal was very inviting
+7947839,54101464,representative,2015-11-16,2015,historical,listing_accuracy,positive,,the property was exactly what we were hoping for
+7947839,54101464,representative,2015-11-16,2015,historical,other,positive,,anyone hoping for some privacy and relaxation
+7947839,55045275,representative,2015-11-27,2015,historical,location,positive,,Loved the place and the nighberhood.
+7947839,55045275,representative,2015-11-27,2015,historical,listing_accuracy,positive,,Every thing was as described
+7947839,55045275,representative,2015-11-27,2015,historical,comfort,positive,,cozy comfy place
+7947839,68822647,representative,2016-04-06,2016,historical,comfort,positive,,The bed was comfy
+7947839,68822647,representative,2016-04-06,2016,historical,noise,positive,,the atmosphere was calm and pleasant
+7947839,81075492,representative,2016-06-20,2016,historical,location,positive,,"conveniently located to shopping, restaurants and so many great breweries"
+7947839,81075492,representative,2016-06-20,2016,historical,host_communication,positive,,Between her great recommendations and her quick response time Christal was an excellent host.
+7947839,88831857,representative,2016-07-25,2016,historical,location,positive,,easy walk to downtown!
+7947839,88831857,representative,2016-07-25,2016,historical,host_communication,positive,,Christal was welcoming
+7947839,88831857,representative,2016-07-25,2016,historical,amenities,positive,,we had everything we needed
+7947839,89315199,representative,2016-07-27,2016,historical,cleanliness,positive,,The place was clean
+7947839,89315199,representative,2016-07-27,2016,historical,location,positive,,centrally located
+7947839,89315199,representative,2016-07-27,2016,historical,comfort,positive,,wonderfully decorated | The couch and bed were both comfortable
+7947839,89315199,representative,2016-07-27,2016,historical,amenities,positive,,the bathroom was wonderful | The little kitchen allowed us to make our own breakfast and a quick cuppa.
+7947839,93290569,representative,2016-08-12,2016,historical,location,positive,,it was a convenient location for us to walk into downtown for food and drinks | It takes about 20 minutes to walk into the heart of downtown
+7947839,93290569,representative,2016-08-12,2016,historical,host_communication,positive,,if we needed anything at all she was very prompt to replying
+7947839,93290569,representative,2016-08-12,2016,historical,comfort,positive,,This was a really sweet and comfortable spot to relax
+7947839,98777667,representative,2016-09-01,2016,historical,location,positive,,"A quick walk to downtown, a block from high five (delicious local coffee spot) and a block from whole foods!"
+7947839,98777667,representative,2016-09-01,2016,historical,comfort,positive,,This cozy apartment
+7947839,99174911,representative,2016-09-03,2016,historical,location,positive,,a great location
+7947839,99174911,representative,2016-09-03,2016,historical,comfort,positive,,plenty of room
+7947839,102676570,representative,2016-09-18,2016,historical,location,positive,,Location was super walkable to everything downtown.
+7947839,102676570,representative,2016-09-18,2016,historical,check_in,positive,,Check in was very simple
+7947839,102676570,representative,2016-09-18,2016,historical,listing_accuracy,positive,,Crystal's place feels ever roomier than the photos.
+7947839,102676570,representative,2016-09-18,2016,historical,comfort,positive,,The bed was extremely comfortable.
+7947839,102676570,representative,2016-09-18,2016,historical,amenities,positive,,Everything you could need was provided.
+7947839,111908337,representative,2016-11-02,2016,historical,cleanliness,positive,,incredibly clean
+7947839,111908337,representative,2016-11-02,2016,historical,comfort,positive,,comfortable and very nicely designed
+7947839,117205423,representative,2016-12-05,2016,historical,cleanliness,positive,,The house was  very neat
+7947839,117205423,representative,2016-12-05,2016,historical,location,positive,,located really close to downtown
+7947839,117205423,representative,2016-12-05,2016,historical,comfort,mixed,neighbor_light_disturbance,we loved the decor and the ambience | The only major issue was a really bright security light at the neighboring house that kept going on and off all through the night and illuminating the bedroom.
+7947839,117205423,representative,2016-12-05,2016,historical,amenities,positive,,The little kitchen was very well equipped
+7947839,117205423,representative,2016-12-05,2016,historical,noise,positive,,although the apartment is part of the main house it was very quiet next door
+7947839,122146377,representative,2016-12-21,2016,historical,location,positive,,"just steps from shopping, restaurants and yoga!"
+7947839,122146377,representative,2016-12-21,2016,historical,comfort,positive,,full of character
+7947839,122146377,representative,2016-12-21,2016,historical,amenities,positive,,well appointed
+7947839,123479321,representative,2016-12-29,2016,historical,location,positive,,This place was super close to some great breweries and restaurants
+7947839,123479321,representative,2016-12-29,2016,historical,host_communication,positive,,Christal was a very hands-off host but was timely and responsive anytime we needed help.
+7947839,129191075,representative,2017-01-29,2017,historical,cleanliness,positive,,"it was super clean, comfortable, and adorable"
+7947839,129191075,representative,2017-01-29,2017,historical,location,positive,,"We were close to everything (breweries, shops, restaurants) and we walked everywhere the whole weekend."
+7947839,129191075,representative,2017-01-29,2017,historical,host_communication,positive,,Christal was a great host
+7947839,129191075,representative,2017-01-29,2017,historical,listing_accuracy,positive,,exactly like the pictures!
+7947839,129191075,representative,2017-01-29,2017,historical,comfort,positive,,"it was super clean, comfortable, and adorable"
+7947839,134999599,representative,2017-03-02,2017,historical,location,positive,,Christal's studio was conveniently located to downtown and near the best coffee shop
+7947839,140058156,representative,2017-03-27,2017,historical,location,positive,,Walking distance to many breweries and restaurants (and the conference) also grocery stores.
+7947839,140058156,representative,2017-03-27,2017,historical,comfort,positive,,The place itself is very homey and comfortable
+7947839,140058156,representative,2017-03-27,2017,historical,noise,positive,,on a quiet residential block
+7947839,149135444,representative,2017-05-02,2017,historical,location,positive,,"close to downtown, markets and on-ramps | this adorable pad is perfectly located"
+7947839,149135444,representative,2017-05-02,2017,historical,comfort,positive,,"a warm, cosy location | Inviting, homey and well furnished"
+7947839,149135444,representative,2017-05-02,2017,historical,noise,positive,,far enough removed for peace and quiet
+7947839,157132571,representative,2017-06-02,2017,historical,cleanliness,positive,,"Quiet, charming, clean and relaxing."
+7947839,157132571,representative,2017-06-02,2017,historical,location,positive,,Great location in downtown Asheville makes it easy to explore.
+7947839,157132571,representative,2017-06-02,2017,historical,comfort,positive,,"the perfect, cozy retreat!"
+7947839,157132571,representative,2017-06-02,2017,historical,noise,positive,,"Quiet, charming, clean and relaxing."
+7947839,190512470,representative,2017-09-04,2017,historical,location,positive,,Ideal location
+7947839,190512470,representative,2017-09-04,2017,historical,host_communication,positive,,clear communication throughout
+7947839,190512470,representative,2017-09-04,2017,historical,check_in,positive,,easy access
+7947839,192580331,representative,2017-09-10,2017,historical,location,positive,,Great location
+7947839,213074370,representative,2017-11-19,2017,historical,cleanliness,positive,,"Christal's place is so charming, comfortable, clean and well located"
+7947839,213074370,representative,2017-11-19,2017,historical,location,positive,,"Christal's place is so charming, comfortable, clean and well located"
+7947839,213074370,representative,2017-11-19,2017,historical,comfort,positive,,"Christal's place is so charming, comfortable, clean and well located"
+7947839,214835803,representative,2017-11-26,2017,historical,cleanliness,positive,,Super clean and had a pleasant and calming aroma.
+7947839,214835803,representative,2017-11-26,2017,historical,location,positive,,The rental space is about a 1/2 mile from everything downtown.
+7947839,214835803,representative,2017-11-26,2017,historical,listing_accuracy,positive,,Totally exceeded my expectations.
+7947839,214835803,representative,2017-11-26,2017,historical,comfort,positive,,The decor is warm and inviting. | The furniture is very comfortable.
+7947839,226611037,representative,2018-01-11,2018,historical,cleanliness,positive,,"Adorable living space, clean, fresh, comfortable."
+7947839,226611037,representative,2018-01-11,2018,historical,location,positive,,"So close to downtown, we walked every where."
+7947839,226611037,representative,2018-01-11,2018,historical,host_communication,positive,,Cristal was extremely hospitable.
+7947839,226611037,representative,2018-01-11,2018,historical,check_in,positive,,Private entrance and street parking made our getaway super easy.
+7947839,226611037,representative,2018-01-11,2018,historical,comfort,positive,,"Adorable living space, clean, fresh, comfortable."
+7947839,226611037,representative,2018-01-11,2018,historical,amenities,positive,,Private entrance and street parking made our getaway super easy.
+7947839,232356405,representative,2018-02-04,2018,historical,cleanliness,positive,,"The space was clean, comfortable and in such a great location."
+7947839,232356405,representative,2018-02-04,2018,historical,location,positive,,"The space was clean, comfortable and in such a great location. | There are so many great things to do and great places to eat in the neighborhood."
+7947839,232356405,representative,2018-02-04,2018,historical,host_communication,positive,,"Cristal was great. | Cristal was communicative,  flexible, and had me feel welcome."
+7947839,232356405,representative,2018-02-04,2018,historical,comfort,positive,,"The space was clean, comfortable and in such a great location."
+7947839,232829161,representative,2018-02-06,2018,historical,cleanliness,positive,,The space is clean and comfortable.
+7947839,232829161,representative,2018-02-06,2018,historical,location,positive,,Walkable to downtown with lots of food and brewery options.
+7947839,232829161,representative,2018-02-06,2018,historical,host_communication,positive,,Christal was easy to communicate with
+7947839,232829161,representative,2018-02-06,2018,historical,comfort,positive,,The space is clean and comfortable.
+7947839,240897660,representative,2018-03-06,2018,historical,location,positive,,Awesome place that is close to everything in downtown ashville.
+7947839,240897660,representative,2018-03-06,2018,historical,host_communication,positive,,Great host
+7947839,282866326,representative,2018-06-28,2018,historical,cleanliness,positive,,Everything was clean and ready to go.
+7947839,282866326,representative,2018-06-28,2018,historical,location,positive,,"Right next to a grocery store, and pretty close to all the shopping and restaurants."
+7947839,282866326,representative,2018-06-28,2018,historical,comfort,positive,,Very charming space
+7947839,282866326,representative,2018-06-28,2018,historical,amenities,positive,,it had everything we needed
+7947839,296846895,representative,2018-07-26,2018,historical,location,positive,,About a 5-10minute walk to downtown.
+7947839,296846895,representative,2018-07-26,2018,historical,comfort,positive,,Cozy and charming
+7947839,310605904,representative,2018-08-19,2018,historical,location,positive,,great location in Asheville!
+7947839,350131422,representative,2018-11-18,2018,historical,location,positive,,Great location. | Whole foods is a block away.
+7947839,350131422,representative,2018-11-18,2018,historical,host_communication,positive,,Crystal is very fast to reply. | She lives upstairs and easy to get in touch with.
+7947839,350131422,representative,2018-11-18,2018,historical,amenities,positive,,Free parking spot in front. | There was tea and coffee available. | Nice toiletries.
+7947839,358512677,representative,2018-12-14,2018,historical,location,positive,,"It is within walking distance to downtown Asheville, right across the street from a fabulous Whole Foods"
+7947839,358512677,representative,2018-12-14,2018,historical,host_communication,positive,,Christal (who is such a sweet soul)
+7947839,358512677,representative,2018-12-14,2018,historical,comfort,positive,,From the comfy cozy bed to the eclectic decor
+7947839,358512677,representative,2018-12-14,2018,historical,noise,positive,,"If you're looking for a peaceful retreat steps from the city, you found it"
+7947839,410706048,representative,2019-02-10,2019,historical,location,positive,,the location is fantastic
+7947839,410706048,representative,2019-02-10,2019,historical,listing_accuracy,negative,layout_not_disclosed,it was unclear to me when I booked the place for my wife's bday weekend that the apartment is really one side of Christal's home and that the walls are quite thin
+7947839,410706048,representative,2019-02-10,2019,historical,comfort,positive,,The apartment is cute and cozy
+7947839,410706048,representative,2019-02-10,2019,historical,amenities,positive,,"Christal does provide a sound machine, but there is a limit to what that can do."
+7947839,410706048,representative,2019-02-10,2019,historical,noise,mixed,noise_from_adjoining_residence,My wife and I woke up to the sound of her dogs barking during a nap. | the music from the other side of the house was loud and the bass was thumping in our room | noise was never a major issue -- we slept fine both nights
+7947839,435470261,representative,2019-04-10,2019,historical,location,positive,,Really nice location!
+7947839,499503825,representative,2019-07-31,2019,historical,location,positive,,"Very convenient location to downtown and within walking distance of a coffee shop, brewery, and whole foods."
+7947839,542756745,representative,2019-10-06,2019,historical,location,positive,,we were just steps away from a very cute coffee shop and even a brewery
+7947839,542756745,representative,2019-10-06,2019,historical,comfort,positive,,The apartment is incredibly charming with all the thoughtful touches.
+7947839,542756745,representative,2019-10-06,2019,historical,amenities,positive,,Parking was very easy
+7947839,544604257,representative,2019-10-10,2019,historical,cleanliness,positive,,The place is super clean and extremely stylish!
+7947839,544604257,representative,2019-10-10,2019,historical,location,positive,,The location is also excellent. | We were within walking distance of everything downtown
+7947839,544604257,representative,2019-10-10,2019,historical,comfort,positive,,The place is super clean and extremely stylish!
+7947839,544604257,representative,2019-10-10,2019,historical,amenities,positive,,The little back deck and backyard were really nice | I appreciated the thoughtful touches like coffee and tea being provided.
+7947839,556466795,representative,2019-10-29,2019,historical,location,positive,,the home is very close to downtown and in a cute neighborhood
+7947839,556466795,representative,2019-10-29,2019,historical,comfort,positive,,Very cute place with a comfy bed and beautiful artwork.
+7947839,583265905,representative,2019-12-28,2019,historical,cleanliness,positive,,The place was very clean
+7947839,583265905,representative,2019-12-28,2019,historical,location,positive,,"Also great location, very close to downtown!"
+7947839,583265905,representative,2019-12-28,2019,historical,listing_accuracy,positive,,exceeded all of our expectations
+7947839,583265905,representative,2019-12-28,2019,historical,comfort,positive,,Stylish living space and comfortable bed!
+7947839,583265905,representative,2019-12-28,2019,historical,amenities,positive,,she provided everything we could need and more
+7947839,583265905,representative,2019-12-28,2019,historical,noise,positive,,Noise was no problem & she even included an optional sound machine.
+7947839,600939196,representative,2020-02-02,2020,historical,cleanliness,positive,,"This place was clean, spacious and had great amenities!"
+7947839,600939196,representative,2020-02-02,2020,historical,location,positive,,Walking distance to downtown which was extremely convenient!
+7947839,600939196,representative,2020-02-02,2020,historical,comfort,positive,,"This place was clean, spacious and had great amenities! | The bed was so comfortable"
+7947839,600939196,representative,2020-02-02,2020,historical,amenities,positive,,"This place was clean, spacious and had great amenities!"
+7947839,600939196,representative,2020-02-02,2020,historical,noise,positive,,"the room was quiet, private and decorated beautifully"
+7947839,609841250,representative,2020-02-23,2020,historical,cleanliness,positive,,the place was very clean
+7947839,609841250,representative,2020-02-23,2020,historical,location,positive,,The location was really great
+7947839,609841250,representative,2020-02-23,2020,historical,comfort,negative,temperature_control,I was a bit disappointed there didn't seem to be a way to adjust the temperature in the unit | it got a bit warm inside and we didn't have a way to turn down the heat
+7947839,638207200,representative,2020-07-14,2020,historical,cleanliness,positive,,clean
+7947839,638207200,representative,2020-07-14,2020,historical,location,positive,,close to downtown
+7947839,638207200,representative,2020-07-14,2020,historical,check_in,positive,,easy check-in
+7947839,638207200,representative,2020-07-14,2020,historical,comfort,positive,,"This was a wonderful, stylish space."
+7947839,638207200,representative,2020-07-14,2020,historical,noise,positive,,"Quiet, safe neighborhood"
+7947839,638207200,representative,2020-07-14,2020,historical,safety,positive,,"Quiet, safe neighborhood"
+7947839,667287226,representative,2020-09-23,2020,historical,location,positive,,There is a Whole Foods and Trader Joe's at <5 minutes walk.
+7947839,667287226,representative,2020-09-23,2020,historical,comfort,positive,,"The place, the decorations, and furnishings all feel amazing!"
+7947839,667287226,representative,2020-09-23,2020,historical,amenities,mixed,hot_water_bath,"My only issue was that the bathtub water wouldn't create a hot bath. | I ended up boiling extra kettles of water to supplement the bath... which was a big hassle. | It's a very homey space with a large, spacious, green backyard that I appreciated."
+7947839,671567063,representative,2020-10-05,2020,historical,cleanliness,positive,,Super clean!!!
+7947839,671567063,representative,2020-10-05,2020,historical,comfort,positive,,The bed and sound machine provided one of the best night's sleeps I've had in a long time!!
+7947839,700625118,representative,2020-10-15,2020,historical,location,positive,,Great walking distance to lots of fun shops and great food.
+7947839,700625118,representative,2020-10-15,2020,historical,host_communication,positive,,"Christal has put a lot of thought and warmth into this place, and it shows."
+7947839,700625118,representative,2020-10-15,2020,historical,comfort,positive,,This place is so cute.
+7947839,703790823,representative,2020-10-25,2020,historical,cleanliness,positive,,Extremely clean.
+7947839,703790823,representative,2020-10-25,2020,historical,location,positive,,Very convenient location for visiting Asheville at a fair price.
+7947839,703790823,representative,2020-10-25,2020,historical,value,positive,,Very convenient location for visiting Asheville at a fair price.
+7947839,712858826,representative,2020-12-01,2020,historical,location,positive,,great location | About a 5 minute walk to downtown and extremely close to grocery stores and in-town nature walks.
+7947839,712858826,representative,2020-12-01,2020,historical,comfort,positive,,"Cute place, very comfy bed"
+7947839,712858826,representative,2020-12-01,2020,historical,amenities,positive,,Nice kitchenette for cooking breakfast or storing take-out beer.
+7947839,714257028,representative,2020-12-08,2020,historical,host_communication,positive,,Christal is a great communicator and is dedicated to your comfort as a host.
+7947839,766209178,representative,2021-06-04,2021,historical,location,positive,,just a short walk from downtown Asheville
+7947839,766209178,representative,2021-06-04,2021,historical,comfort,positive,,This place and all the pieces Christal has curated for it are gorgeous.
+7947839,766209178,representative,2021-06-04,2021,historical,value,positive,,This is a great deal on the cutest place
+7947839,404314502085181714,representative,2021-07-11,2021,historical,location,positive,,Great location close to downtown Asheville.
+7947839,404314502085181714,representative,2021-07-11,2021,historical,comfort,positive,,Cute space! Perfect for 2 people
+7947839,404314502085181714,representative,2021-07-11,2021,historical,amenities,positive,,has everything you would need
+7947839,414383387230476397,representative,2021-07-25,2021,historical,location,positive,,Christals space is perfect to stay near downtown Asheville. | the location itself is very convenient and walkable to the main downtown area
+7947839,414383387230476397,representative,2021-07-25,2021,historical,host_communication,positive,,It was easy check in / communication
+7947839,414383387230476397,representative,2021-07-25,2021,historical,check_in,positive,,It was easy check in / communication
+7947839,414383387230476397,representative,2021-07-25,2021,historical,comfort,positive,,Also loved the decor and space.
+7947839,418103901098291955,representative,2021-07-30,2021,historical,cleanliness,positive,,super clean
+7947839,418103901098291955,representative,2021-07-30,2021,historical,location,positive,,Great location
+7947839,418103901098291955,representative,2021-07-30,2021,historical,comfort,positive,,space was beautiful and comfy
+7947839,423113132789850312,representative,2021-08-06,2021,historical,location,positive,,It was easy to walk downtown or grab an Uber if we wanted to go somewhere else.
+7947839,423113132789850312,representative,2021-08-06,2021,historical,comfort,positive,,The colors in the bedroom are very calming
+7947839,423113132789850312,representative,2021-08-06,2021,historical,amenities,positive,,"the bathroom is perfectly designed with Asheville in mind | Parking was easy, too, with the parking pass."
+7947839,435394361711418696,representative,2021-08-23,2021,historical,location,positive,,"awesome location, walking distance from two grocery stores and downtown."
+7947839,470222939041488631,representative,2021-10-10,2021,historical,location,positive,,Quaint back of house and backyard location. | Loved the mountains and the Blue Ridge Parkway.
+7947839,470222939041488631,representative,2021-10-10,2021,historical,comfort,positive,,Very artsy vibe.
+7947839,475286594516177573,representative,2021-10-17,2021,historical,location,positive,,close to downtown
+7947839,475286594516177573,representative,2021-10-17,2021,historical,comfort,positive,,Great little hippie bungalow
+7947839,485465726461497002,representative,2021-10-31,2021,historical,cleanliness,positive,,clean
+7947839,485465726461497002,representative,2021-10-31,2021,historical,location,positive,,The Airbnb was close to downtown
+7947839,485465726461497002,representative,2021-10-31,2021,historical,amenities,positive,,had everything we needed for my husband and myself
+7947839,576825581935751994,representative,2022-03-06,2022,historical,location,positive,,great location!
+7947839,576825581935751994,representative,2022-03-06,2022,historical,comfort,positive,,Lots of space
+7947839,610111975255760224,representative,2022-04-21,2022,historical,location,positive,,close to everything
+7947839,610111975255760224,representative,2022-04-21,2022,historical,comfort,positive,,"Comfortable bed, great atmosphere/vibes"
+7947839,613706895057085526,representative,2022-04-26,2022,historical,location,positive,,A great location to explore Asheville and the mountains.
+7947839,613706895057085526,representative,2022-04-26,2022,historical,check_in,positive,,Very clear move-in instructions
+7947839,613706895057085526,representative,2022-04-26,2022,historical,comfort,positive,,a nice space
+7947839,618116121080413317,representative,2022-05-02,2022,historical,location,positive,,We were about to walk to everything!
+7947839,618116121080413317,representative,2022-05-02,2022,historical,amenities,positive,,This space was exactly what we needed for our weekend away.
+7947839,714533552249113641,representative,2022-09-12,2022,historical,location,positive,,Perfect location to be near downtown
+7947839,714533552249113641,representative,2022-09-12,2022,historical,noise,positive,,but away from noise
+7947839,726796566865257850,representative,2022-09-29,2022,historical,location,positive,,Location is super convenient | Food is a step away and downtown is a very short walk.
+7947839,726796566865257850,representative,2022-09-29,2022,historical,host_communication,positive,,"Chrystal is very kind and caring, she was super accommodating and flexible during my stay."
+7947839,726796566865257850,representative,2022-09-29,2022,historical,comfort,positive,,the bed was surprisingly enough and super-comfy | you can feel it in every touch and in every detail
+7947839,726796566865257850,representative,2022-09-29,2022,historical,amenities,positive,,"I also loved the back porch, having coffee there"
+7947839,726796566865257850,representative,2022-09-29,2022,historical,noise,positive,,enjoying the quiet and the nature there
+7947839,735522722219281120,representative,2022-10-11,2022,historical,cleanliness,positive,,clean
+7947839,735522722219281120,representative,2022-10-11,2022,historical,location,positive,,great location
+7947839,735522722219281120,representative,2022-10-11,2022,historical,listing_accuracy,positive,,accurate description
+7947839,735522722219281120,representative,2022-10-11,2022,historical,comfort,positive,,very cute space | thoughtfully decorated
+7947839,763760748494274399,representative,2022-11-19,2022,historical,location,positive,,awesome location
+7947839,763760748494274399,representative,2022-11-19,2022,historical,comfort,positive,,spacious unit
+7947839,763760748494274399,representative,2022-11-19,2022,historical,amenities,positive,,with everything you need
+7947839,779709843201511307,representative,2022-12-11,2022,historical,location,positive,,was a perfect size and location for our stay | there was a Whole Foods across the street to accommodate my special food needs
+7947839,779709843201511307,representative,2022-12-11,2022,historical,comfort,positive,,Artfully decorated and very welcoming. | It felt like home.
+7947839,779709843201511307,representative,2022-12-11,2022,historical,amenities,positive,,This place had everything we needed | I especially appreciated the fragrance-free environment
+7947839,826120409411362478,representative,2023-02-13,2023,historical,location,positive,neighborhood_in_transition,"We loved the location and neighborhood. | The neighborhood is ""turning,"" with some properties that have been renovated and others in the process or needing work."
+7947839,826120409411362478,representative,2023-02-13,2023,historical,host_communication,positive,,Christal's recommendations were spot on.
+7947839,826120409411362478,representative,2023-02-13,2023,historical,comfort,positive,,This rental is adorable and comfortable
+7947839,826120409411362478,representative,2023-02-13,2023,historical,safety,positive,,We felt totally comfortable walking the area at night
+7947839,912318181243631195,representative,2023-06-12,2023,historical,comfort,positive,,A very quaint and cozy place to stay!
+7947839,959443088087907798,representative,2023-08-16,2023,historical,location,positive,,"The location was great: easy to find, walkable and a spot to park."
+7947839,959443088087907798,representative,2023-08-16,2023,historical,check_in,positive,,easy to find
+7947839,959443088087907798,representative,2023-08-16,2023,historical,comfort,positive,,"I personally enjoyed the layout and decor inside the space, beautifully curated for a peaceful space. | Lots of natural light, comfortable bed/linens, cozy seating"
+7947839,959443088087907798,representative,2023-08-16,2023,historical,amenities,positive,,a spot to park | an outside bistro table where we enjoyed coffee in the morning!
+7947839,968145552761471197,representative,2023-08-28,2023,historical,location,positive,,the location made it super easy to walk everywhere and get around town
+7947839,968145552761471197,representative,2023-08-28,2023,historical,check_in,positive,,"The instructions for checking in were clear, and we had zero issues once we arrived."
+7947839,968145552761471197,representative,2023-08-28,2023,historical,comfort,positive,,"The apartment itself was cozy, comfortable, and had everything we needed."
+7947839,968145552761471197,representative,2023-08-28,2023,historical,amenities,positive,,had everything we needed
+7947839,1003632434699932127,representative,2023-10-16,2023,historical,comfort,positive,,"They're warm, cozy, unique, and thoughtfully designed for guests"
+7947839,1033453985634737784,representative,2023-11-26,2023,historical,location,positive,,Location was walkable to downtown.
+7947839,1033453985634737784,representative,2023-11-26,2023,historical,comfort,positive,,Very cozy well decorated
+7947839,1033453985634737784,representative,2023-11-26,2023,historical,amenities,positive,,fully equip apartment with all the little extras to ensure a comfortable stay
+7947839,1053743878997857062,representative,2023-12-24,2023,historical,cleanliness,positive,,the place itself was cozy and clean
+7947839,1053743878997857062,representative,2023-12-24,2023,historical,location,positive,,You can't beat the location
+7947839,1053743878997857062,representative,2023-12-24,2023,historical,host_communication,positive,,Christal was especially helpful when we accidentally locked ourselves out
+7947839,1053743878997857062,representative,2023-12-24,2023,historical,comfort,positive,,the place itself was cozy and clean
+7947839,1073946574718487190,representative,2024-01-21,2024,recent,location,positive,,Its location was perfect. | There were 2 grocery stores walking distance from her house
+7947839,1073946574718487190,representative,2024-01-21,2024,recent,comfort,positive,,"Her place was cozy, artistic and nicely decorated."
+7947839,1073946574718487190,representative,2024-01-21,2024,recent,amenities,positive,,She had all the things I needed while I was there for the weekend
+7947839,1099335644582840451,representative,2024-02-25,2024,recent,location,positive,,Perfect location for exploring the downtown area
+7947839,1099335644582840451,representative,2024-02-25,2024,recent,noise,positive,,while also being quite and peaceful!
+7947839,1118860630695220054,representative,2024-03-23,2024,recent,cleanliness,positive,,It was cozy and clean.
+7947839,1118860630695220054,representative,2024-03-23,2024,recent,location,positive,,We loved being able to walk to the downtown area.
+7947839,1118860630695220054,representative,2024-03-23,2024,recent,comfort,positive,,It was cozy and clean.
+7947839,1118860630695220054,representative,2024-03-23,2024,recent,noise,positive,,The neighborhood was quite.
+7947839,1147874776119899145,representative,2024-05-02,2024,recent,comfort,positive,,Christal had the most comfortable bed in our 8 day trip!
+7947839,1147874776119899145,representative,2024-05-02,2024,recent,amenities,positive,,Her place was super cute and well appointed.
+7947839,1171848159545425241,representative,2024-06-04,2024,recent,cleanliness,positive,,"The apartment is very comfortable, clean, and central to everything."
+7947839,1171848159545425241,representative,2024-06-04,2024,recent,location,positive,,"The apartment is very comfortable, clean, and central to everything."
+7947839,1171848159545425241,representative,2024-06-04,2024,recent,host_communication,positive,,with an owner who really cares and shares a unique experience with visitors
+7947839,1171848159545425241,representative,2024-06-04,2024,recent,comfort,positive,,"The apartment is very comfortable, clean, and central to everything. | The bed and linens are very soft."
+7947839,1171848159545425241,representative,2024-06-04,2024,recent,noise,positive,,"It's tucked away on a side street, so it has a quiet neighborhood feel."
+7947839,1237074864944702882,representative,2024-09-02,2024,recent,location,positive,,in a very convenient locations
+7947839,1237074864944702882,representative,2024-09-02,2024,recent,comfort,positive,,Really nicely decorated
+7947839,1237074864944702882,representative,2024-09-02,2024,recent,amenities,positive,,Even had streaming services logged in.
+7947839,1316131142007033152,representative,2024-12-20,2024,recent,location,positive,,There is a Whole Foods 200-300 ft away.
+7947839,1316131142007033152,representative,2024-12-20,2024,recent,comfort,positive,,The owner has great taste. Decor is a mix of vintage and modern.
+7947839,1382732291768187779,representative,2025-03-22,2025,recent,location,positive,,with all of the convenience of downtown within walking distance
+7947839,1382732291768187779,representative,2025-03-22,2025,recent,comfort,positive,,Wonderfully decorated comfy space
+7947839,1440018763356808152,representative,2025-06-09,2025,recent,host_communication,positive,,We also greatly appreciated the host and the local recs she provided.
+7947839,1440018763356808152,representative,2025-06-09,2025,recent,comfort,positive,,It was private and cozy and we loved the art.
+7947839,1440018763356808152,representative,2025-06-09,2025,recent,other,positive,,It was private and cozy
+7947839,1461055960715461363,representative,2025-07-08,2025,recent,cleanliness,positive,,Everything was clean
+7947839,1461055960715461363,representative,2025-07-08,2025,recent,location,positive,,Whole foods is literally close enough to throw a ball in the parking lot
+7947839,1461055960715461363,representative,2025-07-08,2025,recent,listing_accuracy,positive,,looked just like the photos
+7947839,1461055960715461363,representative,2025-07-08,2025,recent,comfort,positive,,It was gorgeous and cozy and I wanted to stay forever.
+7947839,1461055960715461363,representative,2025-07-08,2025,recent,amenities,positive,,You can cook and warm up food. | The bathroom had toiletries and Kleenex.
+7947839,1500152093945385298,representative,2025-08-31,2025,recent,location,positive,,Easy walk to downtown.
+7947839,1500152093945385298,representative,2025-08-31,2025,recent,comfort,positive,,"Charming place, with lovely original art."
+7947839,1500152093945385298,representative,2025-08-31,2025,recent,noise,positive,,Quiet.
+7947839,1541454541978258346,representative,2025-10-27,2025,recent,location,positive,,the location is perfect!
+7947839,1619002170936367167,representative,2026-02-11,2026,recent,cleanliness,positive,,very clean!
+7947839,1619002170936367167,representative,2026-02-11,2026,recent,location,positive,,Super convenient location and walkable to downtown.
+7947839,1619002170936367167,representative,2026-02-11,2026,recent,comfort,positive,,Super cute inside
+7947839,1632036784902486030,representative,2026-03-01,2026,recent,location,positive,,The location was close to downtown Asheville and pretty walkable
+7947839,1632036784902486030,representative,2026-03-01,2026,recent,comfort,positive,,We had a really comfortable weekend stay
+7947839,1632036784902486030,representative,2026-03-01,2026,recent,amenities,positive,,with everything we needed for the trip away
+7947839,1632036784902486030,representative,2026-03-01,2026,recent,noise,positive,,far away enough to be peaceful and quiet as well
+7947839,1662459336500760136,representative,2026-04-12,2026,recent,cleanliness,positive,,super clean!
+7947839,1662459336500760136,representative,2026-04-12,2026,recent,location,positive,,Walkable distance to downtown.
+7947839,1662459336500760136,representative,2026-04-12,2026,recent,host_communication,positive,,"Christal is kind, friendly, response, and helpful."
+7947839,1662459336500760136,representative,2026-04-12,2026,recent,comfort,positive,,"Super cute,  well decorated"
+7947839,1662459336500760136,representative,2026-04-12,2026,recent,amenities,positive,,well equipped | Cozy with cute tiny patio - views to garden.
+7947839,1689975851571461017,representative,2026-05-20,2026,recent,location,positive,,Downtown is walkable.
+7947839,1689975851571461017,representative,2026-05-20,2026,recent,comfort,positive,,"cozy, comfortable, personalized, and beautifully decorated"
+7947839,1689975851571461017,representative,2026-05-20,2026,recent,amenities,positive,,The little back porch facing the garden is a dream | Parking was easy.
+7947839,1705260564492826772,representative,2026-06-10,2026,recent,location,positive,,"Whole Foods is just around the corner, and it's about a 10-15 minute walk to the Downtown Arts District"
+7947839,1705260564492826772,representative,2026-06-10,2026,recent,comfort,positive,,There's plenty of space for one person or a couple. | The furniture and bed were comfortable
+7947839,1705260564492826772,representative,2026-06-10,2026,recent,amenities,positive,,The kitchen had everything I needed.

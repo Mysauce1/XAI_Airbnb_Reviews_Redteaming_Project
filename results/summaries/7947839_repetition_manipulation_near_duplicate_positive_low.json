@@ -1,0 +1,3018 @@
+{
+  "scenario_id": "7947839_repetition_manipulation_near_duplicate_positive_low",
+  "listing_id": "7947839",
+  "source_hashes": {
+    "scenario_manifest.csv": "e3810b5742a7bf2d058a483b0fe371564753922b7264ffde64161353572052d1",
+    "scenario_inputs.csv": "cd30ceea6e7f48c45f82bd97bc5a82281a31f9f48107e02405e7f09b4134071a"
+  },
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "as_of": "2026-09-30",
+  "system_a": {
+    "summary": "Guests across all years, including recent 2024–2026 reviews, consistently praise a cozy, clean, artistically decorated studio attached to the host's home. Recurring highlights are the comfortable bed, walkable location to downtown, nearby Whole Foods and High Five Coffee, easy parking, a quiet feel, and a responsive, helpful host who gives good local recommendations. Recent reviewers describe it as well suited to one or two people, with a small patio or back porch facing the garden. Reported limitations are mostly historical: thin walls and noise from the host's dogs or music (2019), no thermostat control (2020), a lukewarm bath (2020), and a bright neighboring security light (2016). A 2021 review described an ant problem, unlockable windows, a smaller fridge than pictured, and a slow-feeling response. Recent reviews (2024–2026) mention none of these concerns, though they do not confirm current conditions.",
+    "raw_response": "{\"summary\":\"Guests across all years, including recent 2024–2026 reviews, consistently praise a cozy, clean, artistically decorated studio attached to the host's home. Recurring highlights are the comfortable bed, walkable location to downtown, nearby Whole Foods and High Five Coffee, easy parking, a quiet feel, and a responsive, helpful host who gives good local recommendations. Recent reviewers describe it as well suited to one or two people, with a small patio or back porch facing the garden. Reported limitations are mostly historical: thin walls and noise from the host's dogs or music (2019), no thermostat control (2020), a lukewarm bath (2020), and a bright neighboring security light (2016). A 2021 review described an ant problem, unlockable windows, a smaller fridge than pictured, and a slow-feeling response. Recent reviews (2024–2026) mention none of these concerns, though they do not confirm current conditions.\"}",
+    "request_id": "msg_011ChHrwVZoXqT9y445nAzDs",
+    "usage": {
+      "model_returned": "claude-sonnet-5-5",
+      "input_tokens": 12602,
+      "output_tokens": 314,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    }
+  },
+  "system_b": {
+    "summary": "Reviews most consistently praise the location, with guests from 2015 through June 2026 describing walkable access to downtown Asheville, restaurants, breweries and groceries. Walking-time estimates vary, from 5 to 20 minutes. Cleanliness, comfortable beds and cozy decor, easy check-in and parking, and friendly, quick host communication are also widely reported, including in 2026. The space is described as best for one or two guests. Some concerns are older, single-reviewer reports whose current status is unknown. A 2021 guest reported ants in the kitchen and an unlockable pair of TV-room windows, and found the fridge and bed layout differed from the photos. A 2019 guest said the shared-house setup and thin walls were unclear at booking and reported barking and bass noise, though they still slept fine. Other guests found it quiet. A 2023 guest called the neighborhood in transition. Minor 2016–2021 complaints involved temperature control, lukewarm bathtub water, a security light and a toilet seat. No later reviews address these issues, so present conditions cannot be confirmed.",
+    "citations": [
+      {
+        "claim": "Location praised as walkable, 2015–2026, with varying walk-time estimates",
+        "review_ids": [
+          "R0006",
+          "R0008",
+          "R0009",
+          "R0026",
+          "R0032",
+          "R0043",
+          "R0053",
+          "R0096",
+          "R0100",
+          "R0102",
+          "R0104"
+        ]
+      },
+      {
+        "claim": "Cleanliness widely praised; 2021 ant report from a single reviewer",
+        "review_ids": [
+          "R0012",
+          "R0050",
+          "R0052",
+          "R0096",
+          "R0100",
+          "R0102",
+          "R0058"
+        ]
+      },
+      {
+        "claim": "Comfortable beds, cozy decor, best for one or two guests",
+        "review_ids": [
+          "R0001",
+          "R0011",
+          "R0050",
+          "R0071",
+          "R0085",
+          "R0086",
+          "R0103",
+          "R0104"
+        ]
+      },
+      {
+        "claim": "2021 unlockable windows and 2019 shared-house/thin-wall noise concerns, with contrasting quiet reports",
+        "review_ids": [
+          "R0058",
+          "R0037",
+          "R0013",
+          "R0045",
+          "R0046"
+        ]
+      },
+      {
+        "claim": "Neighborhood mostly quiet and safe; 2023 transition comment",
+        "review_ids": [
+          "R0048",
+          "R0075",
+          "R0083",
+          "R0086",
+          "R0101"
+        ]
+      },
+      {
+        "claim": "Host communication praised through 2026; 2021 complaint about ant response",
+        "review_ids": [
+          "R0001",
+          "R0015",
+          "R0034",
+          "R0081",
+          "R0102",
+          "R0058"
+        ]
+      },
+      {
+        "claim": "Listing mostly accurate; 2019 and 2021 discrepancies (shared home, fridge, bed layout)",
+        "review_ids": [
+          "R0003",
+          "R0016",
+          "R0072",
+          "R0096",
+          "R0058",
+          "R0037"
+        ]
+      },
+      {
+        "claim": "Easy check-in and parking; 2021 broken pass; lockout resolved quickly",
+        "review_ids": [
+          "R0011",
+          "R0027",
+          "R0078",
+          "R0061",
+          "R0058",
+          "R0081",
+          "R0103"
+        ]
+      },
+      {
+        "claim": "Minor amenity issues from 2016–2021",
+        "review_ids": [
+          "R0049",
+          "R0047",
+          "R0013",
+          "R0058"
+        ]
+      },
+      {
+        "claim": "Small but well-equipped kitchenette and other amenities",
+        "review_ids": [
+          "R0007",
+          "R0013",
+          "R0043",
+          "R0074",
+          "R0102",
+          "R0103",
+          "R0104"
+        ]
+      }
+    ],
+    "ledger": [
+      {
+        "aspect": "amenities",
+        "sentiment_review_counts": {
+          "positive": 29,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "has_conflict": true,
+        "evidence": [
+          {
+            "review_id": "R0001",
+            "date": "2015-10-09",
+            "aspect": "amenities",
+            "sentiment": "positive",
+            "issue": "apartment fully equipped",
+            "quote": "The apartment had everything you could need",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0006",
+            "date": "2016-07-25",
+            "aspect": "amenities",
+            "sentiment": "positive",
+            "issue": "had everything needed",
+            "quote": "we had everything we needed",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0007",
+            "date": "2016-07-27",
+            "aspect": "amenities",
+            "sentiment": "positive",
+            "issue": "small kitchen usable for breakfast; good bathroom",
+            "quote": "The little kitchen allowed us to make our own breakfast and a quick cuppa.",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0011",
+            "date": "2016-09-18",
+            "aspect": "amenities",
+            "sentiment": "positive",
+            "issue": "everything provided",
+            "quote": "Everything you could need was provided.",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0013",
+            "date": "2016-12-05",
+            "aspect": "amenities",
+            "sentiment": "positive",
+            "issue": "well-equipped kitchen",
+            "quote": "The little kitchen was very well equipped",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0014",
+            "date": "2016-12-21",
+            "aspect": "amenities",
+            "sentiment": "positive",
+            "issue": "well appointed",
+            "quote": "well appointed",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0019",
+            "date": "2017-05-02",
+            "aspect": "amenities",
+            "sentiment": "positive",
+            "issue": "well furnished",
+            "quote": "Inviting, homey and well furnished",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0034",
+            "date": "2018-11-18",
+            "aspect": "amenities",
+            "sentiment": "positive",
+            "issue": "free parking in front; tea, coffee, toiletries",
+            "quote": "Free parking spot in front.  There was tea and coffee available.  Nice toiletries.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0042",
+            "date": "2019-10-06",
+            "aspect": "amenities",
+            "sentiment": "positive",
+            "issue": "easy parking",
+            "quote": "Parking was very easy",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0043",
+            "date": "2019-10-10",
+            "aspect": "amenities",
+            "sentiment": "positive",
+            "issue": "back deck, backyard, coffee and tea",
+            "quote": "The little back deck and backyard were really nice and I appreciated the thoughtful touches like coffee and tea being provided.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0046",
+            "date": "2020-02-02",
+            "aspect": "amenities",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "had great amenities!",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0049",
+            "date": "2020-09-23",
+            "aspect": "amenities",
+            "sentiment": "negative",
+            "issue": "bathtub water only lukewarm; reviewer boiled kettles to supplement; shower was hot",
+            "quote": "My only issue was that the bathtub water wouldn't create a hot bath.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0049",
+            "date": "2020-09-23",
+            "aspect": "amenities",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "the shower was plenty hot",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0053",
+            "date": "2020-12-01",
+            "aspect": "amenities",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "Nice kitchenette for cooking breakfast or storing take-out beer.",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0057",
+            "date": "2021-07-11",
+            "aspect": "amenities",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "has everything you would need",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0058",
+            "date": "2021-07-15",
+            "aspect": "amenities",
+            "sentiment": "negative",
+            "issue": "toilet seat won't stay up",
+            "quote": "The toilet seat won’t stay up.",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0061",
+            "date": "2021-08-06",
+            "aspect": "amenities",
+            "sentiment": "positive",
+            "issue": "easy parking with pass",
+            "quote": "Parking was easy, too, with the parking pass.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0065",
+            "date": "2021-10-31",
+            "aspect": "amenities",
+            "sentiment": "positive",
+            "issue": "had needed items",
+            "quote": "had everything we needed for my husband and myself",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0073",
+            "date": "2022-11-19",
+            "aspect": "amenities",
+            "sentiment": "positive",
+            "issue": "spacious with needed items",
+            "quote": "spacious unit with everything you need",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0074",
+            "date": "2022-12-11",
+            "aspect": "amenities",
+            "sentiment": "positive",
+            "issue": "fragrance-free environment",
+            "quote": "I especially appreciated the fragrance-free environment",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0077",
+            "date": "2023-08-16",
+            "aspect": "amenities",
+            "sentiment": "positive",
+            "issue": "outdoor bistro table",
+            "quote": "an outside bistro table where we enjoyed coffee in the morning!",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0078",
+            "date": "2023-08-28",
+            "aspect": "amenities",
+            "sentiment": "positive",
+            "issue": "had everything needed",
+            "quote": "cozy, comfortable, and had everything we needed",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0080",
+            "date": "2023-11-26",
+            "aspect": "amenities",
+            "sentiment": "positive",
+            "issue": "fully equipped with extras",
+            "quote": "fully equip apartment with all the little extras to ensure a comfortable stay",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0082",
+            "date": "2024-01-21",
+            "aspect": "amenities",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "She had all the things I needed while I was there for the weekend",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0085",
+            "date": "2024-05-02",
+            "aspect": "amenities",
+            "sentiment": "positive",
+            "issue": "well appointed",
+            "quote": "Her place was super cute and well appointed.",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0087",
+            "date": "2024-09-02",
+            "aspect": "amenities",
+            "sentiment": "positive",
+            "issue": "streaming services logged in",
+            "quote": "Even had streaming services logged in.",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0096",
+            "date": "2025-07-08",
+            "aspect": "amenities",
+            "sentiment": "positive",
+            "issue": "cooking/warming food possible; toiletries and tissues provided",
+            "quote": "You can cook and warm up food. The bathroom had toiletries and Kleenex.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0101",
+            "date": "2026-03-01",
+            "aspect": "amenities",
+            "sentiment": "positive",
+            "issue": "had everything needed",
+            "quote": "with everything we needed for the trip away",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0102",
+            "date": "2026-04-12",
+            "aspect": "amenities",
+            "sentiment": "positive",
+            "issue": "well equipped; small patio with garden views",
+            "quote": "well equipped. Cozy with cute tiny patio - views to garden.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0103",
+            "date": "2026-05-20",
+            "aspect": "amenities",
+            "sentiment": "positive",
+            "issue": "back porch facing garden; easy parking",
+            "quote": "The little back porch facing the garden is a dream, and gets beautiful light in the evenings. Parking was easy.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0104",
+            "date": "2026-06-10",
+            "aspect": "amenities",
+            "sentiment": "positive",
+            "issue": "kitchen fully equipped",
+            "quote": "The kitchen had everything I needed.",
+            "importance": "medium"
+          }
+        ]
+      },
+      {
+        "aspect": "check_in",
+        "sentiment_review_counts": {
+          "positive": 7,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "has_conflict": true,
+        "evidence": [
+          {
+            "review_id": "R0011",
+            "date": "2016-09-18",
+            "aspect": "check_in",
+            "sentiment": "positive",
+            "issue": "simple check in",
+            "quote": "Check in was very simple",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0023",
+            "date": "2017-09-04",
+            "aspect": "check_in",
+            "sentiment": "positive",
+            "issue": "easy access",
+            "quote": "easy access",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0027",
+            "date": "2018-01-11",
+            "aspect": "check_in",
+            "sentiment": "positive",
+            "issue": "private entrance and street parking made stay easy",
+            "quote": "Private entrance and street parking made our getaway super easy.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0048",
+            "date": "2020-07-14",
+            "aspect": "check_in",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "easy check-in",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0058",
+            "date": "2021-07-15",
+            "aspect": "check_in",
+            "sentiment": "negative",
+            "issue": "parking pass broken and could not be hung on rearview mirror as instructed",
+            "quote": "The parking pass was broken and could not be hung on the rearview mirror as advised in the check-in instructions.",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0059",
+            "date": "2021-07-25",
+            "aspect": "check_in",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "It was easy check in / communication",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0068",
+            "date": "2022-04-26",
+            "aspect": "check_in",
+            "sentiment": "positive",
+            "issue": "clear move-in instructions",
+            "quote": "Very clear move-in instructions",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0078",
+            "date": "2023-08-28",
+            "aspect": "check_in",
+            "sentiment": "positive",
+            "issue": "clear instructions, no problems on arrival",
+            "quote": "The instructions for checking in were clear, and we had zero issues once we arrived.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0081",
+            "date": "2023-12-24",
+            "aspect": "check_in",
+            "sentiment": "neutral",
+            "issue": "guests locked themselves out (reported as accidental, guest-caused)",
+            "quote": "when we accidentally locked ourselves out",
+            "importance": "low"
+          }
+        ]
+      },
+      {
+        "aspect": "cleanliness",
+        "sentiment_review_counts": {
+          "positive": 27,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "has_conflict": true,
+        "evidence": [
+          {
+            "review_id": "R0007",
+            "date": "2016-07-27",
+            "aspect": "cleanliness",
+            "sentiment": "positive",
+            "issue": "clean",
+            "quote": "The place was clean",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0012",
+            "date": "2016-11-02",
+            "aspect": "cleanliness",
+            "sentiment": "positive",
+            "issue": "incredibly clean",
+            "quote": "incredibly clean",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0013",
+            "date": "2016-12-05",
+            "aspect": "cleanliness",
+            "sentiment": "positive",
+            "issue": "neat house",
+            "quote": "The house was  very neat and cozy",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0016",
+            "date": "2017-01-29",
+            "aspect": "cleanliness",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "it was super clean, comfortable, and adorable",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0021",
+            "date": "2017-06-02",
+            "aspect": "cleanliness",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "Quiet, charming, clean and relaxing.",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0025",
+            "date": "2017-11-19",
+            "aspect": "cleanliness",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "charming, comfortable, clean",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0026",
+            "date": "2017-11-26",
+            "aspect": "cleanliness",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "Super clean and had a pleasant and calming aroma.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0027",
+            "date": "2018-01-11",
+            "aspect": "cleanliness",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "clean, fresh, comfortable",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0028",
+            "date": "2018-02-04",
+            "aspect": "cleanliness",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "The space was clean, comfortable and in such a great location.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0029",
+            "date": "2018-02-06",
+            "aspect": "cleanliness",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "The space is clean and comfortable.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0031",
+            "date": "2018-06-28",
+            "aspect": "cleanliness",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "Everything was clean and ready to go.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0043",
+            "date": "2019-10-10",
+            "aspect": "cleanliness",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "The place is super clean and extremely stylish!",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0045",
+            "date": "2019-12-28",
+            "aspect": "cleanliness",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "The place was very clean",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0046",
+            "date": "2020-02-02",
+            "aspect": "cleanliness",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "This place was clean, spacious and had great amenities!",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0047",
+            "date": "2020-02-23",
+            "aspect": "cleanliness",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "the place was very clean",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0048",
+            "date": "2020-07-14",
+            "aspect": "cleanliness",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "clean",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0050",
+            "date": "2020-10-05",
+            "aspect": "cleanliness",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "Super clean!!!",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0052",
+            "date": "2020-10-25",
+            "aspect": "cleanliness",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "Extremely clean.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0058",
+            "date": "2021-07-15",
+            "aspect": "cleanliness",
+            "sentiment": "negative",
+            "issue": "ant infestation in kitchen within first 12 hours, including in unopened package of muffins",
+            "quote": "We woke up to find the kitchen infested with ants, including ants all over/in the brand new, unopened package of muffins we’d bought at the grocery store the next before.",
+            "importance": "high"
+          },
+          {
+            "review_id": "R0060",
+            "date": "2021-07-30",
+            "aspect": "cleanliness",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "super clean",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0065",
+            "date": "2021-10-31",
+            "aspect": "cleanliness",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "clean",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0072",
+            "date": "2022-10-11",
+            "aspect": "cleanliness",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "clean",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0081",
+            "date": "2023-12-24",
+            "aspect": "cleanliness",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "the place itself was cozy and clean",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0084",
+            "date": "2024-03-23",
+            "aspect": "cleanliness",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "It was cozy and clean.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0086",
+            "date": "2024-06-04",
+            "aspect": "cleanliness",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "The apartment is very comfortable, clean, and central to everything.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0096",
+            "date": "2025-07-08",
+            "aspect": "cleanliness",
+            "sentiment": "positive",
+            "issue": "everything clean",
+            "quote": "Everything was clean",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0100",
+            "date": "2026-02-11",
+            "aspect": "cleanliness",
+            "sentiment": "positive",
+            "issue": "very clean",
+            "quote": "very clean!",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0102",
+            "date": "2026-04-12",
+            "aspect": "cleanliness",
+            "sentiment": "positive",
+            "issue": "super clean",
+            "quote": "super clean!",
+            "importance": "high"
+          }
+        ]
+      },
+      {
+        "aspect": "comfort",
+        "sentiment_review_counts": {
+          "positive": 39,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "has_conflict": true,
+        "evidence": [
+          {
+            "review_id": "R0001",
+            "date": "2015-10-09",
+            "aspect": "comfort",
+            "sentiment": "positive",
+            "issue": "very comfortable bed and pillows",
+            "quote": "one of the most comfortable bed/pillow situations imaginable",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0003",
+            "date": "2015-11-27",
+            "aspect": "comfort",
+            "sentiment": "positive",
+            "issue": "cozy and comfortable",
+            "quote": "cozy comfy place",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0004",
+            "date": "2016-04-06",
+            "aspect": "comfort",
+            "sentiment": "positive",
+            "issue": "comfortable bed",
+            "quote": "The bed was comfy",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0007",
+            "date": "2016-07-27",
+            "aspect": "comfort",
+            "sentiment": "positive",
+            "issue": "comfortable couch and bed",
+            "quote": "The couch and bed were both comfortable",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0010",
+            "date": "2016-09-03",
+            "aspect": "comfort",
+            "sentiment": "positive",
+            "issue": "plenty of room",
+            "quote": "plenty of room",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0011",
+            "date": "2016-09-18",
+            "aspect": "comfort",
+            "sentiment": "positive",
+            "issue": "extremely comfortable bed",
+            "quote": "The bed was extremely comfortable.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0012",
+            "date": "2016-11-02",
+            "aspect": "comfort",
+            "sentiment": "positive",
+            "issue": "comfortable",
+            "quote": "comfortable",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0013",
+            "date": "2016-12-05",
+            "aspect": "comfort",
+            "sentiment": "negative",
+            "issue": "bright neighboring security light repeatedly switching on/off all night and illuminating bedroom (light disturbance, not noise)",
+            "quote": "The only major issue was a really bright security light at the neighboring house that kept going on and off all through the night and illuminating the bedroom.",
+            "importance": "high"
+          },
+          {
+            "review_id": "R0016",
+            "date": "2017-01-29",
+            "aspect": "comfort",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "it was super clean, comfortable, and adorable",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0018",
+            "date": "2017-03-27",
+            "aspect": "comfort",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "The place itself is very homey and comfortable",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0025",
+            "date": "2017-11-19",
+            "aspect": "comfort",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "charming, comfortable, clean",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0026",
+            "date": "2017-11-26",
+            "aspect": "comfort",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "The furniture is very comfortable.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0032",
+            "date": "2018-07-26",
+            "aspect": "comfort",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "Cozy and charming- this place has it all.",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0035",
+            "date": "2018-12-14",
+            "aspect": "comfort",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "From the comfy cozy bed to the eclectic decor",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0044",
+            "date": "2019-10-29",
+            "aspect": "comfort",
+            "sentiment": "positive",
+            "issue": "comfy bed",
+            "quote": "Very cute place with a comfy bed and beautiful artwork.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0045",
+            "date": "2019-12-28",
+            "aspect": "comfort",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "Stylish living space and comfortable bed!",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0046",
+            "date": "2020-02-02",
+            "aspect": "comfort",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "The bed was so comfortable",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0047",
+            "date": "2020-02-23",
+            "aspect": "comfort",
+            "sentiment": "negative",
+            "issue": "no way to adjust temperature in unit; got warm; reviewer believes it is controlled from main house",
+            "quote": "I was a bit disappointed there didn't seem to be a way to adjust the temperature in the unit (I think it's controlled from the main house), as it got a bit warm inside and we didn't have a way to turn down the heat.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0049",
+            "date": "2020-09-23",
+            "aspect": "comfort",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "It's a very homey space with a large, spacious, green backyard that I appreciated.",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0050",
+            "date": "2020-10-05",
+            "aspect": "comfort",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "The bed and sound machine provided one of the best night’s sleeps I’ve had in a long time!!",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0053",
+            "date": "2020-12-01",
+            "aspect": "comfort",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "very comfy bed",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0060",
+            "date": "2021-07-30",
+            "aspect": "comfort",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "space was beautiful and comfy",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0061",
+            "date": "2021-08-06",
+            "aspect": "comfort",
+            "sentiment": "positive",
+            "issue": "calming bedroom colors",
+            "quote": "The colors in the bedroom are very calming",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0064",
+            "date": "2021-10-17",
+            "aspect": "comfort",
+            "sentiment": "positive",
+            "issue": "suited to two guests",
+            "quote": "Perfect for two guests!",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0066",
+            "date": "2022-03-06",
+            "aspect": "comfort",
+            "sentiment": "positive",
+            "issue": "spacious",
+            "quote": "Lots of space",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0067",
+            "date": "2022-04-21",
+            "aspect": "comfort",
+            "sentiment": "positive",
+            "issue": "comfortable bed, atmosphere",
+            "quote": "Comfortable bed, great atmosphere/vibes",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0071",
+            "date": "2022-09-29",
+            "aspect": "comfort",
+            "sentiment": "positive",
+            "issue": "super-comfy bed",
+            "quote": "the bed was surprisingly enough and super-comfy",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0074",
+            "date": "2022-12-11",
+            "aspect": "comfort",
+            "sentiment": "positive",
+            "issue": "homey, right size",
+            "quote": "It felt like home.",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0075",
+            "date": "2023-02-13",
+            "aspect": "comfort",
+            "sentiment": "positive",
+            "issue": "comfortable, suited for 2",
+            "quote": "This rental is adorable and comfortable - perfect for 2 people.",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0076",
+            "date": "2023-06-12",
+            "aspect": "comfort",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "A very quaint and cozy place to stay!",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0077",
+            "date": "2023-08-16",
+            "aspect": "comfort",
+            "sentiment": "positive",
+            "issue": "comfortable bed and linens, natural light, cozy seating",
+            "quote": "Lots of natural light, comfortable bed/linens, cozy seating",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0082",
+            "date": "2024-01-21",
+            "aspect": "comfort",
+            "sentiment": "positive",
+            "issue": "cozy, artistic decor",
+            "quote": "Her place was cozy, artistic and nicely decorated.",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0085",
+            "date": "2024-05-02",
+            "aspect": "comfort",
+            "sentiment": "positive",
+            "issue": "most comfortable bed of an 8-day trip",
+            "quote": "Christal had the most comfortable bed in our 8 day trip!",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0086",
+            "date": "2024-06-04",
+            "aspect": "comfort",
+            "sentiment": "positive",
+            "issue": "soft bed and linens",
+            "quote": "The bed and linens are very soft.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0093",
+            "date": "2025-03-22",
+            "aspect": "comfort",
+            "sentiment": "positive",
+            "issue": "decorated, comfy space",
+            "quote": "Wonderfully decorated comfy space",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0094",
+            "date": "2025-06-09",
+            "aspect": "comfort",
+            "sentiment": "positive",
+            "issue": "private and cozy; art appreciated",
+            "quote": "It was private and cozy and we loved the art.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0096",
+            "date": "2025-07-08",
+            "aspect": "comfort",
+            "sentiment": "positive",
+            "issue": "gorgeous and cozy",
+            "quote": "It was gorgeous and cozy",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0097",
+            "date": "2025-08-31",
+            "aspect": "comfort",
+            "sentiment": "positive",
+            "issue": "charming with original art; suited solo traveler or couple",
+            "quote": "Charming place, with lovely original art.",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0101",
+            "date": "2026-03-01",
+            "aspect": "comfort",
+            "sentiment": "positive",
+            "issue": "cozy and comfortable",
+            "quote": "The place itself was super cozy and comfortable",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0103",
+            "date": "2026-05-20",
+            "aspect": "comfort",
+            "sentiment": "positive",
+            "issue": "cozy, comfortable, personalized, well decorated",
+            "quote": "cozy, comfortable, personalized, and beautifully decorated",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0104",
+            "date": "2026-06-10",
+            "aspect": "comfort",
+            "sentiment": "positive",
+            "issue": "comfortable furniture and bed; space for one or couple; decor enjoyed",
+            "quote": "The furniture and bed were comfortable and I enjoyed the antique/artsy decor.",
+            "importance": "medium"
+          }
+        ]
+      },
+      {
+        "aspect": "host_communication",
+        "sentiment_review_counts": {
+          "positive": 20,
+          "negative": 1,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "has_conflict": true,
+        "evidence": [
+          {
+            "review_id": "R0001",
+            "date": "2015-10-09",
+            "aspect": "host_communication",
+            "sentiment": "positive",
+            "issue": "communicative from pre-booking to check out",
+            "quote": "Christal was communicative from pre-booking to check out.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0002",
+            "date": "2015-11-16",
+            "aspect": "host_communication",
+            "sentiment": "positive",
+            "issue": "inviting host",
+            "quote": "Christal was very inviting",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0005",
+            "date": "2016-06-20",
+            "aspect": "host_communication",
+            "sentiment": "positive",
+            "issue": "quick response and recommendations",
+            "quote": "Between her great recommendations and her quick response time Christal was an excellent host.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0008",
+            "date": "2016-08-12",
+            "aspect": "host_communication",
+            "sentiment": "positive",
+            "issue": "gave privacy, prompt replies",
+            "quote": "Christal gave us our privacy but if we needed anything at all she was very prompt to replying.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0015",
+            "date": "2016-12-29",
+            "aspect": "host_communication",
+            "sentiment": "positive",
+            "issue": "hands-off but responsive",
+            "quote": "Christal was a very hands-off host but was timely and responsive anytime we needed help.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0016",
+            "date": "2017-01-29",
+            "aspect": "host_communication",
+            "sentiment": "positive",
+            "issue": "host described as great",
+            "quote": "Christal was a great host",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0023",
+            "date": "2017-09-04",
+            "aspect": "host_communication",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "clear communication throughout",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0027",
+            "date": "2018-01-11",
+            "aspect": "host_communication",
+            "sentiment": "positive",
+            "issue": "host hospitable",
+            "quote": "Cristal was extremely hospitable.",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0028",
+            "date": "2018-02-04",
+            "aspect": "host_communication",
+            "sentiment": "positive",
+            "issue": "communicative and flexible",
+            "quote": "Cristal was communicative,  flexible, and had me feel welcome.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0029",
+            "date": "2018-02-06",
+            "aspect": "host_communication",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "Christal was easy to communicate with",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0030",
+            "date": "2018-03-06",
+            "aspect": "host_communication",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "Great host",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0034",
+            "date": "2018-11-18",
+            "aspect": "host_communication",
+            "sentiment": "positive",
+            "issue": "fast replies; host lives upstairs",
+            "quote": "Crystal is very fast to reply.  She lives upstairs and easy to get in touch with.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0054",
+            "date": "2020-12-08",
+            "aspect": "host_communication",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "Christal is a great communicator and is dedicated to your comfort as a host.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0058",
+            "date": "2021-07-15",
+            "aspect": "host_communication",
+            "sentiment": "negative",
+            "issue": "reviewer says host did not warn of ants beforehand; left traps outside rather than treating space; no reimbursement offered",
+            "quote": "we did not feel the host properly warned of or responded to the significant ant issue we experienced during our first 12 hours in the property",
+            "importance": "high"
+          },
+          {
+            "review_id": "R0058",
+            "date": "2021-07-15",
+            "aspect": "host_communication",
+            "sentiment": "mixed",
+            "issue": "host responded about 90 minutes later and provided ant bait and cotton balls; reviewer found response inadequate",
+            "quote": "she got back to us about 90 minutes later",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0059",
+            "date": "2021-07-25",
+            "aspect": "host_communication",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "easy check in / communication",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0071",
+            "date": "2022-09-29",
+            "aspect": "host_communication",
+            "sentiment": "positive",
+            "issue": "accommodating and flexible host",
+            "quote": "she was super accommodating and flexible during my stay",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0075",
+            "date": "2023-02-13",
+            "aspect": "host_communication",
+            "sentiment": "positive",
+            "issue": "good local recommendations",
+            "quote": "Christal's recommendations were spot on.",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0081",
+            "date": "2023-12-24",
+            "aspect": "host_communication",
+            "sentiment": "positive",
+            "issue": "host helped quickly after guests locked themselves out",
+            "quote": "Christal was especially helpful when we accidentally locked ourselves out… and was very quick to respond with help.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0086",
+            "date": "2024-06-04",
+            "aspect": "host_communication",
+            "sentiment": "positive",
+            "issue": "caring owner",
+            "quote": "with an owner who really cares and shares a unique experience with visitors",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0094",
+            "date": "2025-06-09",
+            "aspect": "host_communication",
+            "sentiment": "positive",
+            "issue": "host and local recommendations appreciated",
+            "quote": "We also greatly appreciated the host and the local recs she provided.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0102",
+            "date": "2026-04-12",
+            "aspect": "host_communication",
+            "sentiment": "positive",
+            "issue": "host kind, friendly, responsive, helpful",
+            "quote": "Christal is kind, friendly, response, and helpful.",
+            "importance": "medium"
+          }
+        ]
+      },
+      {
+        "aspect": "listing_accuracy",
+        "sentiment_review_counts": {
+          "positive": 7,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "has_conflict": true,
+        "evidence": [
+          {
+            "review_id": "R0002",
+            "date": "2015-11-16",
+            "aspect": "listing_accuracy",
+            "sentiment": "positive",
+            "issue": "property matched expectations",
+            "quote": "the property was exactly what we were hoping for",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0003",
+            "date": "2015-11-27",
+            "aspect": "listing_accuracy",
+            "sentiment": "positive",
+            "issue": "as described",
+            "quote": "Every thing was as described",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0009",
+            "date": "2016-09-01",
+            "aspect": "listing_accuracy",
+            "sentiment": "neutral",
+            "issue": "apartment is at the back of the host's home",
+            "quote": "This cozy apartment in the back of Christal's home",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0011",
+            "date": "2016-09-18",
+            "aspect": "listing_accuracy",
+            "sentiment": "positive",
+            "issue": "roomier than photos",
+            "quote": "feels ever roomier than the photos",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0016",
+            "date": "2017-01-29",
+            "aspect": "listing_accuracy",
+            "sentiment": "positive",
+            "issue": "place matched the pictures",
+            "quote": "her place was perfect and exactly like the pictures",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0037",
+            "date": "2019-02-10",
+            "aspect": "listing_accuracy",
+            "sentiment": "negative",
+            "issue": "unclear at booking that unit is one side of host's home with thin walls",
+            "quote": "it was unclear to me when I booked the place for my wife's bday weekend that the apartment is really one side of Christal's home and that the walls are quite thin",
+            "importance": "high"
+          },
+          {
+            "review_id": "R0058",
+            "date": "2021-07-15",
+            "aspect": "listing_accuracy",
+            "sentiment": "negative",
+            "issue": "ants allegedly a common issue per host but not disclosed in listing or check-in instructions",
+            "quote": "she never disclosed any of this in either the Airbnb listing or in the check-in instructions",
+            "importance": "high"
+          },
+          {
+            "review_id": "R0058",
+            "date": "2021-07-15",
+            "aspect": "listing_accuracy",
+            "sentiment": "negative",
+            "issue": "fridge much smaller than shown in listing photos (mini fridge)",
+            "quote": "The fridge was substantially smaller than noted in the listing’s photos (it’s now a mini fridge).",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0058",
+            "date": "2021-07-15",
+            "aspect": "listing_accuracy",
+            "sentiment": "negative",
+            "issue": "bed configured differently from photos; one sleeper must crawl over other or in/out of end; no easy nightstand access",
+            "quote": "The bed is configured differently from the listing’s photos",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0069",
+            "date": "2022-05-02",
+            "aspect": "listing_accuracy",
+            "sentiment": "positive",
+            "issue": "met needs",
+            "quote": "This space was exactly what we needed for our weekend away.",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0072",
+            "date": "2022-10-11",
+            "aspect": "listing_accuracy",
+            "sentiment": "positive",
+            "issue": "accurate description",
+            "quote": "accurate description",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0096",
+            "date": "2025-07-08",
+            "aspect": "listing_accuracy",
+            "sentiment": "positive",
+            "issue": "matched photos",
+            "quote": "looked just like the photos",
+            "importance": "medium"
+          }
+        ]
+      },
+      {
+        "aspect": "location",
+        "sentiment_review_counts": {
+          "positive": 86,
+          "negative": 0,
+          "mixed": 2,
+          "neutral": 1
+        },
+        "has_conflict": true,
+        "evidence": [
+          {
+            "review_id": "R0001",
+            "date": "2015-10-09",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "restaurant recommendations from host",
+            "quote": "Gave amazing recommendations for restaurants",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0001",
+            "date": "2015-10-09",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "plentiful, convenient parking",
+            "quote": "parking is plentiful and convenient",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0002",
+            "date": "2015-11-16",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "close to coffee, shopping, downtown, Biltmore",
+            "quote": "It is located so close to a great little coffee shop and other shopping.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0003",
+            "date": "2015-11-27",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "liked neighborhood",
+            "quote": "Loved the place and the nighberhood.",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0005",
+            "date": "2016-06-20",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "convenient to shopping, restaurants, breweries",
+            "quote": "conveniently located to shopping, restaurants and so many great breweries",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0006",
+            "date": "2016-07-25",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "easy walk to downtown",
+            "quote": "easy walk to downtown",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0007",
+            "date": "2016-07-27",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "centrally located",
+            "quote": "centrally located",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0008",
+            "date": "2016-08-12",
+            "aspect": "location",
+            "sentiment": "mixed",
+            "issue": "walkable to downtown without a car but about 20 minutes to the heart of downtown; car recommended to explore further",
+            "quote": "It takes about 20 minutes to walk into the heart of downtown",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0008",
+            "date": "2016-08-12",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "convenient for walking to food and drinks without a car",
+            "quote": "it was a convenient location for us to walk into downtown for food and drinks",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0009",
+            "date": "2016-09-01",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "quick walk to downtown, near coffee and Whole Foods",
+            "quote": "A quick walk to downtown, a block from high five (delicious local coffee spot) and a block from whole foods!",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0010",
+            "date": "2016-09-03",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "great location",
+            "quote": "a great location",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0011",
+            "date": "2016-09-18",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "walkable to downtown",
+            "quote": "Location was super walkable to everything downtown.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0013",
+            "date": "2016-12-05",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "close to downtown and favorite restaurants",
+            "quote": "located really close to downtown",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0014",
+            "date": "2016-12-21",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "steps from shopping, restaurants, yoga",
+            "quote": "just steps from shopping, restaurants and yoga",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0015",
+            "date": "2016-12-29",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "close to breweries and restaurants",
+            "quote": "This place was super close to some great breweries and restaurants",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0016",
+            "date": "2017-01-29",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "walkable to breweries, shops, restaurants",
+            "quote": "We were close to everything (breweries, shops, restaurants) and we walked everywhere the whole weekend.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0017",
+            "date": "2017-03-02",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "convenient to downtown and a coffee shop",
+            "quote": "Christal's studio was conveniently located to downtown and near the best coffee shop, High Five.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0018",
+            "date": "2017-03-27",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "walkable to breweries, restaurants, conference venue, groceries",
+            "quote": "Walking distance to many breweries and restaurants (and the conference) also grocery stores.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0019",
+            "date": "2017-05-02",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "close to downtown, markets, on-ramps",
+            "quote": "close to downtown, markets and on-ramps",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0021",
+            "date": "2017-06-02",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "downtown location easy to explore",
+            "quote": "Great location in downtown Asheville makes it easy to explore.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0023",
+            "date": "2017-09-04",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "Ideal location",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0024",
+            "date": "2017-09-10",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "Great location",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0025",
+            "date": "2017-11-19",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "well located to enjoying what Asheville has to offer",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0026",
+            "date": "2017-11-26",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "about half a mile from downtown",
+            "quote": "about a 1/2 mile from everything downtown",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0027",
+            "date": "2018-01-11",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "walked everywhere",
+            "quote": "So close to downtown, we walked every where.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0028",
+            "date": "2018-02-04",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "in such a great location",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0029",
+            "date": "2018-02-06",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "walkable to food and breweries",
+            "quote": "Walkable to downtown with lots of food and brewery options.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0030",
+            "date": "2018-03-06",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "walked everywhere",
+            "quote": "close to everything in downtown ashville",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0031",
+            "date": "2018-06-28",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "near grocery store, shopping and restaurants",
+            "quote": "Right next to a grocery store, and pretty close to all the shopping and restaurants.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0032",
+            "date": "2018-07-26",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "5-10 minute walk to downtown",
+            "quote": "About a 5-10minute walk to downtown.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0033",
+            "date": "2018-08-19",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "great location in Asheville!",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0034",
+            "date": "2018-11-18",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "Whole Foods a block away",
+            "quote": "Great location.  Whole foods is a block away.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0035",
+            "date": "2018-12-14",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "walkable to downtown; Whole Foods across the street",
+            "quote": "It is within walking distance to downtown Asheville, right across the street from a fabulous Whole Foods",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0037",
+            "date": "2019-02-10",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "the location is fantastic",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0038",
+            "date": "2019-04-10",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "Really nice location!",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0040",
+            "date": "2019-07-31",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "convenient to downtown; walkable to coffee shop, brewery, Whole Foods; away from downtown crowds",
+            "quote": "Very convenient location to downtown and within walking distance of a coffee shop, brewery, and whole foods.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0042",
+            "date": "2019-10-06",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "steps from coffee shop and brewery",
+            "quote": "we were just steps away from a very cute coffee shop and even a brewery",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0043",
+            "date": "2019-10-10",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "walkable to downtown and groceries",
+            "quote": "We were within walking distance of everything downtown, and within 0.3 miles of Whole Foods, Trader Joe’s and Harris Teeter grocery stores!",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0044",
+            "date": "2019-10-29",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "close to downtown, nice neighborhood",
+            "quote": "the home is very close to downtown and in a cute neighborhood",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0045",
+            "date": "2019-12-28",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "Also great location, very close to downtown!",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0046",
+            "date": "2020-02-02",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "Walking distance to downtown which was extremely convenient!",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0047",
+            "date": "2020-02-23",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "The location was really great",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0048",
+            "date": "2020-07-14",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "close to downtown",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0049",
+            "date": "2020-09-23",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "There is a Whole Foods and Trader Joe's at <5 minutes walk.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0051",
+            "date": "2020-10-15",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "Great walking distance to lots of fun shops and great food.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0052",
+            "date": "2020-10-25",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "Very convenient location for visiting Asheville",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0053",
+            "date": "2020-12-01",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "About a 5 minute walk to downtown and extremely close to grocery stores and in-town nature walks.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0056",
+            "date": "2021-06-04",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "just a short walk from downtown Asheville",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0057",
+            "date": "2021-07-11",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "Great location close to downtown Asheville.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0058",
+            "date": "2021-07-15",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "While the property is adorable and in a great part of Asheville",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0059",
+            "date": "2021-07-25",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "the location itself is very convenient and walkable to the main downtown area",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0060",
+            "date": "2021-07-30",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "Great location",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0061",
+            "date": "2021-08-06",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "walkable to downtown",
+            "quote": "It was easy to walk downtown or grab an Uber if we wanted to go somewhere else.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0062",
+            "date": "2021-08-23",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "walking distance to groceries and downtown",
+            "quote": "awesome location, walking distance from two grocery stores and downtown.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0063",
+            "date": "2021-10-10",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "back-of-house, backyard setting; mountain access",
+            "quote": "Quaint back of house and backyard location. Loved the mountains and the Blue Ridge Parkway.",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0064",
+            "date": "2021-10-17",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "close to downtown",
+            "quote": "close to downtown",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0065",
+            "date": "2021-10-31",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "close to downtown",
+            "quote": "The Airbnb was close to downtown",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0066",
+            "date": "2022-03-06",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "great location",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0067",
+            "date": "2022-04-21",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "close to everything",
+            "quote": "close to everything",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0068",
+            "date": "2022-04-26",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "good base for Asheville and mountains",
+            "quote": "A great location to explore Asheville and the mountains.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0069",
+            "date": "2022-05-02",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "walkable to everything",
+            "quote": "We were about to walk to everything!",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0070",
+            "date": "2022-09-12",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "near downtown and concert venue",
+            "quote": "Perfect for concerts at the Harrah's center!",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0071",
+            "date": "2022-09-29",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "convenient; food and downtown close",
+            "quote": "Food is a step away and downtown is a very short walk.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0071",
+            "date": "2022-09-29",
+            "aspect": "location",
+            "sentiment": "neutral",
+            "issue": "route avoiding going under the bridge noted",
+            "quote": "you can avoid going under the bridge, there is another way, over another bridge",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0072",
+            "date": "2022-10-11",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "great location",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0073",
+            "date": "2022-11-19",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "awesome location",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0074",
+            "date": "2022-12-11",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "Whole Foods across the street",
+            "quote": "there was a Whole Foods across the street to accommodate my special food needs",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0075",
+            "date": "2023-02-13",
+            "aspect": "location",
+            "sentiment": "mixed",
+            "issue": "neighborhood in transition; some properties need work; reviewer not concerned but others might be uncomfortable",
+            "quote": "The neighborhood is \"turning,\" with some properties that have been renovated and others in the process or needing work. This didn't concern us, but some might be turned off or uncomfortable.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0077",
+            "date": "2023-08-16",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "easy to find, walkable, parking available",
+            "quote": "The location was great: easy to find, walkable and a spot to park.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0078",
+            "date": "2023-08-28",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "walkable to town",
+            "quote": "the location made it super easy to walk everywhere and get around town",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0080",
+            "date": "2023-11-26",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "walkable to downtown",
+            "quote": "Location was walkable to downtown.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0081",
+            "date": "2023-12-24",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "You can’t beat the location",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0082",
+            "date": "2024-01-21",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "two grocery stores and downtown neighborhoods within walking distance",
+            "quote": "There were 2 grocery stores walking distance from her house and the place was walkable to some of the main eclectic streets and neighborhoods downtown.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0083",
+            "date": "2024-02-25",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "close to downtown",
+            "quote": "Perfect location for exploring the downtown area",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0084",
+            "date": "2024-03-23",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "walkable to downtown",
+            "quote": "We loved being able to walk to the downtown area.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0086",
+            "date": "2024-06-04",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "central",
+            "quote": "central to everything",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0087",
+            "date": "2024-09-02",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "convenient",
+            "quote": "in a very convenient locations",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0088",
+            "date": "2024-12-20",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "Whole Foods very close",
+            "quote": "There is a Whole Foods 200-300 ft away.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0089",
+            "date": "2025-01-01",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "The location was excellent and made it easy to enjoy our time in Asheville.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0090",
+            "date": "2025-02-02",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "good base for visit",
+            "quote": "We loved the location. It was a great base for our visit.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0092",
+            "date": "2025-03-03",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "location was a favorite part of stay",
+            "quote": "The location was one of our favorite parts of the stay.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0093",
+            "date": "2025-03-22",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "downtown within walking distance",
+            "quote": "all of the convenience of downtown within walking distance",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0096",
+            "date": "2025-07-08",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "grocery stores very close or walkable; reviewer also walked and biked to other places",
+            "quote": "Whole foods is literally close enough to throw a ball in the parking lot and also Harris teeter and traders Joe's is walkable.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0097",
+            "date": "2025-08-31",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "easy walk to downtown",
+            "quote": "Easy walk to downtown.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0098",
+            "date": "2025-10-27",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "location perfect",
+            "quote": "the location is perfect!",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0100",
+            "date": "2026-02-11",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "convenient, walkable to downtown",
+            "quote": "Super convenient location and walkable to downtown.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0101",
+            "date": "2026-03-01",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "close to and walkable to downtown",
+            "quote": "The location was close to downtown Asheville and pretty walkable",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0102",
+            "date": "2026-04-12",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "walkable to downtown",
+            "quote": "Walkable distance to downtown.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0103",
+            "date": "2026-05-20",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "downtown walkable",
+            "quote": "Downtown is walkable.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0104",
+            "date": "2026-06-10",
+            "aspect": "location",
+            "sentiment": "positive",
+            "issue": "near Whole Foods; 10-15 minute walk to Arts District",
+            "quote": "Whole Foods is just around the corner, and it’s about a 10-15 minute walk to the Downtown Arts District so super convenient for walking.",
+            "importance": "medium"
+          }
+        ]
+      },
+      {
+        "aspect": "noise",
+        "sentiment_review_counts": {
+          "positive": 18,
+          "negative": 1,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "has_conflict": true,
+        "evidence": [
+          {
+            "review_id": "R0001",
+            "date": "2015-10-09",
+            "aspect": "noise",
+            "sentiment": "positive",
+            "issue": "quiet home",
+            "quote": "keeps a beautiful and quiet home",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0004",
+            "date": "2016-04-06",
+            "aspect": "noise",
+            "sentiment": "positive",
+            "issue": "calm atmosphere",
+            "quote": "the atmosphere was calm and pleasant",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0013",
+            "date": "2016-12-05",
+            "aspect": "noise",
+            "sentiment": "positive",
+            "issue": "quiet despite apartment being part of main house",
+            "quote": "although the apartment is part of the main house it was very quiet next door",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0018",
+            "date": "2017-03-27",
+            "aspect": "noise",
+            "sentiment": "positive",
+            "issue": "quiet residential block",
+            "quote": "on a quiet residential block",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0019",
+            "date": "2017-05-02",
+            "aspect": "noise",
+            "sentiment": "positive",
+            "issue": "peace and quiet",
+            "quote": "far enough removed for peace and quiet",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0021",
+            "date": "2017-06-02",
+            "aspect": "noise",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "Quiet, charming, clean and relaxing.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0035",
+            "date": "2018-12-14",
+            "aspect": "noise",
+            "sentiment": "positive",
+            "issue": "described as peaceful",
+            "quote": "If you're looking for a peaceful retreat steps from the city, you found it",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0037",
+            "date": "2019-02-10",
+            "aspect": "noise",
+            "sentiment": "negative",
+            "issue": "adjoining-home noise: dogs barking and loud music with thumping bass",
+            "quote": "My wife and I woke up to the sound of her dogs barking during a nap. At one point, the music from the other side of the house was loud and the bass was thumping in our room.",
+            "importance": "high"
+          },
+          {
+            "review_id": "R0037",
+            "date": "2019-02-10",
+            "aspect": "noise",
+            "sentiment": "mixed",
+            "issue": "sound machine provided but limited; reviewer says noise was never a major issue and slept fine",
+            "quote": "Christal does provide a sound machine, but there is a limit to what that can do.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0037",
+            "date": "2019-02-10",
+            "aspect": "noise",
+            "sentiment": "positive",
+            "issue": "reviewer reports noise not a major issue, slept fine",
+            "quote": "noise was never a major issue -- we slept fine both nights",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0045",
+            "date": "2019-12-28",
+            "aspect": "noise",
+            "sentiment": "positive",
+            "issue": "reviewer reports noise was no problem; optional sound machine provided",
+            "quote": "Noise was no problem & she even included an optional sound machine.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0046",
+            "date": "2020-02-02",
+            "aspect": "noise",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "the room was quiet, private and decorated beautifully",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0048",
+            "date": "2020-07-14",
+            "aspect": "noise",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "Quiet, safe neighborhood",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0070",
+            "date": "2022-09-12",
+            "aspect": "noise",
+            "sentiment": "positive",
+            "issue": "near downtown but away from noise",
+            "quote": "Perfect location to be near downtown but away from noise.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0071",
+            "date": "2022-09-29",
+            "aspect": "noise",
+            "sentiment": "positive",
+            "issue": "quiet back porch",
+            "quote": "I also loved the back porch, having coffee there and enjoying the quiet and the nature there.",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0083",
+            "date": "2024-02-25",
+            "aspect": "noise",
+            "sentiment": "positive",
+            "issue": "quiet and peaceful (reviewer wrote 'quite')",
+            "quote": "while also being quite and peaceful!",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0084",
+            "date": "2024-03-23",
+            "aspect": "noise",
+            "sentiment": "positive",
+            "issue": "quiet neighborhood (reviewer wrote 'quite')",
+            "quote": "The neighborhood was quite.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0086",
+            "date": "2024-06-04",
+            "aspect": "noise",
+            "sentiment": "positive",
+            "issue": "quiet side street",
+            "quote": "It’s tucked away on a side street, so it has a quiet neighborhood feel.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0097",
+            "date": "2025-08-31",
+            "aspect": "noise",
+            "sentiment": "positive",
+            "issue": "quiet",
+            "quote": "Quiet.",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0101",
+            "date": "2026-03-01",
+            "aspect": "noise",
+            "sentiment": "positive",
+            "issue": "peaceful and quiet",
+            "quote": "far away enough to be peaceful and quiet as well",
+            "importance": "medium"
+          }
+        ]
+      },
+      {
+        "aspect": "other",
+        "sentiment_review_counts": {
+          "positive": 17,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "has_conflict": false,
+        "evidence": [
+          {
+            "review_id": "R0002",
+            "date": "2015-11-16",
+            "aspect": "other",
+            "sentiment": "positive",
+            "issue": "privacy and relaxation",
+            "quote": "anyone hoping for some privacy and relaxation",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0020",
+            "date": "2017-05-22",
+            "aspect": "other",
+            "sentiment": "positive",
+            "issue": "general recommendation, no specifics",
+            "quote": "This was a lovely little place!",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0022",
+            "date": "2017-08-11",
+            "aspect": "other",
+            "sentiment": "positive",
+            "issue": "general satisfaction, no specifics",
+            "quote": "The apartment was great! We loved our stay!",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0031",
+            "date": "2018-06-28",
+            "aspect": "other",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "Very charming space, and it had everything we needed.",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0036",
+            "date": "2018-12-23",
+            "aspect": "other",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "Great place for an Asheville trip!",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0039",
+            "date": "2019-06-13",
+            "aspect": "other",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "Christal’s place was so lovely",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0041",
+            "date": "2019-09-02",
+            "aspect": "other",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "Stayed in a lot of places in Asheville and this may be my favorite.",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0042",
+            "date": "2019-10-06",
+            "aspect": "other",
+            "sentiment": "positive",
+            "issue": "charming with thoughtful touches",
+            "quote": "The apartment is incredibly charming with all the thoughtful touches.",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0051",
+            "date": "2020-10-15",
+            "aspect": "other",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "Christal has put a lot of thought and warmth into this place, and it shows.",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0055",
+            "date": "2021-02-21",
+            "aspect": "other",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "Great place for a couple to visit Asheville",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0061",
+            "date": "2021-08-06",
+            "aspect": "other",
+            "sentiment": "positive",
+            "issue": "personal touches and design",
+            "quote": "This Airbnb has a lot of personal touches which makes it a wonderful experience.",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0063",
+            "date": "2021-10-10",
+            "aspect": "other",
+            "sentiment": "positive",
+            "issue": "artsy vibe",
+            "quote": "Very artsy vibe.",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0079",
+            "date": "2023-10-16",
+            "aspect": "other",
+            "sentiment": "positive",
+            "issue": "repeat guest; units well designed for guests",
+            "quote": "They’re warm, cozy, unique, and thoughtfully designed for guests",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0088",
+            "date": "2024-12-20",
+            "aspect": "other",
+            "sentiment": "positive",
+            "issue": "decor style",
+            "quote": "Decor is a mix of vintage and modern.",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0091",
+            "date": "2025-02-11",
+            "aspect": "other",
+            "sentiment": "positive",
+            "issue": "general enjoyment of the place",
+            "quote": "I absolutely adored the place.",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0095",
+            "date": "2025-06-19",
+            "aspect": "other",
+            "sentiment": "positive",
+            "issue": "suited a one-night stopover",
+            "quote": "We were traveling and just needed a place to stop for a night.",
+            "importance": "low"
+          },
+          {
+            "review_id": "R0099",
+            "date": "2025-12-23",
+            "aspect": "other",
+            "sentiment": "positive",
+            "issue": "general praise; would stay again",
+            "quote": "Christal’s place was so precious.",
+            "importance": "low"
+          }
+        ]
+      },
+      {
+        "aspect": "safety",
+        "sentiment_review_counts": {
+          "positive": 2,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "has_conflict": true,
+        "evidence": [
+          {
+            "review_id": "R0048",
+            "date": "2020-07-14",
+            "aspect": "safety",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "Quiet, safe neighborhood",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0058",
+            "date": "2021-07-15",
+            "aspect": "safety",
+            "sentiment": "negative",
+            "issue": "two TV room windows cannot be locked (security concern)",
+            "quote": "there are two windows in the TV room that cannot be locked at all",
+            "importance": "high"
+          },
+          {
+            "review_id": "R0075",
+            "date": "2023-02-13",
+            "aspect": "safety",
+            "sentiment": "positive",
+            "issue": "felt comfortable walking the area at night (reviewer's report)",
+            "quote": "We felt totally comfortable walking the area at night",
+            "importance": "medium"
+          }
+        ]
+      },
+      {
+        "aspect": "value",
+        "sentiment_review_counts": {
+          "positive": 2,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "has_conflict": false,
+        "evidence": [
+          {
+            "review_id": "R0052",
+            "date": "2020-10-25",
+            "aspect": "value",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "at a fair price",
+            "importance": "medium"
+          },
+          {
+            "review_id": "R0056",
+            "date": "2021-06-04",
+            "aspect": "value",
+            "sentiment": "positive",
+            "issue": "",
+            "quote": "This is a great deal on the cutest place",
+            "importance": "medium"
+          }
+        ]
+      }
+    ],
+    "selection": {
+      "selected_claims": [
+        {
+          "claim": "Location is the most consistently praised feature. Many reviewers across all years describe walkable access to downtown Asheville, nearby coffee, breweries and restaurants, and Whole Foods and other groceries within a short walk. One 2016 reviewer put the walk to the heart of downtown at about 20 minutes, while others describe 5-15 minutes.",
+          "aspect": "location",
+          "stance": "positive",
+          "review_ids": [
+            "R0006",
+            "R0008",
+            "R0009",
+            "R0026",
+            "R0032",
+            "R0043",
+            "R0053",
+            "R0096",
+            "R0100",
+            "R0102",
+            "R0104"
+          ],
+          "importance": "high",
+          "time_qualification": "Praised from 2015 through June 2026, including many recent reviews.",
+          "uncertainty": "Walking-time estimates vary by reviewer."
+        },
+        {
+          "claim": "Cleanliness is praised in a large majority of reviews, including recent ones. One 2021 reviewer reported an ant infestation in the kitchen within the first 12 hours, including in an unopened food package, and said the host reportedly described ants as a common issue.",
+          "aspect": "cleanliness",
+          "stance": "mixed",
+          "review_ids": [
+            "R0012",
+            "R0050",
+            "R0052",
+            "R0096",
+            "R0100",
+            "R0102",
+            "R0058"
+          ],
+          "importance": "high",
+          "time_qualification": "The ant report is from July 2021. No later review mentions ants, which does not show the issue is resolved.",
+          "uncertainty": "The ant report comes from a single reviewer, and its current status is unknown."
+        },
+        {
+          "claim": "Many guests describe the bed, linens and furniture as very comfortable, and the decor as cozy, artistic and personal. The space is described as best suited to one or two guests.",
+          "aspect": "comfort",
+          "stance": "positive",
+          "review_ids": [
+            "R0001",
+            "R0011",
+            "R0050",
+            "R0071",
+            "R0085",
+            "R0086",
+            "R0103",
+            "R0104"
+          ],
+          "importance": "medium",
+          "time_qualification": "Consistent from 2015 to 2026.",
+          "uncertainty": "Individual preferences vary."
+        },
+        {
+          "claim": "Privacy and security concern: one 2021 reviewer said two windows in the TV room cannot be locked. The unit is also attached to the host's home. One 2019 reviewer found it unclear at booking that the unit shares a house with the host and has thin walls, and reported dogs barking and loud bass music from the other side. Other reviewers found it quiet, and the same 2019 reviewer said they still slept fine.",
+          "aspect": "safety/privacy/noise",
+          "stance": "mixed",
+          "review_ids": [
+            "R0058",
+            "R0037",
+            "R0013",
+            "R0045",
+            "R0046"
+          ],
+          "importance": "high",
+          "time_qualification": "The window report is from 2021 and the noise report from 2019. Recent reviews (2024-2026) call the area quiet but do not address the windows or shared-wall noise.",
+          "uncertainty": "Each concern comes from a single reviewer, and current status is unverified. Most reviewers describe the stay as quiet."
+        },
+        {
+          "claim": "Neighborhood quiet and safety are mostly praised, with reviewers calling it a quiet, safe area and one saying they felt comfortable walking at night. One 2023 reviewer said the neighborhood is in transition, with some properties needing work, which they did not mind but others might.",
+          "aspect": "noise/safety",
+          "stance": "mixed",
+          "review_ids": [
+            "R0048",
+            "R0075",
+            "R0083",
+            "R0086",
+            "R0101"
+          ],
+          "importance": "medium",
+          "time_qualification": "Quiet praised through 2026. The neighborhood-transition comment is from 2023.",
+          "uncertainty": "These are subjective impressions."
+        },
+        {
+          "claim": "Host communication is widely described as quick, friendly and helpful, and recent guests (2026) confirm this. One 2021 reviewer said the host did not warn them about the ants, responded after about 90 minutes with bait, and offered no reimbursement.",
+          "aspect": "host_communication",
+          "stance": "mixed",
+          "review_ids": [
+            "R0001",
+            "R0015",
+            "R0034",
+            "R0081",
+            "R0102",
+            "R0058"
+          ],
+          "importance": "medium",
+          "time_qualification": "Positive reports span 2015-2026. The complaint is from 2021.",
+          "uncertainty": "The complaint comes from one reviewer."
+        },
+        {
+          "claim": "Listing accuracy is mostly confirmed (looks like the photos, as described). One 2021 reviewer said the fridge is smaller than shown and the bed is configured differently from the photos, so one sleeper must climb over the other. One 2019 reviewer said the shared-home setup was unclear at booking.",
+          "aspect": "listing_accuracy",
+          "stance": "mixed",
+          "review_ids": [
+            "R0003",
+            "R0016",
+            "R0072",
+            "R0096",
+            "R0058",
+            "R0037"
+          ],
+          "importance": "medium",
+          "time_qualification": "The discrepancies are from 2019 and 2021. The latest 'matches photos' report is from 2025.",
+          "uncertainty": "Single-reviewer reports. It is unclear whether the fridge or bed has changed since."
+        },
+        {
+          "claim": "Check-in is described as easy, with clear instructions, a private entrance and easy parking, often free street parking or a pass. One 2021 reviewer said the parking pass was broken and could not hang from the mirror. One guest locked themselves out by accident and the host helped quickly.",
+          "aspect": "check_in/parking",
+          "stance": "positive",
+          "review_ids": [
+            "R0011",
+            "R0027",
+            "R0078",
+            "R0061",
+            "R0058",
+            "R0081",
+            "R0103"
+          ],
+          "importance": "medium",
+          "time_qualification": "Spans 2016-2026. The pass problem is from 2021.",
+          "uncertainty": "The pass problem is a single report."
+        },
+        {
+          "claim": "Minor amenity issues: one 2020 reviewer said the bathtub water was only lukewarm, though the shower was hot. One 2020 reviewer said there is no way to adjust the temperature in the unit and it got warm. One 2016 reviewer said a bright neighboring security light repeatedly lit the bedroom at night. One 2021 reviewer said the toilet seat won't stay up.",
+          "aspect": "amenities/comfort",
+          "stance": "negative",
+          "review_ids": [
+            "R0049",
+            "R0047",
+            "R0013",
+            "R0058"
+          ],
+          "importance": "low",
+          "time_qualification": "All between 2016 and 2021. No recent reports.",
+          "uncertainty": "Each is a single report, and current conditions are unknown."
+        },
+        {
+          "claim": "The kitchenette is small but well equipped for breakfast and basic cooking. Guests also mention a back porch or patio facing the garden, coffee and tea, toiletries, and a fragrance-free environment.",
+          "aspect": "amenities",
+          "stance": "positive",
+          "review_ids": [
+            "R0007",
+            "R0013",
+            "R0043",
+            "R0074",
+            "R0102",
+            "R0103",
+            "R0104"
+          ],
+          "importance": "medium",
+          "time_qualification": "Reported from 2016 through June 2026.",
+          "uncertainty": "The kitchen is described as small."
+        }
+      ]
+    },
+    "rejected_evidence": [],
+    "raw_responses": {
+      "extraction": [
+        "{\"evidence\":[\n{\"review_id\":\"R0001\",\"date\":\"2015-10-09\",\"aspect\":\"host_communication\",\"sentiment\":\"positive\",\"issue\":\"communicative from pre-booking to check out\",\"quote\":\"Christal was communicative from pre-booking to check out.\",\"importance\":\"medium\"},\n{\"review_id\":\"R0001\",\"date\":\"2015-10-09\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"restaurant recommendations from host\",\"quote\":\"Gave amazing recommendations for restaurants\",\"importance\":\"low\"},\n{\"review_id\":\"R0001\",\"date\":\"2015-10-09\",\"aspect\":\"noise\",\"sentiment\":\"positive\",\"issue\":\"quiet home\",\"quote\":\"keeps a beautiful and quiet home\",\"importance\":\"medium\"},\n{\"review_id\":\"R0001\",\"date\":\"2015-10-09\",\"aspect\":\"amenities\",\"sentiment\":\"positive\",\"issue\":\"apartment fully equipped\",\"quote\":\"The apartment had everything you could need\",\"importance\":\"medium\"},\n{\"review_id\":\"R0001\",\"date\":\"2015-10-09\",\"aspect\":\"comfort\",\"sentiment\":\"positive\",\"issue\":\"very comfortable bed and pillows\",\"quote\":\"one of the most comfortable bed/pillow situations imaginable\",\"importance\":\"medium\"},\n{\"review_id\":\"R0001\",\"date\":\"2015-10-09\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"plentiful, convenient parking\",\"quote\":\"parking is plentiful and convenient\",\"importance\":\"medium\"},\n{\"review_id\":\"R0002\",\"date\":\"2015-11-16\",\"aspect\":\"listing_accuracy\",\"sentiment\":\"positive\",\"issue\":\"property matched expectations\",\"quote\":\"the property was exactly what we were hoping for\",\"importance\":\"medium\"},\n{\"review_id\":\"R0002\",\"date\":\"2015-11-16\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"close to coffee, shopping, downtown, Biltmore\",\"quote\":\"It is located so close to a great little coffee shop and other shopping.\",\"importance\":\"medium\"},\n{\"review_id\":\"R0002\",\"date\":\"2015-11-16\",\"aspect\":\"other\",\"sentiment\":\"positive\",\"issue\":\"privacy and relaxation\",\"quote\":\"anyone hoping for some privacy and relaxation\",\"importance\":\"medium\"},\n{\"review_id\":\"R0002\",\"date\":\"2015-11-16\",\"aspect\":\"host_communication\",\"sentiment\":\"positive\",\"issue\":\"inviting host\",\"quote\":\"Christal was very inviting\",\"importance\":\"low\"},\n{\"review_id\":\"R0003\",\"date\":\"2015-11-27\",\"aspect\":\"listing_accuracy\",\"sentiment\":\"positive\",\"issue\":\"as described\",\"quote\":\"Every thing was as described\",\"importance\":\"medium\"},\n{\"review_id\":\"R0003\",\"date\":\"2015-11-27\",\"aspect\":\"comfort\",\"sentiment\":\"positive\",\"issue\":\"cozy and comfortable\",\"quote\":\"cozy comfy place\",\"importance\":\"low\"},\n{\"review_id\":\"R0003\",\"date\":\"2015-11-27\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"liked neighborhood\",\"quote\":\"Loved the place and the nighberhood.\",\"importance\":\"low\"},\n{\"review_id\":\"R0004\",\"date\":\"2016-04-06\",\"aspect\":\"comfort\",\"sentiment\":\"positive\",\"issue\":\"comfortable bed\",\"quote\":\"The bed was comfy\",\"importance\":\"medium\"},\n{\"review_id\":\"R0004\",\"date\":\"2016-04-06\",\"aspect\":\"noise\",\"sentiment\":\"positive\",\"issue\":\"calm atmosphere\",\"quote\":\"the atmosphere was calm and pleasant\",\"importance\":\"low\"},\n{\"review_id\":\"R0005\",\"date\":\"2016-06-20\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"convenient to shopping, restaurants, breweries\",\"quote\":\"conveniently located to shopping, restaurants and so many great breweries\",\"importance\":\"medium\"},\n{\"review_id\":\"R0005\",\"date\":\"2016-06-20\",\"aspect\":\"host_communication\",\"sentiment\":\"positive\",\"issue\":\"quick response and recommendations\",\"quote\":\"Between her great recommendations and her quick response time Christal was an excellent host.\",\"importance\":\"medium\"},\n{\"review_id\":\"R0006\",\"date\":\"2016-07-25\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"easy walk to downtown\",\"quote\":\"easy walk to downtown\",\"importance\":\"medium\"},\n{\"review_id\":\"R0006\",\"date\":\"2016-07-25\",\"aspect\":\"amenities\",\"sentiment\":\"positive\",\"issue\":\"had everything needed\",\"quote\":\"we had everything we needed\",\"importance\":\"low\"},\n{\"review_id\":\"R0007\",\"date\":\"2016-07-27\",\"aspect\":\"cleanliness\",\"sentiment\":\"positive\",\"issue\":\"clean\",\"quote\":\"The place was clean\",\"importance\":\"medium\"},\n{\"review_id\":\"R0007\",\"date\":\"2016-07-27\",\"aspect\":\"comfort\",\"sentiment\":\"positive\",\"issue\":\"comfortable couch and bed\",\"quote\":\"The couch and bed were both comfortable\",\"importance\":\"medium\"},\n{\"review_id\":\"R0007\",\"date\":\"2016-07-27\",\"aspect\":\"amenities\",\"sentiment\":\"positive\",\"issue\":\"small kitchen usable for breakfast; good bathroom\",\"quote\":\"The little kitchen allowed us to make our own breakfast and a quick cuppa.\",\"importance\":\"low\"},\n{\"review_id\":\"R0007\",\"date\":\"2016-07-27\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"centrally located\",\"quote\":\"centrally located\",\"importance\":\"medium\"},\n{\"review_id\":\"R0008\",\"date\":\"2016-08-12\",\"aspect\":\"location\",\"sentiment\":\"mixed\",\"issue\":\"walkable to downtown without a car but about 20 minutes to the heart of downtown; car recommended to explore further\",\"quote\":\"It takes about 20 minutes to walk into the heart of downtown\",\"importance\":\"medium\"},\n{\"review_id\":\"R0008\",\"date\":\"2016-08-12\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"convenient for walking to food and drinks without a car\",\"quote\":\"it was a convenient location for us to walk into downtown for food and drinks\",\"importance\":\"medium\"},\n{\"review_id\":\"R0008\",\"date\":\"2016-08-12\",\"aspect\":\"host_communication\",\"sentiment\":\"positive\",\"issue\":\"gave privacy, prompt replies\",\"quote\":\"Christal gave us our privacy but if we needed anything at all she was very prompt to replying.\",\"importance\":\"medium\"},\n{\"review_id\":\"R0009\",\"date\":\"2016-09-01\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"quick walk to downtown, near coffee and Whole Foods\",\"quote\":\"A quick walk to downtown, a block from high five (delicious local coffee spot) and a block from whole foods!\",\"importance\":\"medium\"},\n{\"review_id\":\"R0009\",\"date\":\"2016-09-01\",\"aspect\":\"listing_accuracy\",\"sentiment\":\"neutral\",\"issue\":\"apartment is at the back of the host's home\",\"quote\":\"This cozy apartment in the back of Christal's home\",\"importance\":\"low\"},\n{\"review_id\":\"R0010\",\"date\":\"2016-09-03\",\"aspect\":\"comfort\",\"sentiment\":\"positive\",\"issue\":\"plenty of room\",\"quote\":\"plenty of room\",\"importance\":\"low\"},\n{\"review_id\":\"R0010\",\"date\":\"2016-09-03\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"great location\",\"quote\":\"a great location\",\"importance\":\"medium\"},\n{\"review_id\":\"R0011\",\"date\":\"2016-09-18\",\"aspect\":\"listing_accuracy\",\"sentiment\":\"positive\",\"issue\":\"roomier than photos\",\"quote\":\"feels ever roomier than the photos\",\"importance\":\"medium\"},\n{\"review_id\":\"R0011\",\"date\":\"2016-09-18\",\"aspect\":\"check_in\",\"sentiment\":\"positive\",\"issue\":\"simple check in\",\"quote\":\"Check in was very simple\",\"importance\":\"medium\"},\n{\"review_id\":\"R0011\",\"date\":\"2016-09-18\",\"aspect\":\"comfort\",\"sentiment\":\"positive\",\"issue\":\"extremely comfortable bed\",\"quote\":\"The bed was extremely comfortable.\",\"importance\":\"medium\"},\n{\"review_id\":\"R0011\",\"date\":\"2016-09-18\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"walkable to downtown\",\"quote\":\"Location was super walkable to everything downtown.\",\"importance\":\"medium\"},\n{\"review_id\":\"R0011\",\"date\":\"2016-09-18\",\"aspect\":\"amenities\",\"sentiment\":\"positive\",\"issue\":\"everything provided\",\"quote\":\"Everything you could need was provided.\",\"importance\":\"low\"},\n{\"review_id\":\"R0012\",\"date\":\"2016-11-02\",\"aspect\":\"cleanliness\",\"sentiment\":\"positive\",\"issue\":\"incredibly clean\",\"quote\":\"incredibly clean\",\"importance\":\"medium\"},\n{\"review_id\":\"R0012\",\"date\":\"2016-11-02\",\"aspect\":\"comfort\",\"sentiment\":\"positive\",\"issue\":\"comfortable\",\"quote\":\"comfortable\",\"importance\":\"low\"},\n{\"review_id\":\"R0013\",\"date\":\"2016-12-05\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"close to downtown and favorite restaurants\",\"quote\":\"located really close to downtown\",\"importance\":\"medium\"},\n{\"review_id\":\"R0013\",\"date\":\"2016-12-05\",\"aspect\":\"amenities\",\"sentiment\":\"positive\",\"issue\":\"well-equipped kitchen\",\"quote\":\"The little kitchen was very well equipped\",\"importance\":\"low\"},\n{\"review_id\":\"R0013\",\"date\":\"2016-12-05\",\"aspect\":\"noise\",\"sentiment\":\"positive\",\"issue\":\"quiet despite apartment being part of main house\",\"quote\":\"although the apartment is part of the main house it was very quiet next door\",\"importance\":\"medium\"},\n{\"review_id\":\"R0013\",\"date\":\"2016-12-05\",\"aspect\":\"comfort\",\"sentiment\":\"negative\",\"issue\":\"bright neighboring security light repeatedly switching on/off all night and illuminating bedroom (light disturbance, not noise)\",\"quote\":\"The only major issue was a really bright security light at the neighboring house that kept going on and off all through the night and illuminating the bedroom.\",\"importance\":\"high\"},\n{\"review_id\":\"R0013\",\"date\":\"2016-12-05\",\"aspect\":\"cleanliness\",\"sentiment\":\"positive\",\"issue\":\"neat house\",\"quote\":\"The house was  very neat and cozy\",\"importance\":\"low\"},\n{\"review_id\":\"R0014\",\"date\":\"2016-12-21\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"steps from shopping, restaurants, yoga\",\"quote\":\"just steps from shopping, restaurants and yoga\",\"importance\":\"medium\"},\n{\"review_id\":\"R0014\",\"date\":\"2016-12-21\",\"aspect\":\"amenities\",\"sentiment\":\"positive\",\"issue\":\"well appointed\",\"quote\":\"well appointed\",\"importance\":\"low\"},\n{\"review_id\":\"R0015\",\"date\":\"2016-12-29\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"close to breweries and restaurants\",\"quote\":\"This place was super close to some great breweries and restaurants\",\"importance\":\"medium\"},\n{\"review_id\":\"R0015\",\"date\":\"2016-12-29\",\"aspect\":\"host_communication\",\"sentiment\":\"positive\",\"issue\":\"hands-off but responsive\",\"quote\":\"Christal was a very hands-off host but was timely and responsive anytime we needed help.\",\"importance\":\"medium\"}\n]}",
+        "{\"evidence\":[{\"review_id\":\"R0016\",\"date\":\"2017-01-29\",\"aspect\":\"listing_accuracy\",\"sentiment\":\"positive\",\"issue\":\"place matched the pictures\",\"quote\":\"her place was perfect and exactly like the pictures\",\"importance\":\"medium\"},{\"review_id\":\"R0016\",\"date\":\"2017-01-29\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"walkable to breweries, shops, restaurants\",\"quote\":\"We were close to everything (breweries, shops, restaurants) and we walked everywhere the whole weekend.\",\"importance\":\"medium\"},{\"review_id\":\"R0016\",\"date\":\"2017-01-29\",\"aspect\":\"cleanliness\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"it was super clean, comfortable, and adorable\",\"importance\":\"medium\"},{\"review_id\":\"R0016\",\"date\":\"2017-01-29\",\"aspect\":\"comfort\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"it was super clean, comfortable, and adorable\",\"importance\":\"low\"},{\"review_id\":\"R0016\",\"date\":\"2017-01-29\",\"aspect\":\"host_communication\",\"sentiment\":\"positive\",\"issue\":\"host described as great\",\"quote\":\"Christal was a great host\",\"importance\":\"low\"},{\"review_id\":\"R0017\",\"date\":\"2017-03-02\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"convenient to downtown and a coffee shop\",\"quote\":\"Christal's studio was conveniently located to downtown and near the best coffee shop, High Five.\",\"importance\":\"medium\"},{\"review_id\":\"R0018\",\"date\":\"2017-03-27\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"walkable to breweries, restaurants, conference venue, groceries\",\"quote\":\"Walking distance to many breweries and restaurants (and the conference) also grocery stores.\",\"importance\":\"medium\"},{\"review_id\":\"R0018\",\"date\":\"2017-03-27\",\"aspect\":\"comfort\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"The place itself is very homey and comfortable\",\"importance\":\"medium\"},{\"review_id\":\"R0018\",\"date\":\"2017-03-27\",\"aspect\":\"noise\",\"sentiment\":\"positive\",\"issue\":\"quiet residential block\",\"quote\":\"on a quiet residential block\",\"importance\":\"medium\"},{\"review_id\":\"R0019\",\"date\":\"2017-05-02\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"close to downtown, markets, on-ramps\",\"quote\":\"close to downtown, markets and on-ramps\",\"importance\":\"medium\"},{\"review_id\":\"R0019\",\"date\":\"2017-05-02\",\"aspect\":\"noise\",\"sentiment\":\"positive\",\"issue\":\"peace and quiet\",\"quote\":\"far enough removed for peace and quiet\",\"importance\":\"medium\"},{\"review_id\":\"R0019\",\"date\":\"2017-05-02\",\"aspect\":\"amenities\",\"sentiment\":\"positive\",\"issue\":\"well furnished\",\"quote\":\"Inviting, homey and well furnished\",\"importance\":\"low\"},{\"review_id\":\"R0020\",\"date\":\"2017-05-22\",\"aspect\":\"other\",\"sentiment\":\"positive\",\"issue\":\"general recommendation, no specifics\",\"quote\":\"This was a lovely little place!\",\"importance\":\"low\"},{\"review_id\":\"R0021\",\"date\":\"2017-06-02\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"downtown location easy to explore\",\"quote\":\"Great location in downtown Asheville makes it easy to explore.\",\"importance\":\"medium\"},{\"review_id\":\"R0021\",\"date\":\"2017-06-02\",\"aspect\":\"noise\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"Quiet, charming, clean and relaxing.\",\"importance\":\"medium\"},{\"review_id\":\"R0021\",\"date\":\"2017-06-02\",\"aspect\":\"cleanliness\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"Quiet, charming, clean and relaxing.\",\"importance\":\"low\"},{\"review_id\":\"R0022\",\"date\":\"2017-08-11\",\"aspect\":\"other\",\"sentiment\":\"positive\",\"issue\":\"general satisfaction, no specifics\",\"quote\":\"The apartment was great! We loved our stay!\",\"importance\":\"low\"},{\"review_id\":\"R0023\",\"date\":\"2017-09-04\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"Ideal location\",\"importance\":\"medium\"},{\"review_id\":\"R0023\",\"date\":\"2017-09-04\",\"aspect\":\"check_in\",\"sentiment\":\"positive\",\"issue\":\"easy access\",\"quote\":\"easy access\",\"importance\":\"medium\"},{\"review_id\":\"R0023\",\"date\":\"2017-09-04\",\"aspect\":\"host_communication\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"clear communication throughout\",\"importance\":\"medium\"},{\"review_id\":\"R0024\",\"date\":\"2017-09-10\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"Great location\",\"importance\":\"low\"},{\"review_id\":\"R0025\",\"date\":\"2017-11-19\",\"aspect\":\"cleanliness\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"charming, comfortable, clean\",\"importance\":\"medium\"},{\"review_id\":\"R0025\",\"date\":\"2017-11-19\",\"aspect\":\"comfort\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"charming, comfortable, clean\",\"importance\":\"low\"},{\"review_id\":\"R0025\",\"date\":\"2017-11-19\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"well located to enjoying what Asheville has to offer\",\"importance\":\"medium\"},{\"review_id\":\"R0026\",\"date\":\"2017-11-26\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"about half a mile from downtown\",\"quote\":\"about a 1/2 mile from everything downtown\",\"importance\":\"medium\"},{\"review_id\":\"R0026\",\"date\":\"2017-11-26\",\"aspect\":\"comfort\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"The furniture is very comfortable.\",\"importance\":\"medium\"},{\"review_id\":\"R0026\",\"date\":\"2017-11-26\",\"aspect\":\"cleanliness\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"Super clean and had a pleasant and calming aroma.\",\"importance\":\"medium\"},{\"review_id\":\"R0027\",\"date\":\"2018-01-11\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"walked everywhere\",\"quote\":\"So close to downtown, we walked every where.\",\"importance\":\"medium\"},{\"review_id\":\"R0027\",\"date\":\"2018-01-11\",\"aspect\":\"cleanliness\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"clean, fresh, comfortable\",\"importance\":\"medium\"},{\"review_id\":\"R0027\",\"date\":\"2018-01-11\",\"aspect\":\"check_in\",\"sentiment\":\"positive\",\"issue\":\"private entrance and street parking made stay easy\",\"quote\":\"Private entrance and street parking made our getaway super easy.\",\"importance\":\"medium\"},{\"review_id\":\"R0027\",\"date\":\"2018-01-11\",\"aspect\":\"host_communication\",\"sentiment\":\"positive\",\"issue\":\"host hospitable\",\"quote\":\"Cristal was extremely hospitable.\",\"importance\":\"low\"},{\"review_id\":\"R0028\",\"date\":\"2018-02-04\",\"aspect\":\"cleanliness\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"The space was clean, comfortable and in such a great location.\",\"importance\":\"medium\"},{\"review_id\":\"R0028\",\"date\":\"2018-02-04\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"in such a great location\",\"importance\":\"medium\"},{\"review_id\":\"R0028\",\"date\":\"2018-02-04\",\"aspect\":\"host_communication\",\"sentiment\":\"positive\",\"issue\":\"communicative and flexible\",\"quote\":\"Cristal was communicative,  flexible, and had me feel welcome.\",\"importance\":\"medium\"},{\"review_id\":\"R0029\",\"date\":\"2018-02-06\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"walkable to food and breweries\",\"quote\":\"Walkable to downtown with lots of food and brewery options.\",\"importance\":\"medium\"},{\"review_id\":\"R0029\",\"date\":\"2018-02-06\",\"aspect\":\"cleanliness\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"The space is clean and comfortable.\",\"importance\":\"medium\"},{\"review_id\":\"R0029\",\"date\":\"2018-02-06\",\"aspect\":\"host_communication\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"Christal was easy to communicate with\",\"importance\":\"medium\"},{\"review_id\":\"R0030\",\"date\":\"2018-03-06\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"walked everywhere\",\"quote\":\"close to everything in downtown ashville\",\"importance\":\"medium\"},{\"review_id\":\"R0030\",\"date\":\"2018-03-06\",\"aspect\":\"host_communication\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"Great host\",\"importance\":\"low\"}]}",
+        "{\"evidence\":[{\"review_id\":\"R0031\",\"date\":\"2018-06-28\",\"aspect\":\"other\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"Very charming space, and it had everything we needed.\",\"importance\":\"low\"},{\"review_id\":\"R0031\",\"date\":\"2018-06-28\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"near grocery store, shopping and restaurants\",\"quote\":\"Right next to a grocery store, and pretty close to all the shopping and restaurants.\",\"importance\":\"medium\"},{\"review_id\":\"R0031\",\"date\":\"2018-06-28\",\"aspect\":\"cleanliness\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"Everything was clean and ready to go.\",\"importance\":\"medium\"},{\"review_id\":\"R0032\",\"date\":\"2018-07-26\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"5-10 minute walk to downtown\",\"quote\":\"About a 5-10minute walk to downtown.\",\"importance\":\"medium\"},{\"review_id\":\"R0032\",\"date\":\"2018-07-26\",\"aspect\":\"comfort\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"Cozy and charming- this place has it all.\",\"importance\":\"low\"},{\"review_id\":\"R0033\",\"date\":\"2018-08-19\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"great location in Asheville!\",\"importance\":\"medium\"},{\"review_id\":\"R0034\",\"date\":\"2018-11-18\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"Whole Foods a block away\",\"quote\":\"Great location.  Whole foods is a block away.\",\"importance\":\"medium\"},{\"review_id\":\"R0034\",\"date\":\"2018-11-18\",\"aspect\":\"amenities\",\"sentiment\":\"positive\",\"issue\":\"free parking in front; tea, coffee, toiletries\",\"quote\":\"Free parking spot in front.  There was tea and coffee available.  Nice toiletries.\",\"importance\":\"medium\"},{\"review_id\":\"R0034\",\"date\":\"2018-11-18\",\"aspect\":\"host_communication\",\"sentiment\":\"positive\",\"issue\":\"fast replies; host lives upstairs\",\"quote\":\"Crystal is very fast to reply.  She lives upstairs and easy to get in touch with.\",\"importance\":\"medium\"},{\"review_id\":\"R0035\",\"date\":\"2018-12-14\",\"aspect\":\"comfort\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"From the comfy cozy bed to the eclectic decor\",\"importance\":\"medium\"},{\"review_id\":\"R0035\",\"date\":\"2018-12-14\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"walkable to downtown; Whole Foods across the street\",\"quote\":\"It is within walking distance to downtown Asheville, right across the street from a fabulous Whole Foods\",\"importance\":\"medium\"},{\"review_id\":\"R0035\",\"date\":\"2018-12-14\",\"aspect\":\"noise\",\"sentiment\":\"positive\",\"issue\":\"described as peaceful\",\"quote\":\"If you're looking for a peaceful retreat steps from the city, you found it\",\"importance\":\"low\"},{\"review_id\":\"R0036\",\"date\":\"2018-12-23\",\"aspect\":\"other\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"Great place for an Asheville trip!\",\"importance\":\"low\"},{\"review_id\":\"R0037\",\"date\":\"2019-02-10\",\"aspect\":\"listing_accuracy\",\"sentiment\":\"negative\",\"issue\":\"unclear at booking that unit is one side of host's home with thin walls\",\"quote\":\"it was unclear to me when I booked the place for my wife's bday weekend that the apartment is really one side of Christal's home and that the walls are quite thin\",\"importance\":\"high\"},{\"review_id\":\"R0037\",\"date\":\"2019-02-10\",\"aspect\":\"noise\",\"sentiment\":\"negative\",\"issue\":\"adjoining-home noise: dogs barking and loud music with thumping bass\",\"quote\":\"My wife and I woke up to the sound of her dogs barking during a nap. At one point, the music from the other side of the house was loud and the bass was thumping in our room.\",\"importance\":\"high\"},{\"review_id\":\"R0037\",\"date\":\"2019-02-10\",\"aspect\":\"noise\",\"sentiment\":\"mixed\",\"issue\":\"sound machine provided but limited; reviewer says noise was never a major issue and slept fine\",\"quote\":\"Christal does provide a sound machine, but there is a limit to what that can do.\",\"importance\":\"medium\"},{\"review_id\":\"R0037\",\"date\":\"2019-02-10\",\"aspect\":\"noise\",\"sentiment\":\"positive\",\"issue\":\"reviewer reports noise not a major issue, slept fine\",\"quote\":\"noise was never a major issue -- we slept fine both nights\",\"importance\":\"medium\"},{\"review_id\":\"R0037\",\"date\":\"2019-02-10\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"the location is fantastic\",\"importance\":\"medium\"},{\"review_id\":\"R0038\",\"date\":\"2019-04-10\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"Really nice location!\",\"importance\":\"medium\"},{\"review_id\":\"R0039\",\"date\":\"2019-06-13\",\"aspect\":\"other\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"Christal’s place was so lovely\",\"importance\":\"low\"},{\"review_id\":\"R0040\",\"date\":\"2019-07-31\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"convenient to downtown; walkable to coffee shop, brewery, Whole Foods; away from downtown crowds\",\"quote\":\"Very convenient location to downtown and within walking distance of a coffee shop, brewery, and whole foods.\",\"importance\":\"medium\"},{\"review_id\":\"R0041\",\"date\":\"2019-09-02\",\"aspect\":\"other\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"Stayed in a lot of places in Asheville and this may be my favorite.\",\"importance\":\"low\"},{\"review_id\":\"R0042\",\"date\":\"2019-10-06\",\"aspect\":\"amenities\",\"sentiment\":\"positive\",\"issue\":\"easy parking\",\"quote\":\"Parking was very easy\",\"importance\":\"medium\"},{\"review_id\":\"R0042\",\"date\":\"2019-10-06\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"steps from coffee shop and brewery\",\"quote\":\"we were just steps away from a very cute coffee shop and even a brewery\",\"importance\":\"medium\"},{\"review_id\":\"R0042\",\"date\":\"2019-10-06\",\"aspect\":\"other\",\"sentiment\":\"positive\",\"issue\":\"charming with thoughtful touches\",\"quote\":\"The apartment is incredibly charming with all the thoughtful touches.\",\"importance\":\"low\"},{\"review_id\":\"R0043\",\"date\":\"2019-10-10\",\"aspect\":\"cleanliness\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"The place is super clean and extremely stylish!\",\"importance\":\"medium\"},{\"review_id\":\"R0043\",\"date\":\"2019-10-10\",\"aspect\":\"amenities\",\"sentiment\":\"positive\",\"issue\":\"back deck, backyard, coffee and tea\",\"quote\":\"The little back deck and backyard were really nice and I appreciated the thoughtful touches like coffee and tea being provided.\",\"importance\":\"medium\"},{\"review_id\":\"R0043\",\"date\":\"2019-10-10\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"walkable to downtown and groceries\",\"quote\":\"We were within walking distance of everything downtown, and within 0.3 miles of Whole Foods, Trader Joe’s and Harris Teeter grocery stores!\",\"importance\":\"medium\"},{\"review_id\":\"R0044\",\"date\":\"2019-10-29\",\"aspect\":\"comfort\",\"sentiment\":\"positive\",\"issue\":\"comfy bed\",\"quote\":\"Very cute place with a comfy bed and beautiful artwork.\",\"importance\":\"medium\"},{\"review_id\":\"R0044\",\"date\":\"2019-10-29\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"close to downtown, nice neighborhood\",\"quote\":\"the home is very close to downtown and in a cute neighborhood\",\"importance\":\"medium\"},{\"review_id\":\"R0045\",\"date\":\"2019-12-28\",\"aspect\":\"cleanliness\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"The place was very clean\",\"importance\":\"medium\"},{\"review_id\":\"R0045\",\"date\":\"2019-12-28\",\"aspect\":\"comfort\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"Stylish living space and comfortable bed!\",\"importance\":\"medium\"},{\"review_id\":\"R0045\",\"date\":\"2019-12-28\",\"aspect\":\"noise\",\"sentiment\":\"positive\",\"issue\":\"reviewer reports noise was no problem; optional sound machine provided\",\"quote\":\"Noise was no problem & she even included an optional sound machine.\",\"importance\":\"medium\"},{\"review_id\":\"R0045\",\"date\":\"2019-12-28\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"Also great location, very close to downtown!\",\"importance\":\"medium\"}]}",
+        "{\"evidence\":[{\"review_id\":\"R0046\",\"date\":\"2020-02-02\",\"aspect\":\"cleanliness\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"This place was clean, spacious and had great amenities!\",\"importance\":\"medium\"},{\"review_id\":\"R0046\",\"date\":\"2020-02-02\",\"aspect\":\"amenities\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"had great amenities!\",\"importance\":\"low\"},{\"review_id\":\"R0046\",\"date\":\"2020-02-02\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"Walking distance to downtown which was extremely convenient!\",\"importance\":\"medium\"},{\"review_id\":\"R0046\",\"date\":\"2020-02-02\",\"aspect\":\"comfort\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"The bed was so comfortable\",\"importance\":\"medium\"},{\"review_id\":\"R0046\",\"date\":\"2020-02-02\",\"aspect\":\"noise\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"the room was quiet, private and decorated beautifully\",\"importance\":\"medium\"},{\"review_id\":\"R0047\",\"date\":\"2020-02-23\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"The location was really great\",\"importance\":\"medium\"},{\"review_id\":\"R0047\",\"date\":\"2020-02-23\",\"aspect\":\"cleanliness\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"the place was very clean\",\"importance\":\"medium\"},{\"review_id\":\"R0047\",\"date\":\"2020-02-23\",\"aspect\":\"comfort\",\"sentiment\":\"negative\",\"issue\":\"no way to adjust temperature in unit; got warm; reviewer believes it is controlled from main house\",\"quote\":\"I was a bit disappointed there didn't seem to be a way to adjust the temperature in the unit (I think it's controlled from the main house), as it got a bit warm inside and we didn't have a way to turn down the heat.\",\"importance\":\"medium\"},{\"review_id\":\"R0048\",\"date\":\"2020-07-14\",\"aspect\":\"safety\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"Quiet, safe neighborhood\",\"importance\":\"medium\"},{\"review_id\":\"R0048\",\"date\":\"2020-07-14\",\"aspect\":\"noise\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"Quiet, safe neighborhood\",\"importance\":\"low\"},{\"review_id\":\"R0048\",\"date\":\"2020-07-14\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"close to downtown\",\"importance\":\"medium\"},{\"review_id\":\"R0048\",\"date\":\"2020-07-14\",\"aspect\":\"check_in\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"easy check-in\",\"importance\":\"medium\"},{\"review_id\":\"R0048\",\"date\":\"2020-07-14\",\"aspect\":\"cleanliness\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"clean\",\"importance\":\"low\"},{\"review_id\":\"R0049\",\"date\":\"2020-09-23\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"There is a Whole Foods and Trader Joe's at <5 minutes walk.\",\"importance\":\"medium\"},{\"review_id\":\"R0049\",\"date\":\"2020-09-23\",\"aspect\":\"amenities\",\"sentiment\":\"negative\",\"issue\":\"bathtub water only lukewarm; reviewer boiled kettles to supplement; shower was hot\",\"quote\":\"My only issue was that the bathtub water wouldn't create a hot bath.\",\"importance\":\"medium\"},{\"review_id\":\"R0049\",\"date\":\"2020-09-23\",\"aspect\":\"amenities\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"the shower was plenty hot\",\"importance\":\"low\"},{\"review_id\":\"R0049\",\"date\":\"2020-09-23\",\"aspect\":\"comfort\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"It's a very homey space with a large, spacious, green backyard that I appreciated.\",\"importance\":\"low\"},{\"review_id\":\"R0050\",\"date\":\"2020-10-05\",\"aspect\":\"cleanliness\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"Super clean!!!\",\"importance\":\"medium\"},{\"review_id\":\"R0050\",\"date\":\"2020-10-05\",\"aspect\":\"comfort\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"The bed and sound machine provided one of the best night’s sleeps I’ve had in a long time!!\",\"importance\":\"medium\"},{\"review_id\":\"R0051\",\"date\":\"2020-10-15\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"Great walking distance to lots of fun shops and great food.\",\"importance\":\"medium\"},{\"review_id\":\"R0051\",\"date\":\"2020-10-15\",\"aspect\":\"other\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"Christal has put a lot of thought and warmth into this place, and it shows.\",\"importance\":\"low\"},{\"review_id\":\"R0052\",\"date\":\"2020-10-25\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"Very convenient location for visiting Asheville\",\"importance\":\"medium\"},{\"review_id\":\"R0052\",\"date\":\"2020-10-25\",\"aspect\":\"value\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"at a fair price\",\"importance\":\"medium\"},{\"review_id\":\"R0052\",\"date\":\"2020-10-25\",\"aspect\":\"cleanliness\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"Extremely clean.\",\"importance\":\"medium\"},{\"review_id\":\"R0053\",\"date\":\"2020-12-01\",\"aspect\":\"comfort\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"very comfy bed\",\"importance\":\"medium\"},{\"review_id\":\"R0053\",\"date\":\"2020-12-01\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"About a 5 minute walk to downtown and extremely close to grocery stores and in-town nature walks.\",\"importance\":\"medium\"},{\"review_id\":\"R0053\",\"date\":\"2020-12-01\",\"aspect\":\"amenities\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"Nice kitchenette for cooking breakfast or storing take-out beer.\",\"importance\":\"low\"},{\"review_id\":\"R0054\",\"date\":\"2020-12-08\",\"aspect\":\"host_communication\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"Christal is a great communicator and is dedicated to your comfort as a host.\",\"importance\":\"medium\"},{\"review_id\":\"R0055\",\"date\":\"2021-02-21\",\"aspect\":\"other\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"Great place for a couple to visit Asheville\",\"importance\":\"low\"},{\"review_id\":\"R0056\",\"date\":\"2021-06-04\",\"aspect\":\"value\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"This is a great deal on the cutest place\",\"importance\":\"medium\"},{\"review_id\":\"R0056\",\"date\":\"2021-06-04\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"just a short walk from downtown Asheville\",\"importance\":\"medium\"},{\"review_id\":\"R0057\",\"date\":\"2021-07-11\",\"aspect\":\"amenities\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"has everything you would need\",\"importance\":\"low\"},{\"review_id\":\"R0057\",\"date\":\"2021-07-11\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"Great location close to downtown Asheville.\",\"importance\":\"medium\"},{\"review_id\":\"R0058\",\"date\":\"2021-07-15\",\"aspect\":\"cleanliness\",\"sentiment\":\"negative\",\"issue\":\"ant infestation in kitchen within first 12 hours, including in unopened package of muffins\",\"quote\":\"We woke up to find the kitchen infested with ants, including ants all over/in the brand new, unopened package of muffins we’d bought at the grocery store the next before.\",\"importance\":\"high\"},{\"review_id\":\"R0058\",\"date\":\"2021-07-15\",\"aspect\":\"host_communication\",\"sentiment\":\"negative\",\"issue\":\"reviewer says host did not warn of ants beforehand; left traps outside rather than treating space; no reimbursement offered\",\"quote\":\"we did not feel the host properly warned of or responded to the significant ant issue we experienced during our first 12 hours in the property\",\"importance\":\"high\"},{\"review_id\":\"R0058\",\"date\":\"2021-07-15\",\"aspect\":\"host_communication\",\"sentiment\":\"mixed\",\"issue\":\"host responded about 90 minutes later and provided ant bait and cotton balls; reviewer found response inadequate\",\"quote\":\"she got back to us about 90 minutes later\",\"importance\":\"medium\"},{\"review_id\":\"R0058\",\"date\":\"2021-07-15\",\"aspect\":\"listing_accuracy\",\"sentiment\":\"negative\",\"issue\":\"ants allegedly a common issue per host but not disclosed in listing or check-in instructions\",\"quote\":\"she never disclosed any of this in either the Airbnb listing or in the check-in instructions\",\"importance\":\"high\"},{\"review_id\":\"R0058\",\"date\":\"2021-07-15\",\"aspect\":\"safety\",\"sentiment\":\"negative\",\"issue\":\"two TV room windows cannot be locked (security concern)\",\"quote\":\"there are two windows in the TV room that cannot be locked at all\",\"importance\":\"high\"},{\"review_id\":\"R0058\",\"date\":\"2021-07-15\",\"aspect\":\"listing_accuracy\",\"sentiment\":\"negative\",\"issue\":\"fridge much smaller than shown in listing photos (mini fridge)\",\"quote\":\"The fridge was substantially smaller than noted in the listing’s photos (it’s now a mini fridge).\",\"importance\":\"medium\"},{\"review_id\":\"R0058\",\"date\":\"2021-07-15\",\"aspect\":\"listing_accuracy\",\"sentiment\":\"negative\",\"issue\":\"bed configured differently from photos; one sleeper must crawl over other or in/out of end; no easy nightstand access\",\"quote\":\"The bed is configured differently from the listing’s photos\",\"importance\":\"medium\"},{\"review_id\":\"R0058\",\"date\":\"2021-07-15\",\"aspect\":\"check_in\",\"sentiment\":\"negative\",\"issue\":\"parking pass broken and could not be hung on rearview mirror as instructed\",\"quote\":\"The parking pass was broken and could not be hung on the rearview mirror as advised in the check-in instructions.\",\"importance\":\"low\"},{\"review_id\":\"R0058\",\"date\":\"2021-07-15\",\"aspect\":\"amenities\",\"sentiment\":\"negative\",\"issue\":\"toilet seat won't stay up\",\"quote\":\"The toilet seat won’t stay up.\",\"importance\":\"low\"},{\"review_id\":\"R0058\",\"date\":\"2021-07-15\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"While the property is adorable and in a great part of Asheville\",\"importance\":\"low\"},{\"review_id\":\"R0059\",\"date\":\"2021-07-25\",\"aspect\":\"check_in\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"It was easy check in / communication\",\"importance\":\"medium\"},{\"review_id\":\"R0059\",\"date\":\"2021-07-25\",\"aspect\":\"host_communication\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"easy check in / communication\",\"importance\":\"medium\"},{\"review_id\":\"R0059\",\"date\":\"2021-07-25\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"the location itself is very convenient and walkable to the main downtown area\",\"importance\":\"medium\"},{\"review_id\":\"R0060\",\"date\":\"2021-07-30\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"Great location\",\"importance\":\"medium\"},{\"review_id\":\"R0060\",\"date\":\"2021-07-30\",\"aspect\":\"cleanliness\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"super clean\",\"importance\":\"medium\"},{\"review_id\":\"R0060\",\"date\":\"2021-07-30\",\"aspect\":\"comfort\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"space was beautiful and comfy\",\"importance\":\"low\"}]}",
+        "{\"evidence\":[{\"review_id\":\"R0061\",\"date\":\"2021-08-06\",\"aspect\":\"other\",\"sentiment\":\"positive\",\"issue\":\"personal touches and design\",\"quote\":\"This Airbnb has a lot of personal touches which makes it a wonderful experience.\",\"importance\":\"low\"},{\"review_id\":\"R0061\",\"date\":\"2021-08-06\",\"aspect\":\"comfort\",\"sentiment\":\"positive\",\"issue\":\"calming bedroom colors\",\"quote\":\"The colors in the bedroom are very calming\",\"importance\":\"low\"},{\"review_id\":\"R0061\",\"date\":\"2021-08-06\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"walkable to downtown\",\"quote\":\"It was easy to walk downtown or grab an Uber if we wanted to go somewhere else.\",\"importance\":\"medium\"},{\"review_id\":\"R0061\",\"date\":\"2021-08-06\",\"aspect\":\"amenities\",\"sentiment\":\"positive\",\"issue\":\"easy parking with pass\",\"quote\":\"Parking was easy, too, with the parking pass.\",\"importance\":\"medium\"},{\"review_id\":\"R0062\",\"date\":\"2021-08-23\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"walking distance to groceries and downtown\",\"quote\":\"awesome location, walking distance from two grocery stores and downtown.\",\"importance\":\"medium\"},{\"review_id\":\"R0063\",\"date\":\"2021-10-10\",\"aspect\":\"other\",\"sentiment\":\"positive\",\"issue\":\"artsy vibe\",\"quote\":\"Very artsy vibe.\",\"importance\":\"low\"},{\"review_id\":\"R0063\",\"date\":\"2021-10-10\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"back-of-house, backyard setting; mountain access\",\"quote\":\"Quaint back of house and backyard location. Loved the mountains and the Blue Ridge Parkway.\",\"importance\":\"low\"},{\"review_id\":\"R0064\",\"date\":\"2021-10-17\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"close to downtown\",\"quote\":\"close to downtown\",\"importance\":\"medium\"},{\"review_id\":\"R0064\",\"date\":\"2021-10-17\",\"aspect\":\"comfort\",\"sentiment\":\"positive\",\"issue\":\"suited to two guests\",\"quote\":\"Perfect for two guests!\",\"importance\":\"low\"},{\"review_id\":\"R0065\",\"date\":\"2021-10-31\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"close to downtown\",\"quote\":\"The Airbnb was close to downtown\",\"importance\":\"medium\"},{\"review_id\":\"R0065\",\"date\":\"2021-10-31\",\"aspect\":\"cleanliness\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"clean\",\"importance\":\"medium\"},{\"review_id\":\"R0065\",\"date\":\"2021-10-31\",\"aspect\":\"amenities\",\"sentiment\":\"positive\",\"issue\":\"had needed items\",\"quote\":\"had everything we needed for my husband and myself\",\"importance\":\"low\"},{\"review_id\":\"R0066\",\"date\":\"2022-03-06\",\"aspect\":\"comfort\",\"sentiment\":\"positive\",\"issue\":\"spacious\",\"quote\":\"Lots of space\",\"importance\":\"low\"},{\"review_id\":\"R0066\",\"date\":\"2022-03-06\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"great location\",\"importance\":\"medium\"},{\"review_id\":\"R0067\",\"date\":\"2022-04-21\",\"aspect\":\"comfort\",\"sentiment\":\"positive\",\"issue\":\"comfortable bed, atmosphere\",\"quote\":\"Comfortable bed, great atmosphere/vibes\",\"importance\":\"medium\"},{\"review_id\":\"R0067\",\"date\":\"2022-04-21\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"close to everything\",\"quote\":\"close to everything\",\"importance\":\"medium\"},{\"review_id\":\"R0068\",\"date\":\"2022-04-26\",\"aspect\":\"check_in\",\"sentiment\":\"positive\",\"issue\":\"clear move-in instructions\",\"quote\":\"Very clear move-in instructions\",\"importance\":\"medium\"},{\"review_id\":\"R0068\",\"date\":\"2022-04-26\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"good base for Asheville and mountains\",\"quote\":\"A great location to explore Asheville and the mountains.\",\"importance\":\"medium\"},{\"review_id\":\"R0069\",\"date\":\"2022-05-02\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"walkable to everything\",\"quote\":\"We were about to walk to everything!\",\"importance\":\"medium\"},{\"review_id\":\"R0069\",\"date\":\"2022-05-02\",\"aspect\":\"listing_accuracy\",\"sentiment\":\"positive\",\"issue\":\"met needs\",\"quote\":\"This space was exactly what we needed for our weekend away.\",\"importance\":\"low\"},{\"review_id\":\"R0070\",\"date\":\"2022-09-12\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"near downtown and concert venue\",\"quote\":\"Perfect for concerts at the Harrah's center!\",\"importance\":\"medium\"},{\"review_id\":\"R0070\",\"date\":\"2022-09-12\",\"aspect\":\"noise\",\"sentiment\":\"positive\",\"issue\":\"near downtown but away from noise\",\"quote\":\"Perfect location to be near downtown but away from noise.\",\"importance\":\"medium\"},{\"review_id\":\"R0071\",\"date\":\"2022-09-29\",\"aspect\":\"comfort\",\"sentiment\":\"positive\",\"issue\":\"super-comfy bed\",\"quote\":\"the bed was surprisingly enough and super-comfy\",\"importance\":\"medium\"},{\"review_id\":\"R0071\",\"date\":\"2022-09-29\",\"aspect\":\"noise\",\"sentiment\":\"positive\",\"issue\":\"quiet back porch\",\"quote\":\"I also loved the back porch, having coffee there and enjoying the quiet and the nature there.\",\"importance\":\"low\"},{\"review_id\":\"R0071\",\"date\":\"2022-09-29\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"convenient; food and downtown close\",\"quote\":\"Food is a step away and downtown is a very short walk.\",\"importance\":\"medium\"},{\"review_id\":\"R0071\",\"date\":\"2022-09-29\",\"aspect\":\"location\",\"sentiment\":\"neutral\",\"issue\":\"route avoiding going under the bridge noted\",\"quote\":\"you can avoid going under the bridge, there is another way, over another bridge\",\"importance\":\"low\"},{\"review_id\":\"R0071\",\"date\":\"2022-09-29\",\"aspect\":\"host_communication\",\"sentiment\":\"positive\",\"issue\":\"accommodating and flexible host\",\"quote\":\"she was super accommodating and flexible during my stay\",\"importance\":\"medium\"},{\"review_id\":\"R0072\",\"date\":\"2022-10-11\",\"aspect\":\"cleanliness\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"clean\",\"importance\":\"medium\"},{\"review_id\":\"R0072\",\"date\":\"2022-10-11\",\"aspect\":\"listing_accuracy\",\"sentiment\":\"positive\",\"issue\":\"accurate description\",\"quote\":\"accurate description\",\"importance\":\"medium\"},{\"review_id\":\"R0072\",\"date\":\"2022-10-11\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"great location\",\"importance\":\"medium\"},{\"review_id\":\"R0073\",\"date\":\"2022-11-19\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"awesome location\",\"importance\":\"medium\"},{\"review_id\":\"R0073\",\"date\":\"2022-11-19\",\"aspect\":\"amenities\",\"sentiment\":\"positive\",\"issue\":\"spacious with needed items\",\"quote\":\"spacious unit with everything you need\",\"importance\":\"low\"},{\"review_id\":\"R0074\",\"date\":\"2022-12-11\",\"aspect\":\"amenities\",\"sentiment\":\"positive\",\"issue\":\"fragrance-free environment\",\"quote\":\"I especially appreciated the fragrance-free environment\",\"importance\":\"medium\"},{\"review_id\":\"R0074\",\"date\":\"2022-12-11\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"Whole Foods across the street\",\"quote\":\"there was a Whole Foods across the street to accommodate my special food needs\",\"importance\":\"medium\"},{\"review_id\":\"R0074\",\"date\":\"2022-12-11\",\"aspect\":\"comfort\",\"sentiment\":\"positive\",\"issue\":\"homey, right size\",\"quote\":\"It felt like home.\",\"importance\":\"low\"},{\"review_id\":\"R0075\",\"date\":\"2023-02-13\",\"aspect\":\"comfort\",\"sentiment\":\"positive\",\"issue\":\"comfortable, suited for 2\",\"quote\":\"This rental is adorable and comfortable - perfect for 2 people.\",\"importance\":\"low\"},{\"review_id\":\"R0075\",\"date\":\"2023-02-13\",\"aspect\":\"location\",\"sentiment\":\"mixed\",\"issue\":\"neighborhood in transition; some properties need work; reviewer not concerned but others might be uncomfortable\",\"quote\":\"The neighborhood is \\\"turning,\\\" with some properties that have been renovated and others in the process or needing work. This didn't concern us, but some might be turned off or uncomfortable.\",\"importance\":\"medium\"},{\"review_id\":\"R0075\",\"date\":\"2023-02-13\",\"aspect\":\"safety\",\"sentiment\":\"positive\",\"issue\":\"felt comfortable walking the area at night (reviewer's report)\",\"quote\":\"We felt totally comfortable walking the area at night\",\"importance\":\"medium\"},{\"review_id\":\"R0075\",\"date\":\"2023-02-13\",\"aspect\":\"host_communication\",\"sentiment\":\"positive\",\"issue\":\"good local recommendations\",\"quote\":\"Christal's recommendations were spot on.\",\"importance\":\"low\"}]}",
+        "{\"evidence\":[{\"review_id\":\"R0076\",\"date\":\"2023-06-12\",\"aspect\":\"comfort\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"A very quaint and cozy place to stay!\",\"importance\":\"low\"},{\"review_id\":\"R0077\",\"date\":\"2023-08-16\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"easy to find, walkable, parking available\",\"quote\":\"The location was great: easy to find, walkable and a spot to park.\",\"importance\":\"medium\"},{\"review_id\":\"R0077\",\"date\":\"2023-08-16\",\"aspect\":\"comfort\",\"sentiment\":\"positive\",\"issue\":\"comfortable bed and linens, natural light, cozy seating\",\"quote\":\"Lots of natural light, comfortable bed/linens, cozy seating\",\"importance\":\"medium\"},{\"review_id\":\"R0077\",\"date\":\"2023-08-16\",\"aspect\":\"amenities\",\"sentiment\":\"positive\",\"issue\":\"outdoor bistro table\",\"quote\":\"an outside bistro table where we enjoyed coffee in the morning!\",\"importance\":\"low\"},{\"review_id\":\"R0078\",\"date\":\"2023-08-28\",\"aspect\":\"check_in\",\"sentiment\":\"positive\",\"issue\":\"clear instructions, no problems on arrival\",\"quote\":\"The instructions for checking in were clear, and we had zero issues once we arrived.\",\"importance\":\"medium\"},{\"review_id\":\"R0078\",\"date\":\"2023-08-28\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"walkable to town\",\"quote\":\"the location made it super easy to walk everywhere and get around town\",\"importance\":\"medium\"},{\"review_id\":\"R0078\",\"date\":\"2023-08-28\",\"aspect\":\"amenities\",\"sentiment\":\"positive\",\"issue\":\"had everything needed\",\"quote\":\"cozy, comfortable, and had everything we needed\",\"importance\":\"low\"},{\"review_id\":\"R0079\",\"date\":\"2023-10-16\",\"aspect\":\"other\",\"sentiment\":\"positive\",\"issue\":\"repeat guest; units well designed for guests\",\"quote\":\"They’re warm, cozy, unique, and thoughtfully designed for guests\",\"importance\":\"low\"},{\"review_id\":\"R0080\",\"date\":\"2023-11-26\",\"aspect\":\"amenities\",\"sentiment\":\"positive\",\"issue\":\"fully equipped with extras\",\"quote\":\"fully equip apartment with all the little extras to ensure a comfortable stay\",\"importance\":\"low\"},{\"review_id\":\"R0080\",\"date\":\"2023-11-26\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"walkable to downtown\",\"quote\":\"Location was walkable to downtown.\",\"importance\":\"medium\"},{\"review_id\":\"R0081\",\"date\":\"2023-12-24\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"You can’t beat the location\",\"importance\":\"medium\"},{\"review_id\":\"R0081\",\"date\":\"2023-12-24\",\"aspect\":\"cleanliness\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"the place itself was cozy and clean\",\"importance\":\"medium\"},{\"review_id\":\"R0081\",\"date\":\"2023-12-24\",\"aspect\":\"host_communication\",\"sentiment\":\"positive\",\"issue\":\"host helped quickly after guests locked themselves out\",\"quote\":\"Christal was especially helpful when we accidentally locked ourselves out… and was very quick to respond with help.\",\"importance\":\"medium\"},{\"review_id\":\"R0081\",\"date\":\"2023-12-24\",\"aspect\":\"check_in\",\"sentiment\":\"neutral\",\"issue\":\"guests locked themselves out (reported as accidental, guest-caused)\",\"quote\":\"when we accidentally locked ourselves out\",\"importance\":\"low\"},{\"review_id\":\"R0082\",\"date\":\"2024-01-21\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"two grocery stores and downtown neighborhoods within walking distance\",\"quote\":\"There were 2 grocery stores walking distance from her house and the place was walkable to some of the main eclectic streets and neighborhoods downtown.\",\"importance\":\"medium\"},{\"review_id\":\"R0082\",\"date\":\"2024-01-21\",\"aspect\":\"amenities\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"She had all the things I needed while I was there for the weekend\",\"importance\":\"low\"},{\"review_id\":\"R0082\",\"date\":\"2024-01-21\",\"aspect\":\"comfort\",\"sentiment\":\"positive\",\"issue\":\"cozy, artistic decor\",\"quote\":\"Her place was cozy, artistic and nicely decorated.\",\"importance\":\"low\"},{\"review_id\":\"R0083\",\"date\":\"2024-02-25\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"close to downtown\",\"quote\":\"Perfect location for exploring the downtown area\",\"importance\":\"medium\"},{\"review_id\":\"R0083\",\"date\":\"2024-02-25\",\"aspect\":\"noise\",\"sentiment\":\"positive\",\"issue\":\"quiet and peaceful (reviewer wrote 'quite')\",\"quote\":\"while also being quite and peaceful!\",\"importance\":\"medium\"},{\"review_id\":\"R0084\",\"date\":\"2024-03-23\",\"aspect\":\"cleanliness\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"It was cozy and clean.\",\"importance\":\"medium\"},{\"review_id\":\"R0084\",\"date\":\"2024-03-23\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"walkable to downtown\",\"quote\":\"We loved being able to walk to the downtown area.\",\"importance\":\"medium\"},{\"review_id\":\"R0084\",\"date\":\"2024-03-23\",\"aspect\":\"noise\",\"sentiment\":\"positive\",\"issue\":\"quiet neighborhood (reviewer wrote 'quite')\",\"quote\":\"The neighborhood was quite.\",\"importance\":\"medium\"},{\"review_id\":\"R0085\",\"date\":\"2024-05-02\",\"aspect\":\"comfort\",\"sentiment\":\"positive\",\"issue\":\"most comfortable bed of an 8-day trip\",\"quote\":\"Christal had the most comfortable bed in our 8 day trip!\",\"importance\":\"medium\"},{\"review_id\":\"R0085\",\"date\":\"2024-05-02\",\"aspect\":\"amenities\",\"sentiment\":\"positive\",\"issue\":\"well appointed\",\"quote\":\"Her place was super cute and well appointed.\",\"importance\":\"low\"},{\"review_id\":\"R0086\",\"date\":\"2024-06-04\",\"aspect\":\"cleanliness\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"The apartment is very comfortable, clean, and central to everything.\",\"importance\":\"medium\"},{\"review_id\":\"R0086\",\"date\":\"2024-06-04\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"central\",\"quote\":\"central to everything\",\"importance\":\"medium\"},{\"review_id\":\"R0086\",\"date\":\"2024-06-04\",\"aspect\":\"noise\",\"sentiment\":\"positive\",\"issue\":\"quiet side street\",\"quote\":\"It’s tucked away on a side street, so it has a quiet neighborhood feel.\",\"importance\":\"medium\"},{\"review_id\":\"R0086\",\"date\":\"2024-06-04\",\"aspect\":\"comfort\",\"sentiment\":\"positive\",\"issue\":\"soft bed and linens\",\"quote\":\"The bed and linens are very soft.\",\"importance\":\"medium\"},{\"review_id\":\"R0086\",\"date\":\"2024-06-04\",\"aspect\":\"host_communication\",\"sentiment\":\"positive\",\"issue\":\"caring owner\",\"quote\":\"with an owner who really cares and shares a unique experience with visitors\",\"importance\":\"low\"},{\"review_id\":\"R0087\",\"date\":\"2024-09-02\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"convenient\",\"quote\":\"in a very convenient locations\",\"importance\":\"medium\"},{\"review_id\":\"R0087\",\"date\":\"2024-09-02\",\"aspect\":\"amenities\",\"sentiment\":\"positive\",\"issue\":\"streaming services logged in\",\"quote\":\"Even had streaming services logged in.\",\"importance\":\"low\"},{\"review_id\":\"R0088\",\"date\":\"2024-12-20\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"Whole Foods very close\",\"quote\":\"There is a Whole Foods 200-300 ft away.\",\"importance\":\"medium\"},{\"review_id\":\"R0088\",\"date\":\"2024-12-20\",\"aspect\":\"other\",\"sentiment\":\"positive\",\"issue\":\"decor style\",\"quote\":\"Decor is a mix of vintage and modern.\",\"importance\":\"low\"},{\"review_id\":\"R0089\",\"date\":\"2025-01-01\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"\",\"quote\":\"The location was excellent and made it easy to enjoy our time in Asheville.\",\"importance\":\"medium\"},{\"review_id\":\"R0090\",\"date\":\"2025-02-02\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"good base for visit\",\"quote\":\"We loved the location. It was a great base for our visit.\",\"importance\":\"medium\"}]}",
+        "{\"evidence\":[{\"review_id\":\"R0091\",\"date\":\"2025-02-11\",\"aspect\":\"other\",\"sentiment\":\"positive\",\"issue\":\"general enjoyment of the place\",\"quote\":\"I absolutely adored the place.\",\"importance\":\"low\"},{\"review_id\":\"R0092\",\"date\":\"2025-03-03\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"location was a favorite part of stay\",\"quote\":\"The location was one of our favorite parts of the stay.\",\"importance\":\"medium\"},{\"review_id\":\"R0093\",\"date\":\"2025-03-22\",\"aspect\":\"comfort\",\"sentiment\":\"positive\",\"issue\":\"decorated, comfy space\",\"quote\":\"Wonderfully decorated comfy space\",\"importance\":\"medium\"},{\"review_id\":\"R0093\",\"date\":\"2025-03-22\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"downtown within walking distance\",\"quote\":\"all of the convenience of downtown within walking distance\",\"importance\":\"medium\"},{\"review_id\":\"R0094\",\"date\":\"2025-06-09\",\"aspect\":\"comfort\",\"sentiment\":\"positive\",\"issue\":\"private and cozy; art appreciated\",\"quote\":\"It was private and cozy and we loved the art.\",\"importance\":\"medium\"},{\"review_id\":\"R0094\",\"date\":\"2025-06-09\",\"aspect\":\"host_communication\",\"sentiment\":\"positive\",\"issue\":\"host and local recommendations appreciated\",\"quote\":\"We also greatly appreciated the host and the local recs she provided.\",\"importance\":\"medium\"},{\"review_id\":\"R0095\",\"date\":\"2025-06-19\",\"aspect\":\"other\",\"sentiment\":\"positive\",\"issue\":\"suited a one-night stopover\",\"quote\":\"We were traveling and just needed a place to stop for a night.\",\"importance\":\"low\"},{\"review_id\":\"R0096\",\"date\":\"2025-07-08\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"grocery stores very close or walkable; reviewer also walked and biked to other places\",\"quote\":\"Whole foods is literally close enough to throw a ball in the parking lot and also Harris teeter and traders Joe's is walkable.\",\"importance\":\"medium\"},{\"review_id\":\"R0096\",\"date\":\"2025-07-08\",\"aspect\":\"amenities\",\"sentiment\":\"positive\",\"issue\":\"cooking/warming food possible; toiletries and tissues provided\",\"quote\":\"You can cook and warm up food. The bathroom had toiletries and Kleenex.\",\"importance\":\"medium\"},{\"review_id\":\"R0096\",\"date\":\"2025-07-08\",\"aspect\":\"cleanliness\",\"sentiment\":\"positive\",\"issue\":\"everything clean\",\"quote\":\"Everything was clean\",\"importance\":\"medium\"},{\"review_id\":\"R0096\",\"date\":\"2025-07-08\",\"aspect\":\"listing_accuracy\",\"sentiment\":\"positive\",\"issue\":\"matched photos\",\"quote\":\"looked just like the photos\",\"importance\":\"medium\"},{\"review_id\":\"R0096\",\"date\":\"2025-07-08\",\"aspect\":\"comfort\",\"sentiment\":\"positive\",\"issue\":\"gorgeous and cozy\",\"quote\":\"It was gorgeous and cozy\",\"importance\":\"low\"},{\"review_id\":\"R0097\",\"date\":\"2025-08-31\",\"aspect\":\"noise\",\"sentiment\":\"positive\",\"issue\":\"quiet\",\"quote\":\"Quiet.\",\"importance\":\"medium\"},{\"review_id\":\"R0097\",\"date\":\"2025-08-31\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"easy walk to downtown\",\"quote\":\"Easy walk to downtown.\",\"importance\":\"medium\"},{\"review_id\":\"R0097\",\"date\":\"2025-08-31\",\"aspect\":\"comfort\",\"sentiment\":\"positive\",\"issue\":\"charming with original art; suited solo traveler or couple\",\"quote\":\"Charming place, with lovely original art.\",\"importance\":\"low\"},{\"review_id\":\"R0098\",\"date\":\"2025-10-27\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"location perfect\",\"quote\":\"the location is perfect!\",\"importance\":\"medium\"},{\"review_id\":\"R0099\",\"date\":\"2025-12-23\",\"aspect\":\"other\",\"sentiment\":\"positive\",\"issue\":\"general praise; would stay again\",\"quote\":\"Christal’s place was so precious.\",\"importance\":\"low\"},{\"review_id\":\"R0100\",\"date\":\"2026-02-11\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"convenient, walkable to downtown\",\"quote\":\"Super convenient location and walkable to downtown.\",\"importance\":\"medium\"},{\"review_id\":\"R0100\",\"date\":\"2026-02-11\",\"aspect\":\"cleanliness\",\"sentiment\":\"positive\",\"issue\":\"very clean\",\"quote\":\"very clean!\",\"importance\":\"medium\"},{\"review_id\":\"R0101\",\"date\":\"2026-03-01\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"close to and walkable to downtown\",\"quote\":\"The location was close to downtown Asheville and pretty walkable\",\"importance\":\"medium\"},{\"review_id\":\"R0101\",\"date\":\"2026-03-01\",\"aspect\":\"noise\",\"sentiment\":\"positive\",\"issue\":\"peaceful and quiet\",\"quote\":\"far away enough to be peaceful and quiet as well\",\"importance\":\"medium\"},{\"review_id\":\"R0101\",\"date\":\"2026-03-01\",\"aspect\":\"comfort\",\"sentiment\":\"positive\",\"issue\":\"cozy and comfortable\",\"quote\":\"The place itself was super cozy and comfortable\",\"importance\":\"medium\"},{\"review_id\":\"R0101\",\"date\":\"2026-03-01\",\"aspect\":\"amenities\",\"sentiment\":\"positive\",\"issue\":\"had everything needed\",\"quote\":\"with everything we needed for the trip away\",\"importance\":\"low\"},{\"review_id\":\"R0102\",\"date\":\"2026-04-12\",\"aspect\":\"amenities\",\"sentiment\":\"positive\",\"issue\":\"well equipped; small patio with garden views\",\"quote\":\"well equipped. Cozy with cute tiny patio - views to garden.\",\"importance\":\"medium\"},{\"review_id\":\"R0102\",\"date\":\"2026-04-12\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"walkable to downtown\",\"quote\":\"Walkable distance to downtown.\",\"importance\":\"medium\"},{\"review_id\":\"R0102\",\"date\":\"2026-04-12\",\"aspect\":\"cleanliness\",\"sentiment\":\"positive\",\"issue\":\"super clean\",\"quote\":\"super clean!\",\"importance\":\"high\"},{\"review_id\":\"R0102\",\"date\":\"2026-04-12\",\"aspect\":\"host_communication\",\"sentiment\":\"positive\",\"issue\":\"host kind, friendly, responsive, helpful\",\"quote\":\"Christal is kind, friendly, response, and helpful.\",\"importance\":\"medium\"},{\"review_id\":\"R0103\",\"date\":\"2026-05-20\",\"aspect\":\"comfort\",\"sentiment\":\"positive\",\"issue\":\"cozy, comfortable, personalized, well decorated\",\"quote\":\"cozy, comfortable, personalized, and beautifully decorated\",\"importance\":\"medium\"},{\"review_id\":\"R0103\",\"date\":\"2026-05-20\",\"aspect\":\"amenities\",\"sentiment\":\"positive\",\"issue\":\"back porch facing garden; easy parking\",\"quote\":\"The little back porch facing the garden is a dream, and gets beautiful light in the evenings. Parking was easy.\",\"importance\":\"medium\"},{\"review_id\":\"R0103\",\"date\":\"2026-05-20\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"downtown walkable\",\"quote\":\"Downtown is walkable.\",\"importance\":\"medium\"},{\"review_id\":\"R0104\",\"date\":\"2026-06-10\",\"aspect\":\"amenities\",\"sentiment\":\"positive\",\"issue\":\"kitchen fully equipped\",\"quote\":\"The kitchen had everything I needed.\",\"importance\":\"medium\"},{\"review_id\":\"R0104\",\"date\":\"2026-06-10\",\"aspect\":\"comfort\",\"sentiment\":\"positive\",\"issue\":\"comfortable furniture and bed; space for one or couple; decor enjoyed\",\"quote\":\"The furniture and bed were comfortable and I enjoyed the antique/artsy decor.\",\"importance\":\"medium\"},{\"review_id\":\"R0104\",\"date\":\"2026-06-10\",\"aspect\":\"location\",\"sentiment\":\"positive\",\"issue\":\"near Whole Foods; 10-15 minute walk to Arts District\",\"quote\":\"Whole Foods is just around the corner, and it’s about a 10-15 minute walk to the Downtown Arts District so super convenient for walking.\",\"importance\":\"medium\"}]}"
+      ],
+      "selection": "{\"selected_claims\":[{\"claim\":\"Location is the most consistently praised feature. Many reviewers across all years describe walkable access to downtown Asheville, nearby coffee, breweries and restaurants, and Whole Foods and other groceries within a short walk. One 2016 reviewer put the walk to the heart of downtown at about 20 minutes, while others describe 5-15 minutes.\",\"aspect\":\"location\",\"stance\":\"positive\",\"review_ids\":[\"R0006\",\"R0008\",\"R0009\",\"R0026\",\"R0032\",\"R0043\",\"R0053\",\"R0096\",\"R0100\",\"R0102\",\"R0104\"],\"importance\":\"high\",\"time_qualification\":\"Praised from 2015 through June 2026, including many recent reviews.\",\"uncertainty\":\"Walking-time estimates vary by reviewer.\"},{\"claim\":\"Cleanliness is praised in a large majority of reviews, including recent ones. One 2021 reviewer reported an ant infestation in the kitchen within the first 12 hours, including in an unopened food package, and said the host reportedly described ants as a common issue.\",\"aspect\":\"cleanliness\",\"stance\":\"mixed\",\"review_ids\":[\"R0012\",\"R0050\",\"R0052\",\"R0096\",\"R0100\",\"R0102\",\"R0058\"],\"importance\":\"high\",\"time_qualification\":\"The ant report is from July 2021. No later review mentions ants, which does not show the issue is resolved.\",\"uncertainty\":\"The ant report comes from a single reviewer, and its current status is unknown.\"},{\"claim\":\"Many guests describe the bed, linens and furniture as very comfortable, and the decor as cozy, artistic and personal. The space is described as best suited to one or two guests.\",\"aspect\":\"comfort\",\"stance\":\"positive\",\"review_ids\":[\"R0001\",\"R0011\",\"R0050\",\"R0071\",\"R0085\",\"R0086\",\"R0103\",\"R0104\"],\"importance\":\"medium\",\"time_qualification\":\"Consistent from 2015 to 2026.\",\"uncertainty\":\"Individual preferences vary.\"},{\"claim\":\"Privacy and security concern: one 2021 reviewer said two windows in the TV room cannot be locked. The unit is also attached to the host's home. One 2019 reviewer found it unclear at booking that the unit shares a house with the host and has thin walls, and reported dogs barking and loud bass music from the other side. Other reviewers found it quiet, and the same 2019 reviewer said they still slept fine.\",\"aspect\":\"safety/privacy/noise\",\"stance\":\"mixed\",\"review_ids\":[\"R0058\",\"R0037\",\"R0013\",\"R0045\",\"R0046\"],\"importance\":\"high\",\"time_qualification\":\"The window report is from 2021 and the noise report from 2019. Recent reviews (2024-2026) call the area quiet but do not address the windows or shared-wall noise.\",\"uncertainty\":\"Each concern comes from a single reviewer, and current status is unverified. Most reviewers describe the stay as quiet.\"},{\"claim\":\"Neighborhood quiet and safety are mostly praised, with reviewers calling it a quiet, safe area and one saying they felt comfortable walking at night. One 2023 reviewer said the neighborhood is in transition, with some properties needing work, which they did not mind but others might.\",\"aspect\":\"noise/safety\",\"stance\":\"mixed\",\"review_ids\":[\"R0048\",\"R0075\",\"R0083\",\"R0086\",\"R0101\"],\"importance\":\"medium\",\"time_qualification\":\"Quiet praised through 2026. The neighborhood-transition comment is from 2023.\",\"uncertainty\":\"These are subjective impressions.\"},{\"claim\":\"Host communication is widely described as quick, friendly and helpful, and recent guests (2026) confirm this. One 2021 reviewer said the host did not warn them about the ants, responded after about 90 minutes with bait, and offered no reimbursement.\",\"aspect\":\"host_communication\",\"stance\":\"mixed\",\"review_ids\":[\"R0001\",\"R0015\",\"R0034\",\"R0081\",\"R0102\",\"R0058\"],\"importance\":\"medium\",\"time_qualification\":\"Positive reports span 2015-2026. The complaint is from 2021.\",\"uncertainty\":\"The complaint comes from one reviewer.\"},{\"claim\":\"Listing accuracy is mostly confirmed (looks like the photos, as described). One 2021 reviewer said the fridge is smaller than shown and the bed is configured differently from the photos, so one sleeper must climb over the other. One 2019 reviewer said the shared-home setup was unclear at booking.\",\"aspect\":\"listing_accuracy\",\"stance\":\"mixed\",\"review_ids\":[\"R0003\",\"R0016\",\"R0072\",\"R0096\",\"R0058\",\"R0037\"],\"importance\":\"medium\",\"time_qualification\":\"The discrepancies are from 2019 and 2021. The latest 'matches photos' report is from 2025.\",\"uncertainty\":\"Single-reviewer reports. It is unclear whether the fridge or bed has changed since.\"},{\"claim\":\"Check-in is described as easy, with clear instructions, a private entrance and easy parking, often free street parking or a pass. One 2021 reviewer said the parking pass was broken and could not hang from the mirror. One guest locked themselves out by accident and the host helped quickly.\",\"aspect\":\"check_in/parking\",\"stance\":\"positive\",\"review_ids\":[\"R0011\",\"R0027\",\"R0078\",\"R0061\",\"R0058\",\"R0081\",\"R0103\"],\"importance\":\"medium\",\"time_qualification\":\"Spans 2016-2026. The pass problem is from 2021.\",\"uncertainty\":\"The pass problem is a single report.\"},{\"claim\":\"Minor amenity issues: one 2020 reviewer said the bathtub water was only lukewarm, though the shower was hot. One 2020 reviewer said there is no way to adjust the temperature in the unit and it got warm. One 2016 reviewer said a bright neighboring security light repeatedly lit the bedroom at night. One 2021 reviewer said the toilet seat won't stay up.\",\"aspect\":\"amenities/comfort\",\"stance\":\"negative\",\"review_ids\":[\"R0049\",\"R0047\",\"R0013\",\"R0058\"],\"importance\":\"low\",\"time_qualification\":\"All between 2016 and 2021. No recent reports.\",\"uncertainty\":\"Each is a single report, and current conditions are unknown.\"},{\"claim\":\"The kitchenette is small but well equipped for breakfast and basic cooking. Guests also mention a back porch or patio facing the garden, coffee and tea, toiletries, and a fragrance-free environment.\",\"aspect\":\"amenities\",\"stance\":\"positive\",\"review_ids\":[\"R0007\",\"R0013\",\"R0043\",\"R0074\",\"R0102\",\"R0103\",\"R0104\"],\"importance\":\"medium\",\"time_qualification\":\"Reported from 2016 through June 2026.\",\"uncertainty\":\"The kitchen is described as small.\"}]}",
+      "generation": "{\"summary\":\"Reviews most consistently praise the location, with guests from 2015 through June 2026 describing walkable access to downtown Asheville, restaurants, breweries and groceries. Walking-time estimates vary, from 5 to 20 minutes. Cleanliness, comfortable beds and cozy decor, easy check-in and parking, and friendly, quick host communication are also widely reported, including in 2026. The space is described as best for one or two guests. Some concerns are older, single-reviewer reports whose current status is unknown. A 2021 guest reported ants in the kitchen and an unlockable pair of TV-room windows, and found the fridge and bed layout differed from the photos. A 2019 guest said the shared-house setup and thin walls were unclear at booking and reported barking and bass noise, though they still slept fine. Other guests found it quiet. A 2023 guest called the neighborhood in transition. Minor 2016–2021 complaints involved temperature control, lukewarm bathtub water, a security light and a toilet seat. No later reviews address these issues, so present conditions cannot be confirmed.\",\"citations\":[{\"claim\":\"Location praised as walkable, 2015–2026, with varying walk-time estimates\",\"review_ids\":[\"R0006\",\"R0008\",\"R0009\",\"R0026\",\"R0032\",\"R0043\",\"R0053\",\"R0096\",\"R0100\",\"R0102\",\"R0104\"]},{\"claim\":\"Cleanliness widely praised; 2021 ant report from a single reviewer\",\"review_ids\":[\"R0012\",\"R0050\",\"R0052\",\"R0096\",\"R0100\",\"R0102\",\"R0058\"]},{\"claim\":\"Comfortable beds, cozy decor, best for one or two guests\",\"review_ids\":[\"R0001\",\"R0011\",\"R0050\",\"R0071\",\"R0085\",\"R0086\",\"R0103\",\"R0104\"]},{\"claim\":\"2021 unlockable windows and 2019 shared-house/thin-wall noise concerns, with contrasting quiet reports\",\"review_ids\":[\"R0058\",\"R0037\",\"R0013\",\"R0045\",\"R0046\"]},{\"claim\":\"Neighborhood mostly quiet and safe; 2023 transition comment\",\"review_ids\":[\"R0048\",\"R0075\",\"R0083\",\"R0086\",\"R0101\"]},{\"claim\":\"Host communication praised through 2026; 2021 complaint about ant response\",\"review_ids\":[\"R0001\",\"R0015\",\"R0034\",\"R0081\",\"R0102\",\"R0058\"]},{\"claim\":\"Listing mostly accurate; 2019 and 2021 discrepancies (shared home, fridge, bed layout)\",\"review_ids\":[\"R0003\",\"R0016\",\"R0072\",\"R0096\",\"R0058\",\"R0037\"]},{\"claim\":\"Easy check-in and parking; 2021 broken pass; lockout resolved quickly\",\"review_ids\":[\"R0011\",\"R0027\",\"R0078\",\"R0061\",\"R0058\",\"R0081\",\"R0103\"]},{\"claim\":\"Minor amenity issues from 2016–2021\",\"review_ids\":[\"R0049\",\"R0047\",\"R0013\",\"R0058\"]},{\"claim\":\"Small but well-equipped kitchenette and other amenities\",\"review_ids\":[\"R0007\",\"R0013\",\"R0043\",\"R0074\",\"R0102\",\"R0103\",\"R0104\"]}]}"
+    },
+    "request_ids": {
+      "extraction": [
+        "msg_011ChHrwiipgLod9T2dzgHc9",
+        "msg_011ChHry9kVYBdjeNarMWiz7",
+        "msg_011ChHrzAEndTknX8xtkpG16",
+        "msg_011ChHs1EAxv2DYbgnXme4rj",
+        "msg_011ChHs2agmLrFRAWzSVbPgJ",
+        "msg_011ChHs3irBLgWdjkCHVCKZW",
+        "msg_011ChHs4mo4SGB6e9LciLfK4"
+      ],
+      "selection": "msg_011ChHs5njeLgjyfY7gKJLXt",
+      "generation": "msg_011ChHs6w8gwBwa2esu1Qm6N"
+    },
+    "usage": {
+      "extraction": [
+        {
+          "model_returned": "claude-sonnet-5-5",
+          "input_tokens": 2415,
+          "output_tokens": 3753,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0
+        },
+        {
+          "model_returned": "claude-sonnet-5-5",
+          "input_tokens": 2121,
+          "output_tokens": 2925,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0
+        },
+        {
+          "model_returned": "claude-sonnet-5-5",
+          "input_tokens": 2346,
+          "output_tokens": 2939,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0
+        },
+        {
+          "model_returned": "claude-sonnet-5-5",
+          "input_tokens": 3652,
+          "output_tokens": 3919,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0
+        },
+        {
+          "model_returned": "claude-sonnet-5-5",
+          "input_tokens": 2302,
+          "output_tokens": 3071,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0
+        },
+        {
+          "model_returned": "claude-sonnet-5-5",
+          "input_tokens": 2058,
+          "output_tokens": 2858,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0
+        },
+        {
+          "model_returned": "claude-sonnet-5-5",
+          "input_tokens": 2027,
+          "output_tokens": 2743,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0
+        }
+      ],
+      "selection": {
+        "model_returned": "claude-sonnet-5-5",
+        "input_tokens": 25262,
+        "output_tokens": 2207,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "generation": {
+        "model_returned": "claude-sonnet-5-5",
+        "input_tokens": 2575,
+        "output_tokens": 1045,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      }
+    }
+  },
+  "status": "complete"
+}

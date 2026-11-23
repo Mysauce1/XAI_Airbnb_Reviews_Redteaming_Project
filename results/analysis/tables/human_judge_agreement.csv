@@ -1,0 +1,5 @@
+System,Claims reviewed by a person,Same verdict as judge,Agreement (%)
+Standard AI summary (System A),107,96,89.7
+Evidence-based AI summary (System B),200,164,82.0
+Both systems,307,260,84.7
+"Note: reviewed claims were the judge's non-supported verdicts plus all safety claims, chosen because they are hard cases, so agreement is not a general accuracy rate for the judge.",,,

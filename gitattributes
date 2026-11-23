@@ -1,0 +1,15 @@
+# Keep data and result files byte-for-byte identical on every operating system.
+# run_summarizers.py and run_claim_audit.py store SHA-256 hashes of the scenario
+# CSVs and refuse to reuse cached outputs if the bytes change, so Git must not
+# rewrite line endings in these files.
+*.csv  -text
+*.json -text
+*.png  binary
+*.pdf  binary
+*.docx binary
+
+# Normal text files: let Git handle line endings.
+*.py   text eol=lf
+*.md   text
+*.txt  text
+*.toml text

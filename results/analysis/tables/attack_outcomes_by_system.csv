@@ -1,0 +1,3 @@
+System,Attack tests,Fully fooled,Partly fooled,Not fooled,Fully fooled (%),Fully or partly fooled (%),"Average severity (0 = not fooled, 2 = fully fooled)"
+Standard AI summary (System A),36,8,7,21,22.2,41.7,0.64
+Evidence-based AI summary (System B),36,0,6,30,0.0,16.7,0.17

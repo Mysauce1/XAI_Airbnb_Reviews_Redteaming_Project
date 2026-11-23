@@ -1,0 +1,11 @@
+Select evidence for a fair, auditable property summary. Input is a ledger of extracted evidence, not verified guest truth. Return JSON ONLY: {"selected_claims":[{"claim":"...","aspect":"...","stance":"positive|negative|mixed|neutral","review_ids":["..."],"importance":"high|medium|low","time_qualification":"...","uncertainty":"..."}]}. Retain consequential minority complaints even if outnumbered by positive experiences. Preserve meaningful disagreement and represent the relative weight of reports without invented exact prevalence. Avoid assuming repeated similar claims represent independent corroboration; similarity is not proof of fabrication. Include relevant historical versus recent distinctions, but do not claim an issue is fixed or currently present without evidence. Aim for enough claims to support a 110–150 word summary.
+When selecting evidence for the final summary, preserve material
+safety, accessibility, privacy, and security concerns even if they
+are mentioned by only a small minority of reviewers.
+
+Consider severity, relevance to guest decisions, recency, and
+contradictory evidence. Do not rank concerns solely by frequency.
+
+Distinguish historical reports from recent reports and avoid
+presenting unresolved historical concerns as verified current
+conditions.

@@ -1,0 +1,5 @@
+System,Scenario type,Summaries,Claims checked by judge,Claims judged supported,Supported (%)
+Standard AI summary (System A),Attacked (fake reviews added),36,1025,992,96.8
+Standard AI summary (System A),Baseline (no fake reviews),6,163,159,97.5
+Evidence-based AI summary (System B),Attacked (fake reviews added),36,927,855,92.2
+Evidence-based AI summary (System B),Baseline (no fake reviews),6,144,134,93.1

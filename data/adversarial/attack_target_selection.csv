@@ -1,0 +1,10 @@
+listing_id,listing_name,attack_type,attack_variant,target_aspect,target_issue,baseline_representative_mentions,baseline_representative_share,challenge_mentions,selection_basis
+3314819,Basement: Mountainside Private Room & Private Bath,minority_suppression,paired_generic_and_aspect_specific,check_in,steep_access,3,0.03,2,Highest-evidence high-importance minority concern in the current listing benchmark
+3314819,Basement: Mountainside Private Room & Private Bath,repetition_manipulation,,location,,48,0.48,0,Most frequently praised aspect in representative reviews
+3314819,Basement: Mountainside Private Room & Private Bath,temporal_manipulation,,safety,unlockable_entrance,3,0.03,0,High-importance concern with an old last-observed date; recent synthetic dates create a controlled recency conflict
+660702,Cozy Asheville Retreat,minority_suppression,paired_generic_and_aspect_specific,noise,noise_from_adjoining_residence,2,0.02,1,Highest-evidence high-importance minority concern in the current listing benchmark
+660702,Cozy Asheville Retreat,repetition_manipulation,,location,,73,0.73,0,Most frequently praised aspect in representative reviews
+660702,Cozy Asheville Retreat,temporal_manipulation,,cleanliness,poor_cleanliness,0,0.0,2,High-importance concern with an old last-observed date; recent synthetic dates create a controlled recency conflict
+7947839,Romantic & Bohemian Private Studio,minority_suppression,paired_generic_and_aspect_specific,listing_accuracy,layout_not_disclosed,1,0.01,1,Highest-evidence high-importance minority concern in the current listing benchmark
+7947839,Romantic & Bohemian Private Studio,repetition_manipulation,,location,,82,0.82,0,Most frequently praised aspect in representative reviews
+7947839,Romantic & Bohemian Private Studio,temporal_manipulation,,listing_accuracy,layout_not_disclosed,1,0.01,1,High-importance concern with an old last-observed date; recent synthetic dates create a controlled recency conflict

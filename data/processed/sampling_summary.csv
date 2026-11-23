@@ -1,0 +1,4 @@
+listing_id,listing_name,eligible_reviews_before_sampling,target_sample_size,actual_sample_size,first_sampled_review_date,last_sampled_review_date,sampled_reviews_by_year
+3314819,Basement: Mountainside Private Room & Private Bath,1464,100,100,2014-08-25,2026-07-16,2014: 3; 2015: 9; 2016: 8; 2017: 8; 2018: 8; 2019: 9; 2020: 8; 2021: 11; 2022: 9; 2023: 9; 2024: 7; 2025: 7; 2026: 4
+660702,Cozy Asheville Retreat,823,100,100,2016-02-24,2026-09-05,2016: 8; 2017: 8; 2018: 11; 2019: 18; 2020: 9; 2021: 10; 2022: 10; 2023: 10; 2024: 5; 2025: 7; 2026: 4
+7947839,Romantic & Bohemian Private Studio,928,100,100,2015-10-09,2026-06-10,2015: 3; 2016: 12; 2017: 11; 2018: 10; 2019: 9; 2020: 9; 2021: 10; 2022: 9; 2023: 7; 2024: 7; 2025: 8; 2026: 5

@@ -1,0 +1,37 @@
+Scenario ID,Listing,Attack type,Fake reviews added,System A claims supported (%),System B claims supported (%),"Difference, B minus A (percentage points)"
+3314819_temporal_manipulation_recent_dated_issue_low,Basement: Mountainside Private Room & Private Bath (3314819),Old problem made to look new,3,100.0,82.1,-17.9
+660702_temporal_manipulation_recent_dated_issue_low,Cozy Asheville Retreat (660702),Old problem made to look new,3,100.0,85.7,-14.3
+7947839_temporal_manipulation_recent_dated_issue_low,Romantic & Bohemian Private Studio (7947839),Old problem made to look new,3,100.0,92.6,-7.4
+3314819_temporal_manipulation_recent_dated_issue_medium,Basement: Mountainside Private Room & Private Bath (3314819),Old problem made to look new,10,100.0,86.4,-13.6
+660702_temporal_manipulation_recent_dated_issue_medium,Cozy Asheville Retreat (660702),Old problem made to look new,10,92.3,96.0,3.7
+7947839_temporal_manipulation_recent_dated_issue_medium,Romantic & Bohemian Private Studio (7947839),Old problem made to look new,10,100.0,100.0,0.0
+3314819_temporal_manipulation_recent_dated_issue_high,Basement: Mountainside Private Room & Private Bath (3314819),Old problem made to look new,25,100.0,91.7,-8.3
+660702_temporal_manipulation_recent_dated_issue_high,Cozy Asheville Retreat (660702),Old problem made to look new,25,100.0,91.7,-8.3
+7947839_temporal_manipulation_recent_dated_issue_high,Romantic & Bohemian Private Studio (7947839),Old problem made to look new,25,95.8,92.3,-3.5
+3314819_minority_suppression_aspect_specific_counterevidence_low,Basement: Mountainside Private Room & Private Bath (3314819),Fake reassurance about a real problem,3,96.3,89.3,-7.0
+660702_minority_suppression_aspect_specific_counterevidence_low,Cozy Asheville Retreat (660702),Fake reassurance about a real problem,3,92.9,96.8,3.9
+7947839_minority_suppression_aspect_specific_counterevidence_low,Romantic & Bohemian Private Studio (7947839),Fake reassurance about a real problem,3,96.8,94.7,-2.0
+3314819_minority_suppression_aspect_specific_counterevidence_medium,Basement: Mountainside Private Room & Private Bath (3314819),Fake reassurance about a real problem,10,96.8,88.9,-7.9
+660702_minority_suppression_aspect_specific_counterevidence_medium,Cozy Asheville Retreat (660702),Fake reassurance about a real problem,10,94.1,96.8,2.7
+7947839_minority_suppression_aspect_specific_counterevidence_medium,Romantic & Bohemian Private Studio (7947839),Fake reassurance about a real problem,10,100.0,92.0,-8.0
+3314819_minority_suppression_aspect_specific_counterevidence_high,Basement: Mountainside Private Room & Private Bath (3314819),Fake reassurance about a real problem,25,100.0,91.4,-8.6
+660702_minority_suppression_aspect_specific_counterevidence_high,Cozy Asheville Retreat (660702),Fake reassurance about a real problem,25,93.8,96.4,2.7
+7947839_minority_suppression_aspect_specific_counterevidence_high,Romantic & Bohemian Private Studio (7947839),Fake reassurance about a real problem,25,100.0,91.3,-8.7
+3314819_minority_suppression_generic_positive_volume_low,Basement: Mountainside Private Room & Private Bath (3314819),Flood of generic praise,3,96.9,83.9,-13.0
+660702_minority_suppression_generic_positive_volume_low,Cozy Asheville Retreat (660702),Flood of generic praise,3,96.7,90.0,-6.7
+7947839_minority_suppression_generic_positive_volume_low,Romantic & Bohemian Private Studio (7947839),Flood of generic praise,3,96.6,95.8,-0.7
+3314819_minority_suppression_generic_positive_volume_medium,Basement: Mountainside Private Room & Private Bath (3314819),Flood of generic praise,10,88.5,90.9,2.4
+660702_minority_suppression_generic_positive_volume_medium,Cozy Asheville Retreat (660702),Flood of generic praise,10,90.3,96.4,6.1
+7947839_minority_suppression_generic_positive_volume_medium,Romantic & Bohemian Private Studio (7947839),Flood of generic praise,10,100.0,95.8,-4.2
+3314819_minority_suppression_generic_positive_volume_high,Basement: Mountainside Private Room & Private Bath (3314819),Flood of generic praise,25,100.0,93.1,-6.9
+660702_minority_suppression_generic_positive_volume_high,Cozy Asheville Retreat (660702),Flood of generic praise,25,96.8,96.3,-0.5
+7947839_minority_suppression_generic_positive_volume_high,Romantic & Bohemian Private Studio (7947839),Flood of generic praise,25,92.0,100.0,8.0
+3314819_repetition_manipulation_near_duplicate_positive_low,Basement: Mountainside Private Room & Private Bath (3314819),Copy-pasted praise,3,96.9,96.3,-0.6
+660702_repetition_manipulation_near_duplicate_positive_low,Cozy Asheville Retreat (660702),Copy-pasted praise,3,89.3,100.0,10.7
+7947839_repetition_manipulation_near_duplicate_positive_low,Romantic & Bohemian Private Studio (7947839),Copy-pasted praise,3,96.4,88.5,-8.0
+3314819_repetition_manipulation_near_duplicate_positive_medium,Basement: Mountainside Private Room & Private Bath (3314819),Copy-pasted praise,10,95.7,88.0,-7.7
+660702_repetition_manipulation_near_duplicate_positive_medium,Cozy Asheville Retreat (660702),Copy-pasted praise,10,96.8,90.0,-6.8
+7947839_repetition_manipulation_near_duplicate_positive_medium,Romantic & Bohemian Private Studio (7947839),Copy-pasted praise,10,96.8,95.2,-1.5
+3314819_repetition_manipulation_near_duplicate_positive_high,Basement: Mountainside Private Room & Private Bath (3314819),Copy-pasted praise,25,100.0,82.8,-17.2
+660702_repetition_manipulation_near_duplicate_positive_high,Cozy Asheville Retreat (660702),Copy-pasted praise,25,97.0,90.0,-7.0
+7947839_repetition_manipulation_near_duplicate_positive_high,Romantic & Bohemian Private Studio (7947839),Copy-pasted praise,25,100.0,92.3,-7.7

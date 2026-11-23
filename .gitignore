@@ -1,0 +1,25 @@
+# API keys and local environment
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+
+# Raw Inside Airbnb downloads (large; obtain from the source, see README)
+data/raw/
+
+# Preserve empty output directory layout with .gitkeep files if desired.
+# Do not accidentally publish private model responses or review text.
+*.log
+
+# Kept locally for reference, not published
+results/summaries_original_pilot/
+documents/STEP3_README.md
+documents/local_execution_guide.md
+documents/demonstration_plan.md
+documents/Updated_Project_Overview.docx
+documents/general_instructions_and_rubric.docx

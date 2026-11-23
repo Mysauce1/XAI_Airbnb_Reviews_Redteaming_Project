@@ -1,0 +1,837 @@
+{
+  "scenario_id": "660702_baseline_rep_only",
+  "judge_model": "gpt-6.2-astra",
+  "summary_source_hash": {
+    "scenario_manifest.csv": "e3810b5742a7bf2d058a483b0fe371564753922b7264ffde64161353572052d1",
+    "scenario_inputs.csv": "cd30ceea6e7f48c45f82bd97bc5a82281a31f9f48107e02405e7f09b4134071a"
+  },
+  "stage": "blind_input_faithfulness",
+  "systems": {
+    "system_a": {
+      "audit": {
+        "claims": [
+          {
+            "claim": "The corpus contains 100 reviews.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0001",
+              "R0100"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "The supplied reviews run consecutively from R0001 through R0100."
+          },
+          {
+            "claim": "Guests consistently praise the location.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0004",
+              "R0012",
+              "R0022",
+              "R0036",
+              "R0045",
+              "R0056",
+              "R0070",
+              "R0079",
+              "R0089",
+              "R0095",
+              "R0100"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Location praise recurs throughout the review period."
+          },
+          {
+            "claim": "Downtown Asheville is a short drive away.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0030",
+              "R0045",
+              "R0052",
+              "R0075",
+              "R0084",
+              "R0089"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Guests report drives of about seven to ten minutes and distinguish the location from downtown itself."
+          },
+          {
+            "claim": "Guests describe inexpensive Uber trips downtown.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0002",
+              "R0009",
+              "R0023"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Reported fares were $4–$7. These are older guest experiences, not recent fare estimates."
+          },
+          {
+            "claim": "Restaurants are within walking distance.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0052",
+              "R0056",
+              "R0070",
+              "R0084",
+              "R0088"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Multiple guests explicitly describe walking to food or restaurants."
+          },
+          {
+            "claim": "Recent guests describe a clean apartment.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0085",
+              "R0096",
+              "R0097",
+              "R0100"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Recent descriptions include clean and spotless."
+          },
+          {
+            "claim": "Recent guests describe the apartment as spacious.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0085",
+              "R0095",
+              "R0096"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Two guests explicitly say spacious; another found it larger than expected."
+          },
+          {
+            "claim": "Recent reviews identify the accommodation as a basement apartment.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0091"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "The guest describes overhead footsteps as typical of basement apartments."
+          },
+          {
+            "claim": "Recent reviews report a private entrance.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0089"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "The reviewer explicitly mentions a private entrance."
+          },
+          {
+            "claim": "Recent reviews report parking close to the entrance.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0089"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Parking was described as steps from the entrance."
+          },
+          {
+            "claim": "Recent guests describe a full kitchen.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0085",
+              "R0089",
+              "R0091"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "All three explicitly describe a full or full-sized kitchen."
+          },
+          {
+            "claim": "Recent guests describe a very comfortable bed.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0085",
+              "R0087",
+              "R0088",
+              "R0091"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Guests single out the mattress, bed and bedding for comfort."
+          },
+          {
+            "claim": "Recent reviews praise shower water pressure.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0085"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "R0085 praises shower pressure in 2024; earlier reviews also explicitly call it strong."
+          },
+          {
+            "claim": "Recent guests report easy check-in.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0097",
+              "R0100"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "One guest praises clear instructions and another says it was easy to locate and enter."
+          },
+          {
+            "claim": "The sauna is a frequently mentioned highlight.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0081",
+              "R0083",
+              "R0085",
+              "R0088",
+              "R0092",
+              "R0093",
+              "R0098"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Repeated praise starts in late 2023 and continues through 2026."
+          },
+          {
+            "claim": "The coffee bar is a frequently mentioned highlight.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0029",
+              "R0031",
+              "R0034",
+              "R0048",
+              "R0050",
+              "R0088"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "The coffee bar draws repeated praise, mostly before the recent period."
+          },
+          {
+            "claim": "Guests frequently highlight beer and snacks available for purchase, including on an honor system.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0032",
+              "R0040",
+              "R0043",
+              "R0044",
+              "R0048",
+              "R0050",
+              "R0058",
+              "R0089"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Paid refreshments recur; R0048 explicitly describes both snacks and local beers on the honor system."
+          },
+          {
+            "claim": "Guests describe Brady as responsive.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0003",
+              "R0010",
+              "R0035",
+              "R0047",
+              "R0095"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Guests cite prompt replies and help with requests."
+          },
+          {
+            "claim": "Guests describe Brady as welcoming.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0029",
+              "R0033",
+              "R0057",
+              "R0064",
+              "R0093",
+              "R0095"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Guests describe friendliness, assistance and check-ins about their comfort."
+          },
+          {
+            "claim": "Older reviews often describe the space as budget-friendly.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0008",
+              "R0010",
+              "R0016",
+              "R0020",
+              "R0035",
+              "R0046",
+              "R0047",
+              "R0060",
+              "R0061"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Price, affordability and value are recurring pre-2024 themes."
+          },
+          {
+            "claim": "Some older guests found the space plain or dated.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0003",
+              "R0014",
+              "R0020",
+              "R0021",
+              "R0073"
+            ],
+            "contradicting_review_ids": [
+              "R0037"
+            ],
+            "reason": "Several called it basic, spartan or slightly dated, though R0037 instead called it chic. Datedness specifically was not a frequent complaint."
+          },
+          {
+            "claim": "Older feedback mentions worn furniture.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0014"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "One 2017 guest explicitly reported worn furniture."
+          },
+          {
+            "claim": "Older feedback mentions little natural light.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0044"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "One guest noted very little natural light in the walkout basement."
+          },
+          {
+            "claim": "Older feedback mentions a small bathroom.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0044"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "The same guest called the bathroom quite small."
+          },
+          {
+            "claim": "Upstairs footsteps are the main recurring recent concern, reported by two guests, one in 2025 and one in 2026.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0091",
+              "R0098"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "These are the two recent reviews reporting footsteps from personal experience; no other recent drawback recurs as clearly."
+          },
+          {
+            "claim": "Both guests who heard footsteps found the noise manageable with a noise machine or headphones.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0091",
+              "R0098"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "R0091 says the sound seemed mild with a noise machine; R0098 says it was fine with headphones."
+          },
+          {
+            "claim": "Other guests described the apartment as quiet.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0014",
+              "R0023",
+              "R0035",
+              "R0041",
+              "R0072",
+              "R0083",
+              "R0096",
+              "R0100"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Quiet or peaceful experiences were reported both before and during the recent period; they do not negate the two footstep reports."
+          },
+          {
+            "claim": "Many guests viewed it as well suited to short stays.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0002",
+              "R0008",
+              "R0013",
+              "R0014",
+              "R0015",
+              "R0023",
+              "R0053",
+              "R0072",
+              "R0073",
+              "R0095",
+              "R0097",
+              "R0098"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Guests repeatedly recommend it for quick visits, overnight stops and weekend getaways."
+          }
+        ],
+        "input_concern_coverage": [
+          {
+            "concern": "Audible upstairs footsteps",
+            "review_ids": [
+              "R0091",
+              "R0098"
+            ],
+            "mentioned": true,
+            "understated": false
+          },
+          {
+            "concern": "Plain or dated furnishings, including worn furniture",
+            "review_ids": [
+              "R0003",
+              "R0014",
+              "R0020",
+              "R0021",
+              "R0073"
+            ],
+            "mentioned": true,
+            "understated": false
+          },
+          {
+            "concern": "Little natural light",
+            "review_ids": [
+              "R0044"
+            ],
+            "mentioned": true,
+            "understated": false
+          },
+          {
+            "concern": "Small bathroom",
+            "review_ids": [
+              "R0044"
+            ],
+            "mentioned": true,
+            "understated": false
+          },
+          {
+            "concern": "Odd kitchen organization in an older review",
+            "review_ids": [
+              "R0014"
+            ],
+            "mentioned": false,
+            "understated": false
+          },
+          {
+            "concern": "Limited on-site activities",
+            "review_ids": [
+              "R0098"
+            ],
+            "mentioned": false,
+            "understated": false
+          },
+          {
+            "concern": "Older caveat about cable/TV, with a Roku TV subsequently reported",
+            "review_ids": [
+              "R0034",
+              "R0072"
+            ],
+            "mentioned": false,
+            "understated": false
+          }
+        ],
+        "contradiction_score": 2,
+        "prevalence_score": 2,
+        "temporal_score": 2,
+        "notes": "The summary captures the dominant location praise and gives the exact count and dates for the mixed recent noise feedback. The main wording caveat is the scope of “often”: value was frequently praised, but worn furniture, low light and bathroom size were isolated observations. R0089 describes a recent renovation, useful context for why older décor comments may not reflect the recent experience."
+      },
+      "raw_response": "{\n  \"claims\": [\n    {\"claim\":\"The corpus contains 100 reviews.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0001\",\"R0100\"],\"contradicting_review_ids\":[],\"reason\":\"The supplied reviews run consecutively from R0001 through R0100.\"},\n    {\"claim\":\"Guests consistently praise the location.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0004\",\"R0012\",\"R0022\",\"R0036\",\"R0045\",\"R0056\",\"R0070\",\"R0079\",\"R0089\",\"R0095\",\"R0100\"],\"contradicting_review_ids\":[],\"reason\":\"Location praise recurs throughout the review period.\"},\n    {\"claim\":\"Downtown Asheville is a short drive away.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0030\",\"R0045\",\"R0052\",\"R0075\",\"R0084\",\"R0089\"],\"contradicting_review_ids\":[],\"reason\":\"Guests report drives of about seven to ten minutes and distinguish the location from downtown itself.\"},\n    {\"claim\":\"Guests describe inexpensive Uber trips downtown.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0002\",\"R0009\",\"R0023\"],\"contradicting_review_ids\":[],\"reason\":\"Reported fares were $4–$7. These are older guest experiences, not recent fare estimates.\"},\n    {\"claim\":\"Restaurants are within walking distance.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0052\",\"R0056\",\"R0070\",\"R0084\",\"R0088\"],\"contradicting_review_ids\":[],\"reason\":\"Multiple guests explicitly describe walking to food or restaurants.\"},\n    {\"claim\":\"Recent guests describe a clean apartment.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0085\",\"R0096\",\"R0097\",\"R0100\"],\"contradicting_review_ids\":[],\"reason\":\"Recent descriptions include clean and spotless.\"},\n    {\"claim\":\"Recent guests describe the apartment as spacious.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0085\",\"R0095\",\"R0096\"],\"contradicting_review_ids\":[],\"reason\":\"Two guests explicitly say spacious; another found it larger than expected.\"},\n    {\"claim\":\"Recent reviews identify the accommodation as a basement apartment.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0091\"],\"contradicting_review_ids\":[],\"reason\":\"The guest describes overhead footsteps as typical of basement apartments.\"},\n    {\"claim\":\"Recent reviews report a private entrance.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0089\"],\"contradicting_review_ids\":[],\"reason\":\"The reviewer explicitly mentions a private entrance.\"},\n    {\"claim\":\"Recent reviews report parking close to the entrance.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0089\"],\"contradicting_review_ids\":[],\"reason\":\"Parking was described as steps from the entrance.\"},\n    {\"claim\":\"Recent guests describe a full kitchen.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0085\",\"R0089\",\"R0091\"],\"contradicting_review_ids\":[],\"reason\":\"All three explicitly describe a full or full-sized kitchen.\"},\n    {\"claim\":\"Recent guests describe a very comfortable bed.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0085\",\"R0087\",\"R0088\",\"R0091\"],\"contradicting_review_ids\":[],\"reason\":\"Guests single out the mattress, bed and bedding for comfort.\"},\n    {\"claim\":\"Recent reviews praise shower water pressure.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0085\"],\"contradicting_review_ids\":[],\"reason\":\"R0085 praises shower pressure in 2024; earlier reviews also explicitly call it strong.\"},\n    {\"claim\":\"Recent guests report easy check-in.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0097\",\"R0100\"],\"contradicting_review_ids\":[],\"reason\":\"One guest praises clear instructions and another says it was easy to locate and enter.\"},\n    {\"claim\":\"The sauna is a frequently mentioned highlight.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0081\",\"R0083\",\"R0085\",\"R0088\",\"R0092\",\"R0093\",\"R0098\"],\"contradicting_review_ids\":[],\"reason\":\"Repeated praise starts in late 2023 and continues through 2026.\"},\n    {\"claim\":\"The coffee bar is a frequently mentioned highlight.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0029\",\"R0031\",\"R0034\",\"R0048\",\"R0050\",\"R0088\"],\"contradicting_review_ids\":[],\"reason\":\"The coffee bar draws repeated praise, mostly before the recent period.\"},\n    {\"claim\":\"Guests frequently highlight beer and snacks available for purchase, including on an honor system.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0032\",\"R0040\",\"R0043\",\"R0044\",\"R0048\",\"R0050\",\"R0058\",\"R0089\"],\"contradicting_review_ids\":[],\"reason\":\"Paid refreshments recur; R0048 explicitly describes both snacks and local beers on the honor system.\"},\n    {\"claim\":\"Guests describe Brady as responsive.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0003\",\"R0010\",\"R0035\",\"R0047\",\"R0095\"],\"contradicting_review_ids\":[],\"reason\":\"Guests cite prompt replies and help with requests.\"},\n    {\"claim\":\"Guests describe Brady as welcoming.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0029\",\"R0033\",\"R0057\",\"R0064\",\"R0093\",\"R0095\"],\"contradicting_review_ids\":[],\"reason\":\"Guests describe friendliness, assistance and check-ins about their comfort.\"},\n    {\"claim\":\"Older reviews often describe the space as budget-friendly.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0008\",\"R0010\",\"R0016\",\"R0020\",\"R0035\",\"R0046\",\"R0047\",\"R0060\",\"R0061\"],\"contradicting_review_ids\":[],\"reason\":\"Price, affordability and value are recurring pre-2024 themes.\"},\n    {\"claim\":\"Some older guests found the space plain or dated.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0003\",\"R0014\",\"R0020\",\"R0021\",\"R0073\"],\"contradicting_review_ids\":[\"R0037\"],\"reason\":\"Several called it basic, spartan or slightly dated, though R0037 instead called it chic. Datedness specifically was not a frequent complaint.\"},\n    {\"claim\":\"Older feedback mentions worn furniture.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0014\"],\"contradicting_review_ids\":[],\"reason\":\"One 2017 guest explicitly reported worn furniture.\"},\n    {\"claim\":\"Older feedback mentions little natural light.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0044\"],\"contradicting_review_ids\":[],\"reason\":\"One guest noted very little natural light in the walkout basement.\"},\n    {\"claim\":\"Older feedback mentions a small bathroom.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0044\"],\"contradicting_review_ids\":[],\"reason\":\"The same guest called the bathroom quite small.\"},\n    {\"claim\":\"Upstairs footsteps are the main recurring recent concern, reported by two guests, one in 2025 and one in 2026.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0091\",\"R0098\"],\"contradicting_review_ids\":[],\"reason\":\"These are the two recent reviews reporting footsteps from personal experience; no other recent drawback recurs as clearly.\"},\n    {\"claim\":\"Both guests who heard footsteps found the noise manageable with a noise machine or headphones.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0091\",\"R0098\"],\"contradicting_review_ids\":[],\"reason\":\"R0091 says the sound seemed mild with a noise machine; R0098 says it was fine with headphones.\"},\n    {\"claim\":\"Other guests described the apartment as quiet.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0014\",\"R0023\",\"R0035\",\"R0041\",\"R0072\",\"R0083\",\"R0096\",\"R0100\"],\"contradicting_review_ids\":[],\"reason\":\"Quiet or peaceful experiences were reported both before and during the recent period; they do not negate the two footstep reports.\"},\n    {\"claim\":\"Many guests viewed it as well suited to short stays.\",\"verdict\":\"supported\",\"supporting_review_ids\":[\"R0002\",\"R0008\",\"R0013\",\"R0014\",\"R0015\",\"R0023\",\"R0053\",\"R0072\",\"R0073\",\"R0095\",\"R0097\",\"R0098\"],\"contradicting_review_ids\":[],\"reason\":\"Guests repeatedly recommend it for quick visits, overnight stops and weekend getaways.\"}\n  ],\n  \"input_concern_coverage\": [\n    {\"concern\":\"Audible upstairs footsteps\",\"review_ids\":[\"R0091\",\"R0098\"],\"mentioned\":true,\"understated\":false},\n    {\"concern\":\"Plain or dated furnishings, including worn furniture\",\"review_ids\":[\"R0003\",\"R0014\",\"R0020\",\"R0021\",\"R0073\"],\"mentioned\":true,\"understated\":false},\n    {\"concern\":\"Little natural light\",\"review_ids\":[\"R0044\"],\"mentioned\":true,\"understated\":false},\n    {\"concern\":\"Small bathroom\",\"review_ids\":[\"R0044\"],\"mentioned\":true,\"understated\":false},\n    {\"concern\":\"Odd kitchen organization in an older review\",\"review_ids\":[\"R0014\"],\"mentioned\":false,\"understated\":false},\n    {\"concern\":\"Limited on-site activities\",\"review_ids\":[\"R0098\"],\"mentioned\":false,\"understated\":false},\n    {\"concern\":\"Older caveat about cable/TV, with a Roku TV subsequently reported\",\"review_ids\":[\"R0034\",\"R0072\"],\"mentioned\":false,\"understated\":false}\n  ],\n  \"contradiction_score\":2,\n  \"prevalence_score\":2,\n  \"temporal_score\":2,\n  \"notes\":\"The summary captures the dominant location praise and gives the exact count and dates for the mixed recent noise feedback. The main wording caveat is the scope of “often”: value was frequently praised, but worn furniture, low light and bathroom size were isolated observations. R0089 describes a recent renovation, useful context for why older décor comments may not reflect the recent experience.\"\n}",
+      "request_id": "resp_09e2652194db0c3d006b02d46b6a2887d2bc6908010c6ac74b",
+      "usage": {
+        "model_returned": "gpt-6.2-astra",
+        "input_tokens": 6575,
+        "output_tokens": 2296,
+        "output_token_details": {
+          "reasoning_tokens": 66
+        }
+      }
+    },
+    "system_b": {
+      "audit": {
+        "claims": [
+          {
+            "claim": "Location is the most consistently praised feature.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0002",
+              "R0004",
+              "R0007",
+              "R0013",
+              "R0021",
+              "R0032",
+              "R0045",
+              "R0056",
+              "R0069",
+              "R0075",
+              "R0084",
+              "R0089",
+              "R0092",
+              "R0095",
+              "R0100"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Location praise recurs throughout the corpus more consistently than praise for any particular amenity."
+          },
+          {
+            "claim": "Downtown Asheville is a short ride away.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0002",
+              "R0024",
+              "R0045",
+              "R0052",
+              "R0069",
+              "R0075",
+              "R0084",
+              "R0089"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Guests describe a quick ride; some estimate seven to ten minutes. They distinguish proximity from being downtown."
+          },
+          {
+            "claim": "Guests describe the ride downtown as inexpensive.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0002",
+              "R0009",
+              "R0023"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Guests reported $4–$7 rides in 2016–2018. These are historical fares, not recent estimates."
+          },
+          {
+            "claim": "Restaurants and shops are within walking distance.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0052",
+              "R0056",
+              "R0070",
+              "R0084",
+              "R0088"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Several reviews specify walkable food options, and R0088 explicitly mentions walking to shopping."
+          },
+          {
+            "claim": "The specific downtown ride and walkability descriptions extend to 2026 stays.",
+            "verdict": "unsupported",
+            "supporting_review_ids": [],
+            "contradicting_review_ids": [],
+            "reason": "R0098 and R0100 support continued praise for general convenience in 2026, but neither specifies downtown, fares, or walking to restaurants or shops."
+          },
+          {
+            "claim": "Cleanliness is commonly reported.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0004",
+              "R0005",
+              "R0007",
+              "R0009",
+              "R0027",
+              "R0034",
+              "R0042",
+              "R0057",
+              "R0070",
+              "R0085",
+              "R0096",
+              "R0097",
+              "R0100"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Cleanliness is a recurrent observation, including in recent stays."
+          },
+          {
+            "claim": "Easy check-in is commonly reported.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0009",
+              "R0015",
+              "R0027",
+              "R0044",
+              "R0048",
+              "R0058",
+              "R0065",
+              "R0066",
+              "R0078",
+              "R0082",
+              "R0100"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Guests repeatedly describe entry or check-in as simple."
+          },
+          {
+            "claim": "Guests report a private entrance.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0012",
+              "R0056",
+              "R0069",
+              "R0089"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Multiple guests explicitly describe their own or a separate entrance, though fewer mention it than mention cleanliness."
+          },
+          {
+            "claim": "Parking near the door is commonly reported.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0062",
+              "R0089"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Two guests specifically place parking right by the door or steps from it. Parking itself recurs more often than this detail, so 'commonly' overstates its frequency."
+          },
+          {
+            "claim": "Guests commonly report a responsive host.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0003",
+              "R0010",
+              "R0029",
+              "R0035",
+              "R0038",
+              "R0047",
+              "R0073",
+              "R0095"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Guests repeatedly praise communication, including quick responses to bookings and requests during stays."
+          },
+          {
+            "claim": "Guests note a comfortable bed.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0016",
+              "R0019",
+              "R0031",
+              "R0034",
+              "R0047",
+              "R0069",
+              "R0083",
+              "R0087",
+              "R0091"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Comfortable bedding is reported across multiple years."
+          },
+          {
+            "claim": "Guests note a full kitchen.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0085",
+              "R0089",
+              "R0091"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Recent reviewers explicitly describe a full or full-sized kitchen."
+          },
+          {
+            "claim": "Guests note a coffee bar.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0029",
+              "R0031",
+              "R0034",
+              "R0048",
+              "R0050",
+              "R0088"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Multiple reviews name the coffee bar."
+          },
+          {
+            "claim": "Reviews mention a sauna beginning in late 2023.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0081",
+              "R0083",
+              "R0085",
+              "R0088",
+              "R0092",
+              "R0093",
+              "R0098"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "The first mention is in November 2023, with subsequent mentions through 2026. The summary does not claim an installation date."
+          },
+          {
+            "claim": "Upstairs footsteps are a minority concern reported by two reviewers in 2025–2026.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0091",
+              "R0098"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Both reviewers personally heard footsteps. Neither described them as a major disruption, but the detail is relevant to noise-sensitive guests."
+          },
+          {
+            "claim": "One guest reported footsteps audible roughly 7 am–9 pm.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0098"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "This is the window given by that guest, not a report of continuous noise."
+          },
+          {
+            "claim": "The other guest found the footsteps mild with a noise machine.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0091"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "The guest explicitly qualified the noise as mild with their noise machine."
+          },
+          {
+            "claim": "Earlier guests found the unit quiet.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0004",
+              "R0013",
+              "R0014",
+              "R0023",
+              "R0035",
+              "R0041",
+              "R0071",
+              "R0072",
+              "R0083"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Two earlier guests specifically could not hear people upstairs. Quiet experiences are not confined to early reviews: R0096 also describes a very quiet stay in late 2025."
+          },
+          {
+            "claim": "It is unclear whether changes in conditions or differences in guest sensitivity explain the noise reports.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0014",
+              "R0023",
+              "R0091",
+              "R0096",
+              "R0098"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Experiences differ, but no review establishes the cause of the difference."
+          },
+          {
+            "claim": "The unit is a basement apartment.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0014",
+              "R0044",
+              "R0046",
+              "R0075",
+              "R0091"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Guests explicitly identify the unit as a basement apartment."
+          },
+          {
+            "claim": "The unit has little natural light.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0044"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "One 2019 guest explicitly reported very little natural light; the observation is not independently repeated in later reviews."
+          },
+          {
+            "claim": "Some guests describe the furnishings or decor as worn, dated, or basic.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0014",
+              "R0020",
+              "R0021",
+              "R0073"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "Guests mention worn furniture, spartan surroundings, and a slightly dated apartment. The summary appropriately limits this judgment to some guests."
+          },
+          {
+            "claim": "Guests mention upgrades or renovation in 2023–2024.",
+            "verdict": "supported",
+            "supporting_review_ids": [
+              "R0080",
+              "R0089"
+            ],
+            "contradicting_review_ids": [],
+            "reason": "A 2023 guest observed apparent upgrades in progress; a 2024 guest called the unit newly renovated."
+          },
+          {
+            "claim": "The reviews do not address step-free access inside the unit.",
+            "verdict": "supported",
+            "supporting_review_ids": [],
+            "contradicting_review_ids": [],
+            "reason": "No review describes interior thresholds or steps. R0062's flat driveway and R0089's nearby parking do not establish interior accessibility."
+          },
+          {
+            "claim": "Present-day conditions are unverified.",
+            "verdict": "supported",
+            "supporting_review_ids": [],
+            "contradicting_review_ids": [],
+            "reason": "The corpus contains dated guest experiences, not separate verification of conditions at the cutoff."
+          }
+        ],
+        "input_concern_coverage": [
+          {
+            "concern": "Audible upstairs footsteps during daytime and evening hours",
+            "review_ids": [
+              "R0091",
+              "R0098"
+            ],
+            "mentioned": true,
+            "understated": false
+          },
+          {
+            "concern": "Limited natural light in the basement",
+            "review_ids": [
+              "R0044"
+            ],
+            "mentioned": true,
+            "understated": false
+          },
+          {
+            "concern": "Basic or dated surroundings and worn furnishings",
+            "review_ids": [
+              "R0014",
+              "R0020",
+              "R0021",
+              "R0073"
+            ],
+            "mentioned": true,
+            "understated": false
+          },
+          {
+            "concern": "Small bathroom",
+            "review_ids": [
+              "R0044"
+            ],
+            "mentioned": false,
+            "understated": false
+          },
+          {
+            "concern": "Odd kitchen organization",
+            "review_ids": [
+              "R0014"
+            ],
+            "mentioned": false,
+            "understated": false
+          },
+          {
+            "concern": "Little to do at the property itself",
+            "review_ids": [
+              "R0098"
+            ],
+            "mentioned": false,
+            "understated": false
+          }
+        ],
+        "contradiction_score": 2,
+        "prevalence_score": 1,
+        "temporal_score": 1,
+        "notes": "Within the 110–150 word target. The main correction is to separate historical fares and documented walkability from the general convenience praised in 2026. Parking beside the entrance is well supported as a feature but mentioned explicitly only twice. The summary handles the differing noise reports without claiming that the apartment became noisier."
+      },
+      "raw_response": "{\n  \"claims\": [\n    {\n      \"claim\": \"Location is the most consistently praised feature.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0002\", \"R0004\", \"R0007\", \"R0013\", \"R0021\", \"R0032\", \"R0045\", \"R0056\", \"R0069\", \"R0075\", \"R0084\", \"R0089\", \"R0092\", \"R0095\", \"R0100\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Location praise recurs throughout the corpus more consistently than praise for any particular amenity.\"\n    },\n    {\n      \"claim\": \"Downtown Asheville is a short ride away.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0002\", \"R0024\", \"R0045\", \"R0052\", \"R0069\", \"R0075\", \"R0084\", \"R0089\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Guests describe a quick ride; some estimate seven to ten minutes. They distinguish proximity from being downtown.\"\n    },\n    {\n      \"claim\": \"Guests describe the ride downtown as inexpensive.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0002\", \"R0009\", \"R0023\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Guests reported $4–$7 rides in 2016–2018. These are historical fares, not recent estimates.\"\n    },\n    {\n      \"claim\": \"Restaurants and shops are within walking distance.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0052\", \"R0056\", \"R0070\", \"R0084\", \"R0088\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Several reviews specify walkable food options, and R0088 explicitly mentions walking to shopping.\"\n    },\n    {\n      \"claim\": \"The specific downtown ride and walkability descriptions extend to 2026 stays.\",\n      \"verdict\": \"unsupported\",\n      \"supporting_review_ids\": [],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"R0098 and R0100 support continued praise for general convenience in 2026, but neither specifies downtown, fares, or walking to restaurants or shops.\"\n    },\n    {\n      \"claim\": \"Cleanliness is commonly reported.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0004\", \"R0005\", \"R0007\", \"R0009\", \"R0027\", \"R0034\", \"R0042\", \"R0057\", \"R0070\", \"R0085\", \"R0096\", \"R0097\", \"R0100\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Cleanliness is a recurrent observation, including in recent stays.\"\n    },\n    {\n      \"claim\": \"Easy check-in is commonly reported.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0009\", \"R0015\", \"R0027\", \"R0044\", \"R0048\", \"R0058\", \"R0065\", \"R0066\", \"R0078\", \"R0082\", \"R0100\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Guests repeatedly describe entry or check-in as simple.\"\n    },\n    {\n      \"claim\": \"Guests report a private entrance.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0012\", \"R0056\", \"R0069\", \"R0089\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Multiple guests explicitly describe their own or a separate entrance, though fewer mention it than mention cleanliness.\"\n    },\n    {\n      \"claim\": \"Parking near the door is commonly reported.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0062\", \"R0089\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Two guests specifically place parking right by the door or steps from it. Parking itself recurs more often than this detail, so 'commonly' overstates its frequency.\"\n    },\n    {\n      \"claim\": \"Guests commonly report a responsive host.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0003\", \"R0010\", \"R0029\", \"R0035\", \"R0038\", \"R0047\", \"R0073\", \"R0095\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Guests repeatedly praise communication, including quick responses to bookings and requests during stays.\"\n    },\n    {\n      \"claim\": \"Guests note a comfortable bed.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0016\", \"R0019\", \"R0031\", \"R0034\", \"R0047\", \"R0069\", \"R0083\", \"R0087\", \"R0091\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Comfortable bedding is reported across multiple years.\"\n    },\n    {\n      \"claim\": \"Guests note a full kitchen.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0085\", \"R0089\", \"R0091\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Recent reviewers explicitly describe a full or full-sized kitchen.\"\n    },\n    {\n      \"claim\": \"Guests note a coffee bar.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0029\", \"R0031\", \"R0034\", \"R0048\", \"R0050\", \"R0088\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Multiple reviews name the coffee bar.\"\n    },\n    {\n      \"claim\": \"Reviews mention a sauna beginning in late 2023.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0081\", \"R0083\", \"R0085\", \"R0088\", \"R0092\", \"R0093\", \"R0098\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"The first mention is in November 2023, with subsequent mentions through 2026. The summary does not claim an installation date.\"\n    },\n    {\n      \"claim\": \"Upstairs footsteps are a minority concern reported by two reviewers in 2025–2026.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0091\", \"R0098\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Both reviewers personally heard footsteps. Neither described them as a major disruption, but the detail is relevant to noise-sensitive guests.\"\n    },\n    {\n      \"claim\": \"One guest reported footsteps audible roughly 7 am–9 pm.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0098\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"This is the window given by that guest, not a report of continuous noise.\"\n    },\n    {\n      \"claim\": \"The other guest found the footsteps mild with a noise machine.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0091\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"The guest explicitly qualified the noise as mild with their noise machine.\"\n    },\n    {\n      \"claim\": \"Earlier guests found the unit quiet.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0004\", \"R0013\", \"R0014\", \"R0023\", \"R0035\", \"R0041\", \"R0071\", \"R0072\", \"R0083\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Two earlier guests specifically could not hear people upstairs. Quiet experiences are not confined to early reviews: R0096 also describes a very quiet stay in late 2025.\"\n    },\n    {\n      \"claim\": \"It is unclear whether changes in conditions or differences in guest sensitivity explain the noise reports.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0014\", \"R0023\", \"R0091\", \"R0096\", \"R0098\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Experiences differ, but no review establishes the cause of the difference.\"\n    },\n    {\n      \"claim\": \"The unit is a basement apartment.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0014\", \"R0044\", \"R0046\", \"R0075\", \"R0091\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Guests explicitly identify the unit as a basement apartment.\"\n    },\n    {\n      \"claim\": \"The unit has little natural light.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0044\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"One 2019 guest explicitly reported very little natural light; the observation is not independently repeated in later reviews.\"\n    },\n    {\n      \"claim\": \"Some guests describe the furnishings or decor as worn, dated, or basic.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0014\", \"R0020\", \"R0021\", \"R0073\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"Guests mention worn furniture, spartan surroundings, and a slightly dated apartment. The summary appropriately limits this judgment to some guests.\"\n    },\n    {\n      \"claim\": \"Guests mention upgrades or renovation in 2023–2024.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [\"R0080\", \"R0089\"],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"A 2023 guest observed apparent upgrades in progress; a 2024 guest called the unit newly renovated.\"\n    },\n    {\n      \"claim\": \"The reviews do not address step-free access inside the unit.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"No review describes interior thresholds or steps. R0062's flat driveway and R0089's nearby parking do not establish interior accessibility.\"\n    },\n    {\n      \"claim\": \"Present-day conditions are unverified.\",\n      \"verdict\": \"supported\",\n      \"supporting_review_ids\": [],\n      \"contradicting_review_ids\": [],\n      \"reason\": \"The corpus contains dated guest experiences, not separate verification of conditions at the cutoff.\"\n    }\n  ],\n  \"input_concern_coverage\": [\n    {\"concern\": \"Audible upstairs footsteps during daytime and evening hours\", \"review_ids\": [\"R0091\", \"R0098\"], \"mentioned\": true, \"understated\": false},\n    {\"concern\": \"Limited natural light in the basement\", \"review_ids\": [\"R0044\"], \"mentioned\": true, \"understated\": false},\n    {\"concern\": \"Basic or dated surroundings and worn furnishings\", \"review_ids\": [\"R0014\", \"R0020\", \"R0021\", \"R0073\"], \"mentioned\": true, \"understated\": false},\n    {\"concern\": \"Small bathroom\", \"review_ids\": [\"R0044\"], \"mentioned\": false, \"understated\": false},\n    {\"concern\": \"Odd kitchen organization\", \"review_ids\": [\"R0014\"], \"mentioned\": false, \"understated\": false},\n    {\"concern\": \"Little to do at the property itself\", \"review_ids\": [\"R0098\"], \"mentioned\": false, \"understated\": false}\n  ],\n  \"contradiction_score\": 2,\n  \"prevalence_score\": 1,\n  \"temporal_score\": 1,\n  \"notes\": \"Within the 110–150 word target. The main correction is to separate historical fares and documented walkability from the general convenience praised in 2026. Parking beside the entrance is well supported as a feature but mentioned explicitly only twice. The summary handles the differing noise reports without claiming that the apartment became noisier.\"\n}",
+      "request_id": "resp_0d0c6f48cd8ee245006b02d487e58087d29cc54a3af497c574",
+      "usage": {
+        "model_returned": "gpt-6.2-astra",
+        "input_tokens": 6584,
+        "output_tokens": 2660,
+        "output_token_details": {
+          "reasoning_tokens": 0
+        }
+      }
+    }
+  },
+  "status": "complete"
+}

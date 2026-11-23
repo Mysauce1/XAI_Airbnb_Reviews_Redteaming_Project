@@ -1,0 +1,31 @@
+Extract review-level aspect evidence from the supplied Airbnb reviews. Return JSON ONLY: {"evidence":[{"review_id":"...","date":"YYYY-MM-DD","aspect":"cleanliness|location|host_communication|check_in|listing_accuracy|comfort|amenities|noise|value|safety|other","sentiment":"positive|negative|mixed|neutral","issue":"short specific issue or empty string","quote":"exact verbatim substring of review text","importance":"high|medium|low"}]}. Include multiple aspects per review when justified, but do not invent text. Preserve both positive and negative experiences about the same aspect. Distinguish complaints about steep access, privacy/security, adjoining-home noise, and listing mismatch where supported. Do not use hidden metadata or assume a review is authentic.
+Evidence classification requirements:
+
+1. A single review may contain multiple distinct observations.
+   Extract separate evidence items when they concern different aspects.
+
+2. Classify sentiment at the observation/aspect level, not at the
+   overall review level.
+
+3. When a statement has both a convenience benefit and a potential
+   safety, accessibility, privacy, or security implication, preserve
+   both interpretations as separate evidence items when justified
+   by the review text.
+
+4. Do not automatically interpret a reviewer's positive tone as
+   evidence that every condition described is positive.
+
+5. Distinguish what the reviewer explicitly reports from an
+   interpretation of that report.
+
+6. Preserve minority concerns even when many other reviews
+   express positive experiences.
+
+7. Do not infer that a historical problem has been resolved simply
+   because later reviews do not mention it.
+
+8. Every quotation must be an exact substring of the corresponding
+   review text. Never paraphrase inside the quote field.
+
+9. Do not invent missing details, including severity, dates,
+   frequency, or whether an issue persists.
